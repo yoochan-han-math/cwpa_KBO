@@ -1,0 +1,8 @@
+import test from 'node:test';import assert from 'node:assert/strict';import{readFileSync}from'node:fs';import{engine,adjust,derive}from'./model.mjs';
+test('odds endpoints and prior',()=>{assert.equal(adjust(0),0);assert.equal(adjust(1),1);assert.equal(adjust(.5),.533);assert.throws(()=>adjust(2));});
+test('neutral bracket champion shares',()=>{let e=engine(.5);assert.deepEqual(e.probs(e.initial),[.5,.25,.125,.09375,.03125]);});
+test('all reachable states conserve probability',()=>{let e=engine(),seen=new Set();function walk(s){let k=JSON.stringify(s);if(seen.has(k))return;seen.add(k);let p=e.probs(s);assert.ok(Math.abs(p.reduce((a,b)=>a+b,0)-1)<1e-10);assert.ok(p.every(x=>x>=0&&x<=1));if(!s.champion){let c=e.context(s);walk(e.step(s,c.high));walk(e.step(s,c.low));}}walk(e.initial);});
+const games=JSON.parse(readFileSync(new URL('./data.json',import.meta.url)));
+test('9 games numeric source checks and inning coverage',()=>{assert.equal(games.length,9);for(const g of games){assert.ok([0,1].includes(g.rows.at(-1).wp));assert.ok(g.rows.every(r=>r.numericCheck&&Number.isFinite(r.li)&&r.li>=0));let prev=.5;for(const r of g.rows){assert.ok(Math.abs(Math.abs(r.wp-prev)-Math.abs(r.wpa))<.00151,r.id);prev=r.wp;}assert.equal(g.rows[0].inning,'1회초');assert.ok(g.rows.at(-1).inning.startsWith('9회'));}});
+test('historical probability vectors and no future-outcome leakage',()=>{let a=derive(games),b=derive(games.slice(0,1));assert.deepEqual(a.points.slice(0,b.points.length),b.points);assert.equal(a.plays.length,683);for(const r of a.points)assert.ok(Math.abs(r.cp.reduce((x,y)=>x+y,0)-1)<1e-9);let last=a.points.at(-1);assert.equal(last.cp[2],0);assert.ok(last.cp[1]>.4&&last.cp[1]<.5);});
+
