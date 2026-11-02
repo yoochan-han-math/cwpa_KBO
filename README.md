@@ -39,7 +39,7 @@ node build.mjs
 python -m http.server 4173 --directory dist
 ```
 
-GitHub Pages workflow validates and deploys `dist`. In repository Settings → Pages, select **GitHub Actions** as the source if Pages is not yet enabled. Expected URL after successful deployment: https://yoochan-han-math.github.io/cwpa_KBO/ . A configured workflow alone does not establish that the site is live.
+Hosting: ChatGPT Sites at https://kbo-cwpa-2026.happycuki0701.chatgpt.site . GitHub stores the source and runs validation only. The hosting manifest is `.openai/hosting.json`; publish the built `dist` with the Sites workflow. GitHub Pages is not used.
 
 Five tests cover odds boundaries, neutral bracket shares, conservation at every reachable state, all source numerical transitions and historical probability invariance when future games are omitted.
 
