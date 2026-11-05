@@ -1,3 +1,23 @@
-import {mkdir,copyFile} from 'node:fs/promises';
-await mkdir('dist',{recursive:true});for(const f of ['index.html','app.mjs','model.mjs','style.css','data.json'])await copyFile(f,'dist/'+f);
-
+import {mkdir, copyFile, cp, readFile, writeFile} from 'node:fs/promises';
+import {createRequire} from 'node:module';
+import {dirname, join} from 'node:path';
+import katex from 'katex';
+import {neutralWeight, derive} from './model.mjs';
+import {modelStatus} from './models.mjs';
+const require = createRequire(import.meta.url);
+await mkdir('dist/vendor/katex', {recursive: true});
+for (const file of ['index.html', 'app.mjs', 'model.mjs', 'models.mjs', 'situation.mjs', 'style.css', 'data.json']) await copyFile(file, 'dist/' + file);
+const katexRoot = dirname(require.resolve('katex/package.json'));
+await copyFile(join(katexRoot, 'dist/katex.min.css'), 'dist/vendor/katex/katex.min.css');
+await copyFile(join(katexRoot, 'LICENSE'), 'dist/vendor/katex/LICENSE');
+await cp(join(katexRoot, 'dist/fonts'), 'dist/vendor/katex/fonts', {recursive: true});
+const weights = Array.from({length: 4}, (_, n) => `<tr><th>${n}승</th>${Array.from({length: 4}, (_, m) => `<td>${neutralWeight(n,m)}</td>`).join('')}</tr>`).join('');
+const data = derive(JSON.parse(await readFile('data.json', 'utf8')));
+const sample = data.plays.find(r => r.id === 'ks2-77');
+const example = `<div class="table-wrap"><table><caption>KS 2차전 10회초 디아즈 1루타 · 실제 수록 플레이</caption><thead><tr><th>원문 WPA</th><th>기본 cWPA</th><th>KBO-adjusted cWPA</th><th>모형 간 차이</th></tr></thead><tbody><tr><td>+${sample.wpa.toFixed(3)}</td><td>+${sample.cwpa.toFixed(3)}%p</td><td>미추정</td><td>미산출</td></tr></tbody></table></div>`;
+let article = (await readFile('method.template.html', 'utf8')).replace('<!-- WEIGHTS -->', weights).replace('<!-- EXAMPLE -->', example);
+article = article.replace(/<div class="math">([\s\S]*?)<\/div>/g, (_, tex) => `<div class="math">${katex.renderToString(tex, {displayMode: true, throwOnError: true, output: 'htmlAndMathml', strict: 'error'})}</div>`);
+await writeFile('dist/method.html', article);
+await writeFile('dist/model-status.json', JSON.stringify(modelStatus, null, 2) + '\n');
+await writeFile('dist/.nojekyll', '');
+console.log('Built dashboard, methodology article, local math assets and model status.');

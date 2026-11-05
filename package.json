@@ -1,2 +1,1 @@
-{"private":true,"type":"module","scripts":{"test":"node --test","build":"node build.mjs"}}
-
+{"private":true,"type":"module","packageManager":"pnpm@11.25.0","engines":{"node":">=22"},"scripts":{"test":"node --test","build":"node build.mjs"},"dependencies":{"katex":"0.16.22"}}
