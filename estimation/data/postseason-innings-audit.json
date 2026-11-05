@@ -1,0 +1,2312 @@
+[
+  {
+    "id": "20100929LTOB0",
+    "date": "2010-09-29",
+    "season": 2010,
+    "inning": null,
+    "half": null,
+    "outs": 3,
+    "source": "https://www.koreabaseball.com/Schedule/GameCenter/Main.aspx?gameDate=20100929&gameId=20100929LTOB0&section=REVIEW",
+    "rawSha256": "b7e9353fdb62a6f9210817ab01a45dc39369714d887e3a2adbbc77e651667758"
+  },
+  {
+    "id": "20100930LTOB0",
+    "date": "2010-09-30",
+    "season": 2010,
+    "inning": null,
+    "half": null,
+    "outs": 3,
+    "source": "https://www.koreabaseball.com/Schedule/GameCenter/Main.aspx?gameDate=20100930&gameId=20100930LTOB0&section=REVIEW",
+    "rawSha256": "a072ab570ebd80bcb3f489445db9e5cd4c318b5c0482044a5fd84e21dc3d19e4"
+  },
+  {
+    "id": "20101002OBLT0",
+    "date": "2010-10-02",
+    "season": 2010,
+    "inning": null,
+    "half": null,
+    "outs": 3,
+    "source": "https://www.koreabaseball.com/Schedule/GameCenter/Main.aspx?gameDate=20101002&gameId=20101002OBLT0&section=REVIEW",
+    "rawSha256": "bfe9f7204be515c880f9fb7ee09358410a9da2a621f10848353c864681d865c3"
+  },
+  {
+    "id": "20101003OBLT0",
+    "date": "2010-10-03",
+    "season": 2010,
+    "inning": null,
+    "half": null,
+    "outs": 3,
+    "source": "https://www.koreabaseball.com/Schedule/GameCenter/Main.aspx?gameDate=20101003&gameId=20101003OBLT0&section=REVIEW",
+    "rawSha256": "2d53ed9f987dcf2da325754d6096338666daa1fdf4b4fe4cf7b0eaea4a2eae29"
+  },
+  {
+    "id": "20101005LTOB0",
+    "date": "2010-10-05",
+    "season": 2010,
+    "inning": null,
+    "half": null,
+    "outs": 3,
+    "source": "https://www.koreabaseball.com/Schedule/GameCenter/Main.aspx?gameDate=20101005&gameId=20101005LTOB0&section=REVIEW",
+    "rawSha256": "f264ca2c9a92aa67c00bbb7e3841738d27f1a632a886151e6b636432a55c5ccc"
+  },
+  {
+    "id": "20101007OBSS0",
+    "date": "2010-10-07",
+    "season": 2010,
+    "inning": null,
+    "half": null,
+    "outs": 3,
+    "source": "https://www.koreabaseball.com/Schedule/GameCenter/Main.aspx?gameDate=20101007&gameId=20101007OBSS0&section=REVIEW",
+    "rawSha256": "bf8f1a29fdcc69949d03e011ba9ef3458bfdf527a94751259fd7360176f320be"
+  },
+  {
+    "id": "20101008OBSS0",
+    "date": "2010-10-08",
+    "season": 2010,
+    "inning": null,
+    "half": null,
+    "outs": 3,
+    "source": "https://www.koreabaseball.com/Schedule/GameCenter/Main.aspx?gameDate=20101008&gameId=20101008OBSS0&section=REVIEW",
+    "rawSha256": "913edd6ad0c1305d5d20895774a91535edfde0700cfb561b3cd4a7437143f24d"
+  },
+  {
+    "id": "20101010SSOB0",
+    "date": "2010-10-10",
+    "season": 2010,
+    "inning": null,
+    "half": null,
+    "outs": 0,
+    "source": "https://www.koreabaseball.com/Schedule/GameCenter/Main.aspx?gameDate=20101010&gameId=20101010SSOB0&section=REVIEW",
+    "rawSha256": "4ddc91ee63d9937eb81e57332a599459eb364e67dbfe7417627df760df34c128"
+  },
+  {
+    "id": "20101011SSOB0",
+    "date": "2010-10-11",
+    "season": 2010,
+    "inning": null,
+    "half": null,
+    "outs": 3,
+    "source": "https://www.koreabaseball.com/Schedule/GameCenter/Main.aspx?gameDate=20101011&gameId=20101011SSOB0&section=REVIEW",
+    "rawSha256": "68651f3bae9e0e7696bfd11adfa6af93b5cf03c7d16e1fccf5d050e0264e43ab"
+  },
+  {
+    "id": "20101013OBSS0",
+    "date": "2010-10-13",
+    "season": 2010,
+    "inning": null,
+    "half": null,
+    "outs": 2,
+    "source": "https://www.koreabaseball.com/Schedule/GameCenter/Main.aspx?gameDate=20101013&gameId=20101013OBSS0&section=REVIEW",
+    "rawSha256": "c07f7d851437ef2eb058658d819a7b37898b4cd4d152db717c5bb48ce81f82e3"
+  },
+  {
+    "id": "20101015SSSK0",
+    "date": "2010-10-15",
+    "season": 2010,
+    "inning": null,
+    "half": null,
+    "outs": 3,
+    "source": "https://www.koreabaseball.com/Schedule/GameCenter/Main.aspx?gameDate=20101015&gameId=20101015SSSK0&section=REVIEW",
+    "rawSha256": "d9be48d746d52ffe93f8bba0b3b3fe074a420fb6f7c4519bfc29a04696adc7dd"
+  },
+  {
+    "id": "20101016SSSK0",
+    "date": "2010-10-16",
+    "season": 2010,
+    "inning": null,
+    "half": null,
+    "outs": 3,
+    "source": "https://www.koreabaseball.com/Schedule/GameCenter/Main.aspx?gameDate=20101016&gameId=20101016SSSK0&section=REVIEW",
+    "rawSha256": "c8c7f7d19622f1e48746fb9f683e1242b5c349ac30eb97a9e28166d3e9bdca32"
+  },
+  {
+    "id": "20101018SKSS0",
+    "date": "2010-10-18",
+    "season": 2010,
+    "inning": null,
+    "half": null,
+    "outs": 3,
+    "source": "https://www.koreabaseball.com/Schedule/GameCenter/Main.aspx?gameDate=20101018&gameId=20101018SKSS0&section=REVIEW",
+    "rawSha256": "ba48b22c052aa504a43279e4b385e5e06383b5b12b75ecf387a86d187af7f311"
+  },
+  {
+    "id": "20101019SKSS0",
+    "date": "2010-10-19",
+    "season": 2010,
+    "inning": null,
+    "half": null,
+    "outs": 3,
+    "source": "https://www.koreabaseball.com/Schedule/GameCenter/Main.aspx?gameDate=20101019&gameId=20101019SKSS0&section=REVIEW",
+    "rawSha256": "4fcc9bc4509d22a814ef6929fd0cd1278c76b5d09b6c5c0d85ac5e1be2f54fb9"
+  },
+  {
+    "id": "20111008HTSK0",
+    "date": "2011-10-08",
+    "season": 2011,
+    "inning": null,
+    "half": null,
+    "outs": 3,
+    "source": "https://www.koreabaseball.com/Schedule/GameCenter/Main.aspx?gameDate=20111008&gameId=20111008HTSK0&section=REVIEW",
+    "rawSha256": "6e7d5ea4e6d293b8f6da25501214c3b59748d297bfd13facb68a945a8a87da44"
+  },
+  {
+    "id": "20111009HTSK0",
+    "date": "2011-10-09",
+    "season": 2011,
+    "inning": null,
+    "half": null,
+    "outs": 2,
+    "source": "https://www.koreabaseball.com/Schedule/GameCenter/Main.aspx?gameDate=20111009&gameId=20111009HTSK0&section=REVIEW",
+    "rawSha256": "6852281ae71470cc3829c2c1666b98ca9976cdff726664b84db55be320ff95e1"
+  },
+  {
+    "id": "20111011SKHT0",
+    "date": "2011-10-11",
+    "season": 2011,
+    "inning": null,
+    "half": null,
+    "outs": 3,
+    "source": "https://www.koreabaseball.com/Schedule/GameCenter/Main.aspx?gameDate=20111011&gameId=20111011SKHT0&section=REVIEW",
+    "rawSha256": "f9b8d407125253989b5e57214d87de9cdc585edd0174ee42da43d88924c9f6cc"
+  },
+  {
+    "id": "20111012SKHT0",
+    "date": "2011-10-12",
+    "season": 2011,
+    "inning": null,
+    "half": null,
+    "outs": 3,
+    "source": "https://www.koreabaseball.com/Schedule/GameCenter/Main.aspx?gameDate=20111012&gameId=20111012SKHT0&section=REVIEW",
+    "rawSha256": "7e284e0f938b278f3de48e2645101a630310f72bc85193d980e7c71ae1510c69"
+  },
+  {
+    "id": "20111016SKLT0",
+    "date": "2011-10-16",
+    "season": 2011,
+    "inning": null,
+    "half": null,
+    "outs": 3,
+    "source": "https://www.koreabaseball.com/Schedule/GameCenter/Main.aspx?gameDate=20111016&gameId=20111016SKLT0&section=REVIEW",
+    "rawSha256": "b4ff919c9de40bce01b782c69aba5290e0a7292257a6433c449c36f84bdd2f56"
+  },
+  {
+    "id": "20111017SKLT0",
+    "date": "2011-10-17",
+    "season": 2011,
+    "inning": null,
+    "half": null,
+    "outs": 3,
+    "source": "https://www.koreabaseball.com/Schedule/GameCenter/Main.aspx?gameDate=20111017&gameId=20111017SKLT0&section=REVIEW",
+    "rawSha256": "febe8880358e757ae5b0d1f55c82a5923d43b298ae136500f4a613514dddfa84"
+  },
+  {
+    "id": "20111019LTSK0",
+    "date": "2011-10-19",
+    "season": 2011,
+    "inning": null,
+    "half": null,
+    "outs": 3,
+    "source": "https://www.koreabaseball.com/Schedule/GameCenter/Main.aspx?gameDate=20111019&gameId=20111019LTSK0&section=REVIEW",
+    "rawSha256": "edfaabc69e5cae28cfdd9d1ac9cd38c69940b75104a07a95f02ccbf043772be2"
+  },
+  {
+    "id": "20111020LTSK0",
+    "date": "2011-10-20",
+    "season": 2011,
+    "inning": null,
+    "half": null,
+    "outs": 3,
+    "source": "https://www.koreabaseball.com/Schedule/GameCenter/Main.aspx?gameDate=20111020&gameId=20111020LTSK0&section=REVIEW",
+    "rawSha256": "7c748554240e4c45865fff6550dcf3fdd8d94bf0ea9572b89f410d9abefb9cce"
+  },
+  {
+    "id": "20111023SKLT0",
+    "date": "2011-10-23",
+    "season": 2011,
+    "inning": null,
+    "half": null,
+    "outs": 3,
+    "source": "https://www.koreabaseball.com/Schedule/GameCenter/Main.aspx?gameDate=20111023&gameId=20111023SKLT0&section=REVIEW",
+    "rawSha256": "f537abaede73e074ae430cfed266aefe5c38ac8aab77bc45ce1b01ddb9aa445d"
+  },
+  {
+    "id": "20111025SKSS7",
+    "date": "2011-10-25",
+    "season": 2011,
+    "inning": null,
+    "half": null,
+    "outs": null,
+    "source": "https://www.koreabaseball.com/Schedule/GameCenter/Main.aspx?gameDate=20111025&gameId=20111025SKSS7&section=REVIEW",
+    "rawSha256": "f97ece5bea8f7713a0f088a29ac7db1a5a6fba45e41f940bce4dbb8fb037340c"
+  },
+  {
+    "id": "20111026SKSS0",
+    "date": "2011-10-26",
+    "season": 2011,
+    "inning": null,
+    "half": null,
+    "outs": 3,
+    "source": "https://www.koreabaseball.com/Schedule/GameCenter/Main.aspx?gameDate=20111026&gameId=20111026SKSS0&section=REVIEW",
+    "rawSha256": "3cece8be54d147701c4350082761dbb0ce8ca73637bc3e3f3242c792413a5581"
+  },
+  {
+    "id": "20111028SSSK0",
+    "date": "2011-10-28",
+    "season": 2011,
+    "inning": null,
+    "half": null,
+    "outs": null,
+    "source": "https://www.koreabaseball.com/Schedule/GameCenter/Main.aspx?gameDate=20111028&gameId=20111028SSSK0&section=REVIEW",
+    "rawSha256": "c04cb36c2e7e0a3c0ef64b58a4b9ba53a42ecf565fb1fcab9df855c0ed1a63f7"
+  },
+  {
+    "id": "20111029SSSK0",
+    "date": "2011-10-29",
+    "season": 2011,
+    "inning": null,
+    "half": null,
+    "outs": null,
+    "source": "https://www.koreabaseball.com/Schedule/GameCenter/Main.aspx?gameDate=20111029&gameId=20111029SSSK0&section=REVIEW",
+    "rawSha256": "3074cc81e9dfd4971c6f2fa79e0a03e29eea075f908c7fa7e7d9f29f96a462ac"
+  },
+  {
+    "id": "20111031SKSS0",
+    "date": "2011-10-31",
+    "season": 2011,
+    "inning": null,
+    "half": null,
+    "outs": null,
+    "source": "https://www.koreabaseball.com/Schedule/GameCenter/Main.aspx?gameDate=20111031&gameId=20111031SKSS0&section=REVIEW",
+    "rawSha256": "9cf8cab2ed5d0366d0cb05ddd36fffb707f9b035baafde85cf9aff61313e1e23"
+  },
+  {
+    "id": "20121008LTOB0",
+    "date": "2012-10-08",
+    "season": 2012,
+    "inning": 10,
+    "half": "B",
+    "outs": 3,
+    "source": "https://www.koreabaseball.com/Schedule/GameCenter/Main.aspx?gameDate=20121008&gameId=20121008LTOB0&section=REVIEW",
+    "rawSha256": "0c9d32e6d5166c0bc209d0158be350948ff4b76cf77e482e8969ef450e5451a9"
+  },
+  {
+    "id": "20121009LTOB0",
+    "date": "2012-10-09",
+    "season": 2012,
+    "inning": 9,
+    "half": "B",
+    "outs": 3,
+    "source": "https://www.koreabaseball.com/Schedule/GameCenter/Main.aspx?gameDate=20121009&gameId=20121009LTOB0&section=REVIEW",
+    "rawSha256": "ef18ea43a81f01d6cf5b0b7b2b256dcfbcc15ff3e140ac95070da944c2435705"
+  },
+  {
+    "id": "20121011OBLT0",
+    "date": "2012-10-11",
+    "season": 2012,
+    "inning": 9,
+    "half": "B",
+    "outs": 3,
+    "source": "https://www.koreabaseball.com/Schedule/GameCenter/Main.aspx?gameDate=20121011&gameId=20121011OBLT0&section=REVIEW",
+    "rawSha256": "fcac2a87404ffbba185b20e44367390a67872b16b6133513fd0ca23c6199caed"
+  },
+  {
+    "id": "20121012OBLT0",
+    "date": "2012-10-12",
+    "season": 2012,
+    "inning": 10,
+    "half": "B",
+    "outs": 1,
+    "source": "https://www.koreabaseball.com/Schedule/GameCenter/Main.aspx?gameDate=20121012&gameId=20121012OBLT0&section=REVIEW",
+    "rawSha256": "bc541e8b59cbc35b1ab89038ca7e01a8beb131b4e815ba332bd485d100eff023"
+  },
+  {
+    "id": "20121016LTSK0",
+    "date": "2012-10-16",
+    "season": 2012,
+    "inning": 9,
+    "half": "T",
+    "outs": 3,
+    "source": "https://www.koreabaseball.com/Schedule/GameCenter/Main.aspx?gameDate=20121016&gameId=20121016LTSK0&section=REVIEW",
+    "rawSha256": "50121438937ec601438794c3357165c87ba81784b0bd3ab3c50b622bff567f22"
+  },
+  {
+    "id": "20121017LTSK0",
+    "date": "2012-10-17",
+    "season": 2012,
+    "inning": 10,
+    "half": "B",
+    "outs": 3,
+    "source": "https://www.koreabaseball.com/Schedule/GameCenter/Main.aspx?gameDate=20121017&gameId=20121017LTSK0&section=REVIEW",
+    "rawSha256": "8497ed4b478c6809361bfa9a5a87756ec3b938f6f6ba7f71a0bd7f26d8c3627a"
+  },
+  {
+    "id": "20121019SKLT0",
+    "date": "2012-10-19",
+    "season": 2012,
+    "inning": 9,
+    "half": "T",
+    "outs": 3,
+    "source": "https://www.koreabaseball.com/Schedule/GameCenter/Main.aspx?gameDate=20121019&gameId=20121019SKLT0&section=REVIEW",
+    "rawSha256": "bc9cac7925c273496157d1ddd02c1ea4c4fc41a153eaca47b04f8012417c77c3"
+  },
+  {
+    "id": "20121020SKLT0",
+    "date": "2012-10-20",
+    "season": 2012,
+    "inning": 9,
+    "half": "B",
+    "outs": 3,
+    "source": "https://www.koreabaseball.com/Schedule/GameCenter/Main.aspx?gameDate=20121020&gameId=20121020SKLT0&section=REVIEW",
+    "rawSha256": "842f9f8fffd66e24bd6cecf0937dffa304722127f253e1f5dda5164a50d8e911"
+  },
+  {
+    "id": "20121022LTSK0",
+    "date": "2012-10-22",
+    "season": 2012,
+    "inning": 9,
+    "half": "T",
+    "outs": 3,
+    "source": "https://www.koreabaseball.com/Schedule/GameCenter/Main.aspx?gameDate=20121022&gameId=20121022LTSK0&section=REVIEW",
+    "rawSha256": "5db329d81b695f0ca238c24d7be15aadc3a292b246facd6513ca9762b0b74f8f"
+  },
+  {
+    "id": "20121024SKSS0",
+    "date": "2012-10-24",
+    "season": 2012,
+    "inning": 9,
+    "half": "T",
+    "outs": 3,
+    "source": "https://www.koreabaseball.com/Schedule/GameCenter/Main.aspx?gameDate=20121024&gameId=20121024SKSS0&section=REVIEW",
+    "rawSha256": "d15f614fcc0338b8f760878a820926cc21d71ead1ce01c2fef1600afa339c1eb"
+  },
+  {
+    "id": "20121025SKSS0",
+    "date": "2012-10-25",
+    "season": 2012,
+    "inning": 9,
+    "half": "T",
+    "outs": 3,
+    "source": "https://www.koreabaseball.com/Schedule/GameCenter/Main.aspx?gameDate=20121025&gameId=20121025SKSS0&section=REVIEW",
+    "rawSha256": "613b32a3234ae5ec41299085eb686c6b6497224288798d2bd7bae3856f74b80f"
+  },
+  {
+    "id": "20121028SSSK0",
+    "date": "2012-10-28",
+    "season": 2012,
+    "inning": 9,
+    "half": "T",
+    "outs": 3,
+    "source": "https://www.koreabaseball.com/Schedule/GameCenter/Main.aspx?gameDate=20121028&gameId=20121028SSSK0&section=REVIEW",
+    "rawSha256": "4c5bcd180e1d6313f8a0cac9f0c20fc3f05420dfe175d443dc47c0a079da8acb"
+  },
+  {
+    "id": "20121029SSSK0",
+    "date": "2012-10-29",
+    "season": 2012,
+    "inning": 9,
+    "half": "T",
+    "outs": 3,
+    "source": "https://www.koreabaseball.com/Schedule/GameCenter/Main.aspx?gameDate=20121029&gameId=20121029SSSK0&section=REVIEW",
+    "rawSha256": "23e15ea0418ef7ba8d17f96dfbdb93fd1c9201141ca5fe96c141459e081a6621"
+  },
+  {
+    "id": "20121031SKSS0",
+    "date": "2012-10-31",
+    "season": 2012,
+    "inning": 9,
+    "half": "T",
+    "outs": 3,
+    "source": "https://www.koreabaseball.com/Schedule/GameCenter/Main.aspx?gameDate=20121031&gameId=20121031SKSS0&section=REVIEW",
+    "rawSha256": "b6fd9f0a04cd7ca42baa1b76b8206600f5a673c972493b2ae75382f9a775897e"
+  },
+  {
+    "id": "20121101SSSK0",
+    "date": "2012-11-01",
+    "season": 2012,
+    "inning": 9,
+    "half": "B",
+    "outs": 3,
+    "source": "https://www.koreabaseball.com/Schedule/GameCenter/Main.aspx?gameDate=20121101&gameId=20121101SSSK0&section=REVIEW",
+    "rawSha256": "c1b794a32113c87c28bec5c792a928f32c4fa1a39d8a25f6787493954cfb7b9b"
+  },
+  {
+    "id": "20131008OBWO0",
+    "date": "2013-10-08",
+    "season": 2013,
+    "inning": 9,
+    "half": "B",
+    "outs": 2,
+    "source": "https://www.koreabaseball.com/Schedule/GameCenter/Main.aspx?gameDate=20131008&gameId=20131008OBWO0&section=REVIEW",
+    "rawSha256": "8c9102a700a8c37a5910090bd21cca183dcfad49f9b7aa67cfee089978d3a666"
+  },
+  {
+    "id": "20131009OBWO0",
+    "date": "2013-10-09",
+    "season": 2013,
+    "inning": 10,
+    "half": "B",
+    "outs": 1,
+    "source": "https://www.koreabaseball.com/Schedule/GameCenter/Main.aspx?gameDate=20131009&gameId=20131009OBWO0&section=REVIEW",
+    "rawSha256": "45afba9cb403cd4bf24d0acd26419be4ecacce05ce7d2ee82661411639fdcf3e"
+  },
+  {
+    "id": "20131011WOOB0",
+    "date": "2013-10-11",
+    "season": 2013,
+    "inning": 14,
+    "half": "B",
+    "outs": 0,
+    "source": "https://www.koreabaseball.com/Schedule/GameCenter/Main.aspx?gameDate=20131011&gameId=20131011WOOB0&section=REVIEW",
+    "rawSha256": "9ceac3f0b4dd9c252ba845842055933bc6a64c537b83bdd7e614bdd331edabbc"
+  },
+  {
+    "id": "20131012WOOB0",
+    "date": "2013-10-12",
+    "season": 2013,
+    "inning": 9,
+    "half": "T",
+    "outs": 3,
+    "source": "https://www.koreabaseball.com/Schedule/GameCenter/Main.aspx?gameDate=20131012&gameId=20131012WOOB0&section=REVIEW",
+    "rawSha256": "bb00279c93727f75047e3c17c1b531ce3532198078f61066d0700a9336b963dc"
+  },
+  {
+    "id": "20131014OBWO0",
+    "date": "2013-10-14",
+    "season": 2013,
+    "inning": 13,
+    "half": "B",
+    "outs": 3,
+    "source": "https://www.koreabaseball.com/Schedule/GameCenter/Main.aspx?gameDate=20131014&gameId=20131014OBWO0&section=REVIEW",
+    "rawSha256": "185cd605d978744b27cb764b65d735e59ba5c79b9ae56aa2d2d86a31dc6b146a"
+  },
+  {
+    "id": "20131016OBLG0",
+    "date": "2013-10-16",
+    "season": 2013,
+    "inning": 9,
+    "half": "B",
+    "outs": 3,
+    "source": "https://www.koreabaseball.com/Schedule/GameCenter/Main.aspx?gameDate=20131016&gameId=20131016OBLG0&section=REVIEW",
+    "rawSha256": "d4f73e08eb873d29801945f48ccc7c90533bfca24993aba4722c50808a27afee"
+  },
+  {
+    "id": "20131017OBLG0",
+    "date": "2013-10-17",
+    "season": 2013,
+    "inning": 9,
+    "half": "T",
+    "outs": 3,
+    "source": "https://www.koreabaseball.com/Schedule/GameCenter/Main.aspx?gameDate=20131017&gameId=20131017OBLG0&section=REVIEW",
+    "rawSha256": "63ffacbde23821477619cedc9381b5ebc1806f1c7cbb213377f7ed70248cec5b"
+  },
+  {
+    "id": "20131019LGOB0",
+    "date": "2013-10-19",
+    "season": 2013,
+    "inning": 9,
+    "half": "T",
+    "outs": 3,
+    "source": "https://www.koreabaseball.com/Schedule/GameCenter/Main.aspx?gameDate=20131019&gameId=20131019LGOB0&section=REVIEW",
+    "rawSha256": "5b9d5882f9f4b89e325c41bcb591bf376154573e856be11c14c3e8b4b5ee684d"
+  },
+  {
+    "id": "20131020LGOB0",
+    "date": "2013-10-20",
+    "season": 2013,
+    "inning": 9,
+    "half": "T",
+    "outs": 3,
+    "source": "https://www.koreabaseball.com/Schedule/GameCenter/Main.aspx?gameDate=20131020&gameId=20131020LGOB0&section=REVIEW",
+    "rawSha256": "1824641c271e9c7b0120ed97e779520c545b802e652ca6aa552b56a0dd10700a"
+  },
+  {
+    "id": "20131024OBSS0",
+    "date": "2013-10-24",
+    "season": 2013,
+    "inning": 9,
+    "half": "B",
+    "outs": 3,
+    "source": "https://www.koreabaseball.com/Schedule/GameCenter/Main.aspx?gameDate=20131024&gameId=20131024OBSS0&section=REVIEW",
+    "rawSha256": "34435665e7fb411004a7b72b68ce358fb9513a624d79be2138775cce3078b83c"
+  },
+  {
+    "id": "20131025OBSS0",
+    "date": "2013-10-25",
+    "season": 2013,
+    "inning": 13,
+    "half": "B",
+    "outs": 3,
+    "source": "https://www.koreabaseball.com/Schedule/GameCenter/Main.aspx?gameDate=20131025&gameId=20131025OBSS0&section=REVIEW",
+    "rawSha256": "b01b9d1d1d5c31f9ad6a3827866db1b3e9947f94ff2d4e10e29aafd4b7d4c4d0"
+  },
+  {
+    "id": "20131027SSOB0",
+    "date": "2013-10-27",
+    "season": 2013,
+    "inning": 9,
+    "half": "B",
+    "outs": 3,
+    "source": "https://www.koreabaseball.com/Schedule/GameCenter/Main.aspx?gameDate=20131027&gameId=20131027SSOB0&section=REVIEW",
+    "rawSha256": "c3b99b9c50685f8a1c4eb6cacb8f91ec8fb93c181d6865ae68e8fb4dee120d64"
+  },
+  {
+    "id": "20131028SSOB0",
+    "date": "2013-10-28",
+    "season": 2013,
+    "inning": 9,
+    "half": "T",
+    "outs": 3,
+    "source": "https://www.koreabaseball.com/Schedule/GameCenter/Main.aspx?gameDate=20131028&gameId=20131028SSOB0&section=REVIEW",
+    "rawSha256": "94b6c531176c3fe3a4db990043a132c8a50298ef83caf9611f28f9a9a564bec8"
+  },
+  {
+    "id": "20131029SSOB0",
+    "date": "2013-10-29",
+    "season": 2013,
+    "inning": 9,
+    "half": "B",
+    "outs": 3,
+    "source": "https://www.koreabaseball.com/Schedule/GameCenter/Main.aspx?gameDate=20131029&gameId=20131029SSOB0&section=REVIEW",
+    "rawSha256": "3b5b5d42d08c0829b84c2177bd9347ae953c832aa59b880bdf1a53ce03eeff5d"
+  },
+  {
+    "id": "20131031OBSS0",
+    "date": "2013-10-31",
+    "season": 2013,
+    "inning": 9,
+    "half": "T",
+    "outs": 3,
+    "source": "https://www.koreabaseball.com/Schedule/GameCenter/Main.aspx?gameDate=20131031&gameId=20131031OBSS0&section=REVIEW",
+    "rawSha256": "3c3ccaa218a6b39c56e477ebd757a2a1aca94826d3405a45329b61312f2729b3"
+  },
+  {
+    "id": "20131101OBSS0",
+    "date": "2013-11-01",
+    "season": 2013,
+    "inning": 9,
+    "half": "T",
+    "outs": 3,
+    "source": "https://www.koreabaseball.com/Schedule/GameCenter/Main.aspx?gameDate=20131101&gameId=20131101OBSS0&section=REVIEW",
+    "rawSha256": "cd4fd6c213461255badec4f0e78071094fba80b74de27a7b0a483fc78074bdb6"
+  },
+  {
+    "id": "20141019LGNC0",
+    "date": "2014-10-19",
+    "season": 2014,
+    "inning": 9,
+    "half": "B",
+    "outs": 3,
+    "source": "https://www.koreabaseball.com/Schedule/GameCenter/Main.aspx?gameDate=20141019&gameId=20141019LGNC0&section=REVIEW",
+    "rawSha256": "4030cad1b5b2215019ed25e72974edb3403d5f28a6d60e9130898ac8342cc9ea"
+  },
+  {
+    "id": "20141022LGNC0",
+    "date": "2014-10-22",
+    "season": 2014,
+    "inning": 9,
+    "half": "B",
+    "outs": 3,
+    "source": "https://www.koreabaseball.com/Schedule/GameCenter/Main.aspx?gameDate=20141022&gameId=20141022LGNC0&section=REVIEW",
+    "rawSha256": "ef8862f55395d91d2b8eb6ea2942e3bd3a90c2ddc6c48fe49ebd6bf87c85b5b6"
+  },
+  {
+    "id": "20141024NCLG0",
+    "date": "2014-10-24",
+    "season": 2014,
+    "inning": 9,
+    "half": "B",
+    "outs": 3,
+    "source": "https://www.koreabaseball.com/Schedule/GameCenter/Main.aspx?gameDate=20141024&gameId=20141024NCLG0&section=REVIEW",
+    "rawSha256": "e1b4e03073c4d91b36cc82c7e9cbe3310218ee00f47309294cea728b582cfe4d"
+  },
+  {
+    "id": "20141025NCLG0",
+    "date": "2014-10-25",
+    "season": 2014,
+    "inning": 9,
+    "half": "T",
+    "outs": 3,
+    "source": "https://www.koreabaseball.com/Schedule/GameCenter/Main.aspx?gameDate=20141025&gameId=20141025NCLG0&section=REVIEW",
+    "rawSha256": "803aacad30b489535f56d2aef30dc91a23e02f1980302f70c708aef1a720a22d"
+  },
+  {
+    "id": "20141027LGWO0",
+    "date": "2014-10-27",
+    "season": 2014,
+    "inning": 9,
+    "half": "T",
+    "outs": 3,
+    "source": "https://www.koreabaseball.com/Schedule/GameCenter/Main.aspx?gameDate=20141027&gameId=20141027LGWO0&section=REVIEW",
+    "rawSha256": "4a5718dcf0ca270c8b3b22b9e3559971d4def34ac34fb9d5bea2853e3a6cdf3f"
+  },
+  {
+    "id": "20141028LGWO0",
+    "date": "2014-10-28",
+    "season": 2014,
+    "inning": 9,
+    "half": "B",
+    "outs": 3,
+    "source": "https://www.koreabaseball.com/Schedule/GameCenter/Main.aspx?gameDate=20141028&gameId=20141028LGWO0&section=REVIEW",
+    "rawSha256": "b5e4d59b9cd3e6bb86e5048b10cf42e2fa0c9a9919d0513f711d51f343249c58"
+  },
+  {
+    "id": "20141030WOLG0",
+    "date": "2014-10-30",
+    "season": 2014,
+    "inning": 9,
+    "half": "B",
+    "outs": 3,
+    "source": "https://www.koreabaseball.com/Schedule/GameCenter/Main.aspx?gameDate=20141030&gameId=20141030WOLG0&section=REVIEW",
+    "rawSha256": "de162bf60e4d6f381aea5912bafdd9106e01918c2ad5238388ac16e9a4015b20"
+  },
+  {
+    "id": "20141031WOLG0",
+    "date": "2014-10-31",
+    "season": 2014,
+    "inning": 9,
+    "half": "B",
+    "outs": 3,
+    "source": "https://www.koreabaseball.com/Schedule/GameCenter/Main.aspx?gameDate=20141031&gameId=20141031WOLG0&section=REVIEW",
+    "rawSha256": "92ba4ed6b0e439cad1159fefc3d3247205f8e06f9a6de4fb8979ce9071f40065"
+  },
+  {
+    "id": "20141104WOSS0",
+    "date": "2014-11-04",
+    "season": 2014,
+    "inning": 9,
+    "half": "B",
+    "outs": 3,
+    "source": "https://www.koreabaseball.com/Schedule/GameCenter/Main.aspx?gameDate=20141104&gameId=20141104WOSS0&section=REVIEW",
+    "rawSha256": "3c1540423dedae3d4d60da9cca865c116a56bfad622083d7c811eebff38289f4"
+  },
+  {
+    "id": "20141105WOSS0",
+    "date": "2014-11-05",
+    "season": 2014,
+    "inning": 9,
+    "half": "T",
+    "outs": 3,
+    "source": "https://www.koreabaseball.com/Schedule/GameCenter/Main.aspx?gameDate=20141105&gameId=20141105WOSS0&section=REVIEW",
+    "rawSha256": "594b4d7ecc09d3751b9d7b4399e57525f8920a7b9c57a77f27f8ab7fa4bb504e"
+  },
+  {
+    "id": "20141107SSWO0",
+    "date": "2014-11-07",
+    "season": 2014,
+    "inning": 9,
+    "half": "B",
+    "outs": 3,
+    "source": "https://www.koreabaseball.com/Schedule/GameCenter/Main.aspx?gameDate=20141107&gameId=20141107SSWO0&section=REVIEW",
+    "rawSha256": "c561bc73023b03634e070765e572d38f9e05aba5e5a93812f56089b34c34d2d1"
+  },
+  {
+    "id": "20141108SSWO0",
+    "date": "2014-11-08",
+    "season": 2014,
+    "inning": 9,
+    "half": "T",
+    "outs": 3,
+    "source": "https://www.koreabaseball.com/Schedule/GameCenter/Main.aspx?gameDate=20141108&gameId=20141108SSWO0&section=REVIEW",
+    "rawSha256": "d1b476a5216a532798163a7578155d5604604ceb2e29186f59e5aeb19ee3197b"
+  },
+  {
+    "id": "20141110WOSS0",
+    "date": "2014-11-10",
+    "season": 2014,
+    "inning": 9,
+    "half": "B",
+    "outs": 2,
+    "source": "https://www.koreabaseball.com/Schedule/GameCenter/Main.aspx?gameDate=20141110&gameId=20141110WOSS0&section=REVIEW",
+    "rawSha256": "8204ecc1b80c597bf2e7b21914f09d9c639142b098f751d95e99a0c557dcfa81"
+  },
+  {
+    "id": "20141111SSWO0",
+    "date": "2014-11-11",
+    "season": 2014,
+    "inning": 9,
+    "half": "B",
+    "outs": 3,
+    "source": "https://www.koreabaseball.com/Schedule/GameCenter/Main.aspx?gameDate=20141111&gameId=20141111SSWO0&section=REVIEW",
+    "rawSha256": "a812e8d8899aabf58e577be033d7b6cf8015cdf4c90c2a4f2623988d2b472748"
+  },
+  {
+    "id": "20151007SKWO0",
+    "date": "2015-10-07",
+    "season": 2015,
+    "inning": 11,
+    "half": "B",
+    "outs": 2,
+    "source": "https://www.koreabaseball.com/Schedule/GameCenter/Main.aspx?gameDate=20151007&gameId=20151007SKWO0&section=REVIEW",
+    "rawSha256": "1d0828d177e08f3045ffbc1276874f7187db79f72c0f70a14ff9575a6e58ac4d"
+  },
+  {
+    "id": "20151010WOOB0",
+    "date": "2015-10-10",
+    "season": 2015,
+    "inning": 10,
+    "half": "B",
+    "outs": 1,
+    "source": "https://www.koreabaseball.com/Schedule/GameCenter/Main.aspx?gameDate=20151010&gameId=20151010WOOB0&section=REVIEW",
+    "rawSha256": "3174ca3f42bb920e8ce8ac2e431485dc5bb8e0bdbe59bf7e566f2f09a0990a10"
+  },
+  {
+    "id": "20151011WOOB0",
+    "date": "2015-10-11",
+    "season": 2015,
+    "inning": 9,
+    "half": "T",
+    "outs": 3,
+    "source": "https://www.koreabaseball.com/Schedule/GameCenter/Main.aspx?gameDate=20151011&gameId=20151011WOOB0&section=REVIEW",
+    "rawSha256": "43f075da2f35f0412a1669152acc2f406b93a4421b22acf0397fd979c41ee271"
+  },
+  {
+    "id": "20151013OBWO0",
+    "date": "2015-10-13",
+    "season": 2015,
+    "inning": 9,
+    "half": "T",
+    "outs": 3,
+    "source": "https://www.koreabaseball.com/Schedule/GameCenter/Main.aspx?gameDate=20151013&gameId=20151013OBWO0&section=REVIEW",
+    "rawSha256": "c91f2a79e581f6aca087861a8b43b6dca508d147d6a872c4052b04226c1b4415"
+  },
+  {
+    "id": "20151014OBWO0",
+    "date": "2015-10-14",
+    "season": 2015,
+    "inning": 9,
+    "half": "B",
+    "outs": 3,
+    "source": "https://www.koreabaseball.com/Schedule/GameCenter/Main.aspx?gameDate=20151014&gameId=20151014OBWO0&section=REVIEW",
+    "rawSha256": "ff4242cc33b302a6e4ce6f4d9deefb5f676fc2a93d451ab597a94b0e0207bbcb"
+  },
+  {
+    "id": "20151018OBNC0",
+    "date": "2015-10-18",
+    "season": 2015,
+    "inning": 9,
+    "half": "B",
+    "outs": 3,
+    "source": "https://www.koreabaseball.com/Schedule/GameCenter/Main.aspx?gameDate=20151018&gameId=20151018OBNC0&section=REVIEW",
+    "rawSha256": "738df0e771f16d32403d4a16cd4e35f654b93cff4751c9a0b997aaa5da2afee4"
+  },
+  {
+    "id": "20151019OBNC0",
+    "date": "2015-10-19",
+    "season": 2015,
+    "inning": 9,
+    "half": "T",
+    "outs": 3,
+    "source": "https://www.koreabaseball.com/Schedule/GameCenter/Main.aspx?gameDate=20151019&gameId=20151019OBNC0&section=REVIEW",
+    "rawSha256": "6345c632de0a6b513f078195c494f4fd4ec5c0122bed3cba74e0321897ed888d"
+  },
+  {
+    "id": "20151021NCOB0",
+    "date": "2015-10-21",
+    "season": 2015,
+    "inning": 9,
+    "half": "B",
+    "outs": 3,
+    "source": "https://www.koreabaseball.com/Schedule/GameCenter/Main.aspx?gameDate=20151021&gameId=20151021NCOB0&section=REVIEW",
+    "rawSha256": "a9deed7ebf040eafb3115ab4370d87df350f742a1ca92d303afbbef996c24761"
+  },
+  {
+    "id": "20151022NCOB0",
+    "date": "2015-10-22",
+    "season": 2015,
+    "inning": 9,
+    "half": "T",
+    "outs": 3,
+    "source": "https://www.koreabaseball.com/Schedule/GameCenter/Main.aspx?gameDate=20151022&gameId=20151022NCOB0&section=REVIEW",
+    "rawSha256": "f3f544773e074ecf8b77beda097bdf18b125c7d281fb233fb94bec66d6dd4f9b"
+  },
+  {
+    "id": "20151024OBNC0",
+    "date": "2015-10-24",
+    "season": 2015,
+    "inning": 9,
+    "half": "B",
+    "outs": 3,
+    "source": "https://www.koreabaseball.com/Schedule/GameCenter/Main.aspx?gameDate=20151024&gameId=20151024OBNC0&section=REVIEW",
+    "rawSha256": "e3798524087b8b8ff4e6f011aa66c898f4a56c314ad3b27f65c2fcf02d940b63"
+  },
+  {
+    "id": "20151026OBSS0",
+    "date": "2015-10-26",
+    "season": 2015,
+    "inning": 9,
+    "half": "T",
+    "outs": 3,
+    "source": "https://www.koreabaseball.com/Schedule/GameCenter/Main.aspx?gameDate=20151026&gameId=20151026OBSS0&section=REVIEW",
+    "rawSha256": "8d02f05e7bf7cbf1853515a70cfc525d4a080eb66b84ebb5251c65132c87fcd2"
+  },
+  {
+    "id": "20151027OBSS0",
+    "date": "2015-10-27",
+    "season": 2015,
+    "inning": 9,
+    "half": "B",
+    "outs": 3,
+    "source": "https://www.koreabaseball.com/Schedule/GameCenter/Main.aspx?gameDate=20151027&gameId=20151027OBSS0&section=REVIEW",
+    "rawSha256": "935fa3a6d614b6b62cb97c3c938abf34de87d96d7b5301ce67bf39e17fbb31f2"
+  },
+  {
+    "id": "20151029SSOB0",
+    "date": "2015-10-29",
+    "season": 2015,
+    "inning": 9,
+    "half": "T",
+    "outs": 3,
+    "source": "https://www.koreabaseball.com/Schedule/GameCenter/Main.aspx?gameDate=20151029&gameId=20151029SSOB0&section=REVIEW",
+    "rawSha256": "2edf6087e5d1f4a284bd07adbf5721602fb4cc38c88a2b853f739a5d0dcc2f67"
+  },
+  {
+    "id": "20151030SSOB0",
+    "date": "2015-10-30",
+    "season": 2015,
+    "inning": 9,
+    "half": "T",
+    "outs": 3,
+    "source": "https://www.koreabaseball.com/Schedule/GameCenter/Main.aspx?gameDate=20151030&gameId=20151030SSOB0&section=REVIEW",
+    "rawSha256": "27e4b14ed4889e1b030b100c2213e2246a6f7ceaddcd848f19430a6f11f51b16"
+  },
+  {
+    "id": "20151031SSOB0",
+    "date": "2015-10-31",
+    "season": 2015,
+    "inning": 9,
+    "half": "T",
+    "outs": 3,
+    "source": "https://www.koreabaseball.com/Schedule/GameCenter/Main.aspx?gameDate=20151031&gameId=20151031SSOB0&section=REVIEW",
+    "rawSha256": "d774b4092be1c5e1a5b52d03b5f903dcd2a5646593acff16623737984ca95314"
+  },
+  {
+    "id": "20161010HTLG0",
+    "date": "2016-10-10",
+    "season": 2016,
+    "inning": 9,
+    "half": "B",
+    "outs": 3,
+    "source": "https://www.koreabaseball.com/Schedule/GameCenter/Main.aspx?gameDate=20161010&gameId=20161010HTLG0&section=REVIEW",
+    "rawSha256": "246b0f1acfa8fc8d8200fdace975881c87beff32e80df49549089ff27cfe7b05"
+  },
+  {
+    "id": "20161011HTLG0",
+    "date": "2016-10-11",
+    "season": 2016,
+    "inning": 9,
+    "half": "B",
+    "outs": 2,
+    "source": "https://www.koreabaseball.com/Schedule/GameCenter/Main.aspx?gameDate=20161011&gameId=20161011HTLG0&section=REVIEW",
+    "rawSha256": "0933eccab257a15a59ef4611094ace921263f1e3745bef5eeb9818cd76d4e291"
+  },
+  {
+    "id": "20161013LGWO0",
+    "date": "2016-10-13",
+    "season": 2016,
+    "inning": 9,
+    "half": "B",
+    "outs": 3,
+    "source": "https://www.koreabaseball.com/Schedule/GameCenter/Main.aspx?gameDate=20161013&gameId=20161013LGWO0&section=REVIEW",
+    "rawSha256": "0f0bff3b2e68497e1ae40d3c5edb84484a6dab492bcf0c5a0e0401a13ba31643"
+  },
+  {
+    "id": "20161014LGWO0",
+    "date": "2016-10-14",
+    "season": 2016,
+    "inning": 9,
+    "half": "T",
+    "outs": 3,
+    "source": "https://www.koreabaseball.com/Schedule/GameCenter/Main.aspx?gameDate=20161014&gameId=20161014LGWO0&section=REVIEW",
+    "rawSha256": "fefbee81072d4873b00dcc12c27a909e6f7f3e31e2c026edae3b27a1692ac304"
+  },
+  {
+    "id": "20161016WOLG0",
+    "date": "2016-10-16",
+    "season": 2016,
+    "inning": 9,
+    "half": "T",
+    "outs": 3,
+    "source": "https://www.koreabaseball.com/Schedule/GameCenter/Main.aspx?gameDate=20161016&gameId=20161016WOLG0&section=REVIEW",
+    "rawSha256": "0d81c64e27c9664aa898c07cdcbdd68d518bbac817387c08edd58e77ca4b84e0"
+  },
+  {
+    "id": "20161017WOLG0",
+    "date": "2016-10-17",
+    "season": 2016,
+    "inning": 9,
+    "half": "T",
+    "outs": 3,
+    "source": "https://www.koreabaseball.com/Schedule/GameCenter/Main.aspx?gameDate=20161017&gameId=20161017WOLG0&section=REVIEW",
+    "rawSha256": "82f6af424d650a5653c146b319baa2b2a798aea7916adbe63114c758e660a7b5"
+  },
+  {
+    "id": "20161021LGNC0",
+    "date": "2016-10-21",
+    "season": 2016,
+    "inning": 9,
+    "half": "B",
+    "outs": 1,
+    "source": "https://www.koreabaseball.com/Schedule/GameCenter/Main.aspx?gameDate=20161021&gameId=20161021LGNC0&section=REVIEW",
+    "rawSha256": "421500cf29c203cac49479db1522d00b976e727b29dbfcc7b470c624aef1e897"
+  },
+  {
+    "id": "20161022LGNC0",
+    "date": "2016-10-22",
+    "season": 2016,
+    "inning": 9,
+    "half": "T",
+    "outs": 3,
+    "source": "https://www.koreabaseball.com/Schedule/GameCenter/Main.aspx?gameDate=20161022&gameId=20161022LGNC0&section=REVIEW",
+    "rawSha256": "420d8354c4be5a5addf93c9eeceda36fa8124f5e36f1b21d1079cf631a672732"
+  },
+  {
+    "id": "20161024NCLG0",
+    "date": "2016-10-24",
+    "season": 2016,
+    "inning": 11,
+    "half": "B",
+    "outs": 1,
+    "source": "https://www.koreabaseball.com/Schedule/GameCenter/Main.aspx?gameDate=20161024&gameId=20161024NCLG0&section=REVIEW",
+    "rawSha256": "1f0de7f82fd9adf34120f05f1f21397258df92ced2cf1a59b00dd3aab3aee313"
+  },
+  {
+    "id": "20161025NCLG0",
+    "date": "2016-10-25",
+    "season": 2016,
+    "inning": 9,
+    "half": "B",
+    "outs": 3,
+    "source": "https://www.koreabaseball.com/Schedule/GameCenter/Main.aspx?gameDate=20161025&gameId=20161025NCLG0&section=REVIEW",
+    "rawSha256": "cc86c2c37078aa9da64ba08a652bed88cfc50d83aea4daef96924d6001c238c3"
+  },
+  {
+    "id": "20161029NCOB0",
+    "date": "2016-10-29",
+    "season": 2016,
+    "inning": 11,
+    "half": "B",
+    "outs": 2,
+    "source": "https://www.koreabaseball.com/Schedule/GameCenter/Main.aspx?gameDate=20161029&gameId=20161029NCOB0&section=REVIEW",
+    "rawSha256": "95a0556d761621aa92be5797c1b4ecc6d08d68d787f5d2232aeb322df8daab9e"
+  },
+  {
+    "id": "20161030NCOB0",
+    "date": "2016-10-30",
+    "season": 2016,
+    "inning": 9,
+    "half": "T",
+    "outs": 3,
+    "source": "https://www.koreabaseball.com/Schedule/GameCenter/Main.aspx?gameDate=20161030&gameId=20161030NCOB0&section=REVIEW",
+    "rawSha256": "a6086805c2188581001826896b47758b88c8dc64dc3d53f3acc577e6c4c5f3a2"
+  },
+  {
+    "id": "20161101OBNC0",
+    "date": "2016-11-01",
+    "season": 2016,
+    "inning": 9,
+    "half": "B",
+    "outs": 3,
+    "source": "https://www.koreabaseball.com/Schedule/GameCenter/Main.aspx?gameDate=20161101&gameId=20161101OBNC0&section=REVIEW",
+    "rawSha256": "49e51e4a757aab096cad3c5f89bb8a5e2b7a40dfd87e9a79e721a2b8ef37097e"
+  },
+  {
+    "id": "20161102OBNC0",
+    "date": "2016-11-02",
+    "season": 2016,
+    "inning": 9,
+    "half": "B",
+    "outs": 3,
+    "source": "https://www.koreabaseball.com/Schedule/GameCenter/Main.aspx?gameDate=20161102&gameId=20161102OBNC0&section=REVIEW",
+    "rawSha256": "540296ba1f7136b34df82c813c6fe2d56a4e276ffba0a54502ec008399fbb595"
+  },
+  {
+    "id": "20171005SKNC0",
+    "date": "2017-10-05",
+    "season": 2017,
+    "inning": 9,
+    "half": "T",
+    "outs": 3,
+    "source": "https://www.koreabaseball.com/Schedule/GameCenter/Main.aspx?gameDate=20171005&gameId=20171005SKNC0&section=REVIEW",
+    "rawSha256": "8289bca6b876da16f79423dacf3e0324a57a381acb90638603cbf2a1f2ec6816"
+  },
+  {
+    "id": "20171008NCLT0",
+    "date": "2017-10-08",
+    "season": 2017,
+    "inning": 11,
+    "half": "B",
+    "outs": 3,
+    "source": "https://www.koreabaseball.com/Schedule/GameCenter/Main.aspx?gameDate=20171008&gameId=20171008NCLT0&section=REVIEW",
+    "rawSha256": "9afe477318502258502d6a5c1175a3dd4700391bb02d670da31b7818ddc77877"
+  },
+  {
+    "id": "20171009NCLT0",
+    "date": "2017-10-09",
+    "season": 2017,
+    "inning": 9,
+    "half": "T",
+    "outs": 3,
+    "source": "https://www.koreabaseball.com/Schedule/GameCenter/Main.aspx?gameDate=20171009&gameId=20171009NCLT0&section=REVIEW",
+    "rawSha256": "d2d2302bf50509c5d09739efbf23fd2388a1bb29c19c2a13542e2ab86fefd9c9"
+  },
+  {
+    "id": "20171011LTNC0",
+    "date": "2017-10-11",
+    "season": 2017,
+    "inning": 9,
+    "half": "T",
+    "outs": 3,
+    "source": "https://www.koreabaseball.com/Schedule/GameCenter/Main.aspx?gameDate=20171011&gameId=20171011LTNC0&section=REVIEW",
+    "rawSha256": "d826b8cab844cff0dc4f264a509a2916831f4b5bbc22eb98169ca2ccfd8bedd4"
+  },
+  {
+    "id": "20171013LTNC0",
+    "date": "2017-10-13",
+    "season": 2017,
+    "inning": 9,
+    "half": "B",
+    "outs": 3,
+    "source": "https://www.koreabaseball.com/Schedule/GameCenter/Main.aspx?gameDate=20171013&gameId=20171013LTNC0&section=REVIEW",
+    "rawSha256": "a6534f1e0176e18e0ff286828dd5396923f6abba749fdd07152723c2a68caf71"
+  },
+  {
+    "id": "20171015NCLT0",
+    "date": "2017-10-15",
+    "season": 2017,
+    "inning": 9,
+    "half": "B",
+    "outs": 3,
+    "source": "https://www.koreabaseball.com/Schedule/GameCenter/Main.aspx?gameDate=20171015&gameId=20171015NCLT0&section=REVIEW",
+    "rawSha256": "9fb11eb414937f5f736ad2277c6622ede1554fc9cefe52fe4003bbeeceaac06c"
+  },
+  {
+    "id": "20171017NCOB0",
+    "date": "2017-10-17",
+    "season": 2017,
+    "inning": 9,
+    "half": "B",
+    "outs": 3,
+    "source": "https://www.koreabaseball.com/Schedule/GameCenter/Main.aspx?gameDate=20171017&gameId=20171017NCOB0&section=REVIEW",
+    "rawSha256": "c4619cd08557f73a102a6ea54b15ea7cbde8d598d70a068135f02e234c2e117b"
+  },
+  {
+    "id": "20171018NCOB0",
+    "date": "2017-10-18",
+    "season": 2017,
+    "inning": 9,
+    "half": "T",
+    "outs": 3,
+    "source": "https://www.koreabaseball.com/Schedule/GameCenter/Main.aspx?gameDate=20171018&gameId=20171018NCOB0&section=REVIEW",
+    "rawSha256": "a9d7d137b140942ec23d56edf835f0804ffb6b4b3ea0b3fbee9fd2962b0bea50"
+  },
+  {
+    "id": "20171020OBNC0",
+    "date": "2017-10-20",
+    "season": 2017,
+    "inning": 9,
+    "half": "B",
+    "outs": 3,
+    "source": "https://www.koreabaseball.com/Schedule/GameCenter/Main.aspx?gameDate=20171020&gameId=20171020OBNC0&section=REVIEW",
+    "rawSha256": "d9e319a2fbfa1d8d164bdbc7c0600059fad0c83bc383e84430ae6c265040abf0"
+  },
+  {
+    "id": "20171021OBNC0",
+    "date": "2017-10-21",
+    "season": 2017,
+    "inning": 9,
+    "half": "B",
+    "outs": 3,
+    "source": "https://www.koreabaseball.com/Schedule/GameCenter/Main.aspx?gameDate=20171021&gameId=20171021OBNC0&section=REVIEW",
+    "rawSha256": "77c8428a6d2536b5a68de20d95e544aa76721937019109a280ec975916ec0fa7"
+  },
+  {
+    "id": "20171025OBHT0",
+    "date": "2017-10-25",
+    "season": 2017,
+    "inning": 9,
+    "half": "B",
+    "outs": 3,
+    "source": "https://www.koreabaseball.com/Schedule/GameCenter/Main.aspx?gameDate=20171025&gameId=20171025OBHT0&section=REVIEW",
+    "rawSha256": "3948b50282ded758ff426bd047c435f6aa56af89f1bad262b60280e013079c04"
+  },
+  {
+    "id": "20171026OBHT0",
+    "date": "2017-10-26",
+    "season": 2017,
+    "inning": 9,
+    "half": "T",
+    "outs": 3,
+    "source": "https://www.koreabaseball.com/Schedule/GameCenter/Main.aspx?gameDate=20171026&gameId=20171026OBHT0&section=REVIEW",
+    "rawSha256": "2a989cebbeb8ab681aac573b5b2385446796540bb6852f7481b337f6385fd36e"
+  },
+  {
+    "id": "20171028HTOB0",
+    "date": "2017-10-28",
+    "season": 2017,
+    "inning": 9,
+    "half": "B",
+    "outs": 3,
+    "source": "https://www.koreabaseball.com/Schedule/GameCenter/Main.aspx?gameDate=20171028&gameId=20171028HTOB0&section=REVIEW",
+    "rawSha256": "c474373f8ba7ca4dcabddf8cabc1b1af789bcab43203fd190b141a7f865df4c0"
+  },
+  {
+    "id": "20171029HTOB0",
+    "date": "2017-10-29",
+    "season": 2017,
+    "inning": 9,
+    "half": "B",
+    "outs": 3,
+    "source": "https://www.koreabaseball.com/Schedule/GameCenter/Main.aspx?gameDate=20171029&gameId=20171029HTOB0&section=REVIEW",
+    "rawSha256": "d84a9409eb272d2a9fc65c4da1704cdc82ea3262a6980600d9ebfd443fa6c0f5"
+  },
+  {
+    "id": "20171030HTOB0",
+    "date": "2017-10-30",
+    "season": 2017,
+    "inning": 9,
+    "half": "B",
+    "outs": 3,
+    "source": "https://www.koreabaseball.com/Schedule/GameCenter/Main.aspx?gameDate=20171030&gameId=20171030HTOB0&section=REVIEW",
+    "rawSha256": "50e75e60e6dd7329bf13cc44075390a45a0914e6fbb606e52b9da099ae485b07"
+  },
+  {
+    "id": "20181016HTWO0",
+    "date": "2018-10-16",
+    "season": 2018,
+    "inning": 9,
+    "half": "T",
+    "outs": 3,
+    "source": "https://www.koreabaseball.com/Schedule/GameCenter/Main.aspx?gameDate=20181016&gameId=20181016HTWO0&section=REVIEW",
+    "rawSha256": "4458a48b9f8c8ea398322d7fd3fc5375aaae7a97eca3672e0a9b8defd3a757d5"
+  },
+  {
+    "id": "20181019WOHH0",
+    "date": "2018-10-19",
+    "season": 2018,
+    "inning": 9,
+    "half": "B",
+    "outs": 3,
+    "source": "https://www.koreabaseball.com/Schedule/GameCenter/Main.aspx?gameDate=20181019&gameId=20181019WOHH0&section=REVIEW",
+    "rawSha256": "cb340f5bee7bea07cdeddf5b384eaa40cf5f7ac9c9da8944ece5adb7febfa84b"
+  },
+  {
+    "id": "20181020WOHH0",
+    "date": "2018-10-20",
+    "season": 2018,
+    "inning": 9,
+    "half": "B",
+    "outs": 3,
+    "source": "https://www.koreabaseball.com/Schedule/GameCenter/Main.aspx?gameDate=20181020&gameId=20181020WOHH0&section=REVIEW",
+    "rawSha256": "925b0dcc0b9c8669872282760518f6b9c89ce51c017055beed0ef23cb16b4761"
+  },
+  {
+    "id": "20181022HHWO0",
+    "date": "2018-10-22",
+    "season": 2018,
+    "inning": 9,
+    "half": "B",
+    "outs": 3,
+    "source": "https://www.koreabaseball.com/Schedule/GameCenter/Main.aspx?gameDate=20181022&gameId=20181022HHWO0&section=REVIEW",
+    "rawSha256": "0242de6b6b32c6a90194535ec895a570a18aa28e82eaef8b48cecca234accfe7"
+  },
+  {
+    "id": "20181023HHWO0",
+    "date": "2018-10-23",
+    "season": 2018,
+    "inning": 9,
+    "half": "T",
+    "outs": 3,
+    "source": "https://www.koreabaseball.com/Schedule/GameCenter/Main.aspx?gameDate=20181023&gameId=20181023HHWO0&section=REVIEW",
+    "rawSha256": "0e5d8610de50ee7b28eac1f7f8ebef03d2593fe52bb4eb4f09b1fd060bdd8595"
+  },
+  {
+    "id": "20181027WOSK0",
+    "date": "2018-10-27",
+    "season": 2018,
+    "inning": 9,
+    "half": "B",
+    "outs": 1,
+    "source": "https://www.koreabaseball.com/Schedule/GameCenter/Main.aspx?gameDate=20181027&gameId=20181027WOSK0&section=REVIEW",
+    "rawSha256": "2c065b97288f3be3a87a1b50dfe23e480b28133e9b75ffbf2b40fb6086499be3"
+  },
+  {
+    "id": "20181028WOSK0",
+    "date": "2018-10-28",
+    "season": 2018,
+    "inning": 9,
+    "half": "T",
+    "outs": 3,
+    "source": "https://www.koreabaseball.com/Schedule/GameCenter/Main.aspx?gameDate=20181028&gameId=20181028WOSK0&section=REVIEW",
+    "rawSha256": "fdf36d6dbdbdb3240c51bfb57e3726cd6a45cc0b0b5729603cc9b3fdc527d7d5"
+  },
+  {
+    "id": "20181030SKWO0",
+    "date": "2018-10-30",
+    "season": 2018,
+    "inning": 9,
+    "half": "T",
+    "outs": 3,
+    "source": "https://www.koreabaseball.com/Schedule/GameCenter/Main.aspx?gameDate=20181030&gameId=20181030SKWO0&section=REVIEW",
+    "rawSha256": "15177e73c5f2c9e1fbadaa8aecd477db645c56e81bc4948f41276d7e5ec5f655"
+  },
+  {
+    "id": "20181031SKWO0",
+    "date": "2018-10-31",
+    "season": 2018,
+    "inning": 9,
+    "half": "T",
+    "outs": 3,
+    "source": "https://www.koreabaseball.com/Schedule/GameCenter/Main.aspx?gameDate=20181031&gameId=20181031SKWO0&section=REVIEW",
+    "rawSha256": "3ef2f76f8b40d6e0573915acd07d9172d12621e85680f05010cdb60a9317ead6"
+  },
+  {
+    "id": "20181102WOSK0",
+    "date": "2018-11-02",
+    "season": 2018,
+    "inning": 10,
+    "half": "B",
+    "outs": 0,
+    "source": "https://www.koreabaseball.com/Schedule/GameCenter/Main.aspx?gameDate=20181102&gameId=20181102WOSK0&section=REVIEW",
+    "rawSha256": "1371acdc7b4a860f2881edd5ec1ad89926a16b7b307f6258da38bb16e6d39c22"
+  },
+  {
+    "id": "20181104SKOB0",
+    "date": "2018-11-04",
+    "season": 2018,
+    "inning": 9,
+    "half": "B",
+    "outs": 3,
+    "source": "https://www.koreabaseball.com/Schedule/GameCenter/Main.aspx?gameDate=20181104&gameId=20181104SKOB0&section=REVIEW",
+    "rawSha256": "0d356348d82c7f06efa795414379ae3a47aafd4e0825ac1450e00ac12045c332"
+  },
+  {
+    "id": "20181105SKOB0",
+    "date": "2018-11-05",
+    "season": 2018,
+    "inning": 9,
+    "half": "T",
+    "outs": 3,
+    "source": "https://www.koreabaseball.com/Schedule/GameCenter/Main.aspx?gameDate=20181105&gameId=20181105SKOB0&section=REVIEW",
+    "rawSha256": "b0167b4208be238f74351287f9e59cc89cf98b0e25381368ccecadb5167c97d5"
+  },
+  {
+    "id": "20181107OBSK0",
+    "date": "2018-11-07",
+    "season": 2018,
+    "inning": 9,
+    "half": "T",
+    "outs": 3,
+    "source": "https://www.koreabaseball.com/Schedule/GameCenter/Main.aspx?gameDate=20181107&gameId=20181107OBSK0&section=REVIEW",
+    "rawSha256": "808b43fee9d12cfae6d6d939fe36bc2c208f72eea5378e1327aeca408514a455"
+  },
+  {
+    "id": "20181109OBSK0",
+    "date": "2018-11-09",
+    "season": 2018,
+    "inning": 9,
+    "half": "B",
+    "outs": 3,
+    "source": "https://www.koreabaseball.com/Schedule/GameCenter/Main.aspx?gameDate=20181109&gameId=20181109OBSK0&section=REVIEW",
+    "rawSha256": "fc55a45a981948091909c22832171784df4f18b072f059e2889ec9ad30097ccc"
+  },
+  {
+    "id": "20181110OBSK0",
+    "date": "2018-11-10",
+    "season": 2018,
+    "inning": 9,
+    "half": "T",
+    "outs": 3,
+    "source": "https://www.koreabaseball.com/Schedule/GameCenter/Main.aspx?gameDate=20181110&gameId=20181110OBSK0&section=REVIEW",
+    "rawSha256": "600f79edbb8a5710b1f4cfd4b9b22729811065a8255b54762c8800e7317d2efc"
+  },
+  {
+    "id": "20181112SKOB0",
+    "date": "2018-11-12",
+    "season": 2018,
+    "inning": 13,
+    "half": "B",
+    "outs": 3,
+    "source": "https://www.koreabaseball.com/Schedule/GameCenter/Main.aspx?gameDate=20181112&gameId=20181112SKOB0&section=REVIEW",
+    "rawSha256": "74b90e562365e614c2bffd53d5409b94d1c518c8b77a20d3934cca55462ec335"
+  },
+  {
+    "id": "20191003NCLG0",
+    "date": "2019-10-03",
+    "season": 2019,
+    "inning": 9,
+    "half": "T",
+    "outs": 3,
+    "source": "https://www.koreabaseball.com/Schedule/GameCenter/Main.aspx?gameDate=20191003&gameId=20191003NCLG0&section=REVIEW",
+    "rawSha256": "cce1b005ffb5c06ba2b53a64dc7b99d3cea39d201f5f0e9ec6165eeff44cb824"
+  },
+  {
+    "id": "20191006LGWO0",
+    "date": "2019-10-06",
+    "season": 2019,
+    "inning": 9,
+    "half": "B",
+    "outs": 0,
+    "source": "https://www.koreabaseball.com/Schedule/GameCenter/Main.aspx?gameDate=20191006&gameId=20191006LGWO0&section=REVIEW",
+    "rawSha256": "8e6d93fce3fbe510e27c4b6eb345886619c5b773e237637a0a91089a3138ce63"
+  },
+  {
+    "id": "20191007LGWO0",
+    "date": "2019-10-07",
+    "season": 2019,
+    "inning": 10,
+    "half": "B",
+    "outs": 1,
+    "source": "https://www.koreabaseball.com/Schedule/GameCenter/Main.aspx?gameDate=20191007&gameId=20191007LGWO0&section=REVIEW",
+    "rawSha256": "3f46207371b3b856c8fe4f66dc8625254985f83438ea14ffdb987899742fd64b"
+  },
+  {
+    "id": "20191009WOLG0",
+    "date": "2019-10-09",
+    "season": 2019,
+    "inning": 9,
+    "half": "T",
+    "outs": 3,
+    "source": "https://www.koreabaseball.com/Schedule/GameCenter/Main.aspx?gameDate=20191009&gameId=20191009WOLG0&section=REVIEW",
+    "rawSha256": "d9c65b89830eeb4ad426fb03944a97a16b093393426f6c2921230613c0fd8e6f"
+  },
+  {
+    "id": "20191010WOLG0",
+    "date": "2019-10-10",
+    "season": 2019,
+    "inning": 9,
+    "half": "B",
+    "outs": 3,
+    "source": "https://www.koreabaseball.com/Schedule/GameCenter/Main.aspx?gameDate=20191010&gameId=20191010WOLG0&section=REVIEW",
+    "rawSha256": "dac3531255192d8b46cae26718c6449e848d2d3a42a345342bad4d676b075966"
+  },
+  {
+    "id": "20191014WOSK0",
+    "date": "2019-10-14",
+    "season": 2019,
+    "inning": 11,
+    "half": "B",
+    "outs": 3,
+    "source": "https://www.koreabaseball.com/Schedule/GameCenter/Main.aspx?gameDate=20191014&gameId=20191014WOSK0&section=REVIEW",
+    "rawSha256": "715a4bb77173f63d65253ef6f540dac50a4bee34902f42c18ad81242d041619f"
+  },
+  {
+    "id": "20191015WOSK0",
+    "date": "2019-10-15",
+    "season": 2019,
+    "inning": 9,
+    "half": "B",
+    "outs": 3,
+    "source": "https://www.koreabaseball.com/Schedule/GameCenter/Main.aspx?gameDate=20191015&gameId=20191015WOSK0&section=REVIEW",
+    "rawSha256": "6da7b6f830fccc21fbda87ef20e508c74e75cf573ddc746efb34f0f4f569ac51"
+  },
+  {
+    "id": "20191017SKWO0",
+    "date": "2019-10-17",
+    "season": 2019,
+    "inning": 9,
+    "half": "T",
+    "outs": 3,
+    "source": "https://www.koreabaseball.com/Schedule/GameCenter/Main.aspx?gameDate=20191017&gameId=20191017SKWO0&section=REVIEW",
+    "rawSha256": "62ef0188cf5f931c9df43fd2e8d8d9f6017b2f31b507d99c1b3ee43c800e0210"
+  },
+  {
+    "id": "20191022WOOB0",
+    "date": "2019-10-22",
+    "season": 2019,
+    "inning": 9,
+    "half": "B",
+    "outs": 2,
+    "source": "https://www.koreabaseball.com/Schedule/GameCenter/Main.aspx?gameDate=20191022&gameId=20191022WOOB0&section=REVIEW",
+    "rawSha256": "a72632ec5e09d9106339056461e982d37e9985a5a1ad277e99ad78519fae5597"
+  },
+  {
+    "id": "20191023WOOB0",
+    "date": "2019-10-23",
+    "season": 2019,
+    "inning": 9,
+    "half": "B",
+    "outs": 1,
+    "source": "https://www.koreabaseball.com/Schedule/GameCenter/Main.aspx?gameDate=20191023&gameId=20191023WOOB0&section=REVIEW",
+    "rawSha256": "22b0b795a951b525f68aca1161c1dff81ee8878b377d74b0e7a26f4083c841fe"
+  },
+  {
+    "id": "20191025OBWO0",
+    "date": "2019-10-25",
+    "season": 2019,
+    "inning": 9,
+    "half": "B",
+    "outs": 3,
+    "source": "https://www.koreabaseball.com/Schedule/GameCenter/Main.aspx?gameDate=20191025&gameId=20191025OBWO0&section=REVIEW",
+    "rawSha256": "cb10b4ae863386e211dc3aba332075162f832e3895f1ce5f80643926530ef3ac"
+  },
+  {
+    "id": "20191026OBWO0",
+    "date": "2019-10-26",
+    "season": 2019,
+    "inning": 10,
+    "half": "B",
+    "outs": 3,
+    "source": "https://www.koreabaseball.com/Schedule/GameCenter/Main.aspx?gameDate=20191026&gameId=20191026OBWO0&section=REVIEW",
+    "rawSha256": "38baea66fd54bcecd8e98389df967e90619e8f2a8d7da77565c2d42c73ec88ff"
+  },
+  {
+    "id": "20201102WOLG0",
+    "date": "2020-11-02",
+    "season": 2020,
+    "inning": 13,
+    "half": "B",
+    "outs": 2,
+    "source": "https://www.koreabaseball.com/Schedule/GameCenter/Main.aspx?gameDate=20201102&gameId=20201102WOLG0&section=REVIEW",
+    "rawSha256": "07bc6da0d6d4ba5c0541c46d1539c36b25304fbc6220c5bc57a79a87b01d72a3"
+  },
+  {
+    "id": "20201104LGOB0",
+    "date": "2020-11-04",
+    "season": 2020,
+    "inning": 9,
+    "half": "T",
+    "outs": 3,
+    "source": "https://www.koreabaseball.com/Schedule/GameCenter/Main.aspx?gameDate=20201104&gameId=20201104LGOB0&section=REVIEW",
+    "rawSha256": "7f3c2771d389dd2829a6db3995d9ddc7e47512b3916a12ba68ea88473ef651b5"
+  },
+  {
+    "id": "20201105OBLG0",
+    "date": "2020-11-05",
+    "season": 2020,
+    "inning": 9,
+    "half": "B",
+    "outs": 3,
+    "source": "https://www.koreabaseball.com/Schedule/GameCenter/Main.aspx?gameDate=20201105&gameId=20201105OBLG0&section=REVIEW",
+    "rawSha256": "a9c8f13562085c641e960416f7865c8fb9bfbd7c608ef8e1d3b4b7cff4f7d77d"
+  },
+  {
+    "id": "20201109OBKT0",
+    "date": "2020-11-09",
+    "season": 2020,
+    "inning": 9,
+    "half": "B",
+    "outs": 3,
+    "source": "https://www.koreabaseball.com/Schedule/GameCenter/Main.aspx?gameDate=20201109&gameId=20201109OBKT0&section=REVIEW",
+    "rawSha256": "cf391ad40ef1efe18c5fd149860fd1526bfdecceb0336ba36e898d59fa10282b"
+  },
+  {
+    "id": "20201110OBKT0",
+    "date": "2020-11-10",
+    "season": 2020,
+    "inning": 9,
+    "half": "B",
+    "outs": 3,
+    "source": "https://www.koreabaseball.com/Schedule/GameCenter/Main.aspx?gameDate=20201110&gameId=20201110OBKT0&section=REVIEW",
+    "rawSha256": "2be95656a5357fe43f17927167980436ce26540ae219091d751f419fcbc4b0b1"
+  },
+  {
+    "id": "20201112KTOB0",
+    "date": "2020-11-12",
+    "season": 2020,
+    "inning": 9,
+    "half": "B",
+    "outs": 3,
+    "source": "https://www.koreabaseball.com/Schedule/GameCenter/Main.aspx?gameDate=20201112&gameId=20201112KTOB0&section=REVIEW",
+    "rawSha256": "965e6d6ef600a18cc2f9c576012e2ead9540977973772ef6df465b47ae258c7c"
+  },
+  {
+    "id": "20201113KTOB0",
+    "date": "2020-11-13",
+    "season": 2020,
+    "inning": 9,
+    "half": "T",
+    "outs": 3,
+    "source": "https://www.koreabaseball.com/Schedule/GameCenter/Main.aspx?gameDate=20201113&gameId=20201113KTOB0&section=REVIEW",
+    "rawSha256": "990a4d6b5db05985c0c58f556fc71f54d8cd26077d6d85426f8087b95cdd4f7e"
+  },
+  {
+    "id": "20201117OBNC0",
+    "date": "2020-11-17",
+    "season": 2020,
+    "inning": 9,
+    "half": "T",
+    "outs": 3,
+    "source": "https://www.koreabaseball.com/Schedule/GameCenter/Main.aspx?gameDate=20201117&gameId=20201117OBNC0&section=REVIEW",
+    "rawSha256": "fb1649d2dbea56994d683bb4b20685e1be0e2497cd5e5448fec807617c215a7e"
+  },
+  {
+    "id": "20201118OBNC0",
+    "date": "2020-11-18",
+    "season": 2020,
+    "inning": 9,
+    "half": "B",
+    "outs": 3,
+    "source": "https://www.koreabaseball.com/Schedule/GameCenter/Main.aspx?gameDate=20201118&gameId=20201118OBNC0&section=REVIEW",
+    "rawSha256": "88718cc11eb1fbfcc821b1f4de5cff483817c492fb457e34fdc273e6d38a669d"
+  },
+  {
+    "id": "20201120NCOB0",
+    "date": "2020-11-20",
+    "season": 2020,
+    "inning": 9,
+    "half": "T",
+    "outs": 3,
+    "source": "https://www.koreabaseball.com/Schedule/GameCenter/Main.aspx?gameDate=20201120&gameId=20201120NCOB0&section=REVIEW",
+    "rawSha256": "58eeb5b9a83c982026d68af97b7c83e0807ceb09f8364b76fac3072fb59ee946"
+  },
+  {
+    "id": "20201121NCOB0",
+    "date": "2020-11-21",
+    "season": 2020,
+    "inning": 9,
+    "half": "B",
+    "outs": 3,
+    "source": "https://www.koreabaseball.com/Schedule/GameCenter/Main.aspx?gameDate=20201121&gameId=20201121NCOB0&section=REVIEW",
+    "rawSha256": "b7276bcadcb825e64e5b82d63e46492ce2a9de078c68cbf5da10b771d4ddba94"
+  },
+  {
+    "id": "20201123OBNC0",
+    "date": "2020-11-23",
+    "season": 2020,
+    "inning": 9,
+    "half": "T",
+    "outs": 3,
+    "source": "https://www.koreabaseball.com/Schedule/GameCenter/Main.aspx?gameDate=20201123&gameId=20201123OBNC0&section=REVIEW",
+    "rawSha256": "b97944cc97f582a1c075fb52fbeec9000bcbc0f0c99156031b06dca9cb54e3fe"
+  },
+  {
+    "id": "20201124OBNC0",
+    "date": "2020-11-24",
+    "season": 2020,
+    "inning": 9,
+    "half": "T",
+    "outs": 3,
+    "source": "https://www.koreabaseball.com/Schedule/GameCenter/Main.aspx?gameDate=20201124&gameId=20201124OBNC0&section=REVIEW",
+    "rawSha256": "5145aa3f689b7b29902266607644305546a758fa93c6a9d4cbf61225c34c8376"
+  },
+  {
+    "id": "20211101WOOB0",
+    "date": "2021-11-01",
+    "season": 2021,
+    "inning": 9,
+    "half": "B",
+    "outs": 3,
+    "source": "https://www.koreabaseball.com/Schedule/GameCenter/Main.aspx?gameDate=20211101&gameId=20211101WOOB0&section=REVIEW",
+    "rawSha256": "b38e7a9fe8aaf67fdb070ecca19fcc97ddf918a6dc48880346c10c7b6dea2644"
+  },
+  {
+    "id": "20211102WOOB0",
+    "date": "2021-11-02",
+    "season": 2021,
+    "inning": 9,
+    "half": "T",
+    "outs": 3,
+    "source": "https://www.koreabaseball.com/Schedule/GameCenter/Main.aspx?gameDate=20211102&gameId=20211102WOOB0&section=REVIEW",
+    "rawSha256": "0436ba36bb91e2fd3eff8bd890c4778b5077af1598bc224b6d49b69da5fd9fcc"
+  },
+  {
+    "id": "20211104OBLG0",
+    "date": "2021-11-04",
+    "season": 2021,
+    "inning": 9,
+    "half": "B",
+    "outs": 3,
+    "source": "https://www.koreabaseball.com/Schedule/GameCenter/Main.aspx?gameDate=20211104&gameId=20211104OBLG0&section=REVIEW",
+    "rawSha256": "1b210cd2994d35d6e7d3040a1d4217d6a72a0334a665d58afc924b1d4fa4d3f5"
+  },
+  {
+    "id": "20211105LGOB0",
+    "date": "2021-11-05",
+    "season": 2021,
+    "inning": 9,
+    "half": "B",
+    "outs": 3,
+    "source": "https://www.koreabaseball.com/Schedule/GameCenter/Main.aspx?gameDate=20211105&gameId=20211105LGOB0&section=REVIEW",
+    "rawSha256": "ebf1495aa9a976d6c2890c5dec68edbf86dddcfc9b276b2b8aa882db37e95609"
+  },
+  {
+    "id": "20211107OBLG0",
+    "date": "2021-11-07",
+    "season": 2021,
+    "inning": 9,
+    "half": "B",
+    "outs": 3,
+    "source": "https://www.koreabaseball.com/Schedule/GameCenter/Main.aspx?gameDate=20211107&gameId=20211107OBLG0&section=REVIEW",
+    "rawSha256": "b2879ec4b9637f9fc30a812da82d8b0f09d9dda4d20fe9e016b1c2bdb867efd5"
+  },
+  {
+    "id": "20211109OBSS0",
+    "date": "2021-11-09",
+    "season": 2021,
+    "inning": 9,
+    "half": "B",
+    "outs": 3,
+    "source": "https://www.koreabaseball.com/Schedule/GameCenter/Main.aspx?gameDate=20211109&gameId=20211109OBSS0&section=REVIEW",
+    "rawSha256": "4bb5e5d80226d8ec6587ee68289a0b0bcd6889f4b740f4571b8ccffd713c5872"
+  },
+  {
+    "id": "20211110SSOB0",
+    "date": "2021-11-10",
+    "season": 2021,
+    "inning": 9,
+    "half": "T",
+    "outs": 3,
+    "source": "https://www.koreabaseball.com/Schedule/GameCenter/Main.aspx?gameDate=20211110&gameId=20211110SSOB0&section=REVIEW",
+    "rawSha256": "02dd711e8c5c69fb5931222299866b7b3cf62b5e1023f6181a57d13cf02053b4"
+  },
+  {
+    "id": "20211114OBKT0",
+    "date": "2021-11-14",
+    "season": 2021,
+    "inning": 9,
+    "half": "T",
+    "outs": 3,
+    "source": "https://www.koreabaseball.com/Schedule/GameCenter/Main.aspx?gameDate=20211114&gameId=20211114OBKT0&section=REVIEW",
+    "rawSha256": "4f8cf127a37d34238f876c44a264a455e1c756c85347157ca9c1b09162f2cbba"
+  },
+  {
+    "id": "20211115OBKT0",
+    "date": "2021-11-15",
+    "season": 2021,
+    "inning": 9,
+    "half": "T",
+    "outs": 3,
+    "source": "https://www.koreabaseball.com/Schedule/GameCenter/Main.aspx?gameDate=20211115&gameId=20211115OBKT0&section=REVIEW",
+    "rawSha256": "ef00575b97e064593562c9f16ec0404057379c6849b4078cfec8e55c11e1b30b"
+  },
+  {
+    "id": "20211117KTOB0",
+    "date": "2021-11-17",
+    "season": 2021,
+    "inning": 9,
+    "half": "B",
+    "outs": 3,
+    "source": "https://www.koreabaseball.com/Schedule/GameCenter/Main.aspx?gameDate=20211117&gameId=20211117KTOB0&section=REVIEW",
+    "rawSha256": "87c125ca364dda87bd78a5a998604e4f96dd8edbe7c5b08ef996687ed7f61b86"
+  },
+  {
+    "id": "20211118KTOB0",
+    "date": "2021-11-18",
+    "season": 2021,
+    "inning": 9,
+    "half": "B",
+    "outs": 3,
+    "source": "https://www.koreabaseball.com/Schedule/GameCenter/Main.aspx?gameDate=20211118&gameId=20211118KTOB0&section=REVIEW",
+    "rawSha256": "28707e2d6e9ace76d0e458c505031e6b2c289b656a9472eccd04353affdff671"
+  },
+  {
+    "id": "20221013HTKT0",
+    "date": "2022-10-13",
+    "season": 2022,
+    "inning": 9,
+    "half": "T",
+    "outs": 3,
+    "source": "https://www.koreabaseball.com/Schedule/GameCenter/Main.aspx?gameDate=20221013&gameId=20221013HTKT0&section=REVIEW",
+    "rawSha256": "e513cb71dad906a56fce59c1a92e2dfaa3644efdc33df1c0ca69d9b9175cbd3d"
+  },
+  {
+    "id": "20221016KTWO0",
+    "date": "2022-10-16",
+    "season": 2022,
+    "inning": 9,
+    "half": "T",
+    "outs": 3,
+    "source": "https://www.koreabaseball.com/Schedule/GameCenter/Main.aspx?gameDate=20221016&gameId=20221016KTWO0&section=REVIEW",
+    "rawSha256": "7f5b6995848ae1c823a0a93787a8b1860f0894545a363f3a132aa2d39b41c0ba"
+  },
+  {
+    "id": "20221017KTWO0",
+    "date": "2022-10-17",
+    "season": 2022,
+    "inning": 9,
+    "half": "B",
+    "outs": 3,
+    "source": "https://www.koreabaseball.com/Schedule/GameCenter/Main.aspx?gameDate=20221017&gameId=20221017KTWO0&section=REVIEW",
+    "rawSha256": "21644d6930e8253fb4b2b5d4b21d03888a9ad4f212defbfe2e38ac725b9d2bb2"
+  },
+  {
+    "id": "20221019WOKT0",
+    "date": "2022-10-19",
+    "season": 2022,
+    "inning": 9,
+    "half": "B",
+    "outs": 3,
+    "source": "https://www.koreabaseball.com/Schedule/GameCenter/Main.aspx?gameDate=20221019&gameId=20221019WOKT0&section=REVIEW",
+    "rawSha256": "125d89065e16a9f94542b983f4f9340933b66b8d463370f0eda1bde43a4c6180"
+  },
+  {
+    "id": "20221020WOKT0",
+    "date": "2022-10-20",
+    "season": 2022,
+    "inning": 9,
+    "half": "T",
+    "outs": 3,
+    "source": "https://www.koreabaseball.com/Schedule/GameCenter/Main.aspx?gameDate=20221020&gameId=20221020WOKT0&section=REVIEW",
+    "rawSha256": "6b8b0bfcd35f17025d95ae7700bcc8e752a6357f3e820126ee58c4cc9e54cb99"
+  },
+  {
+    "id": "20221022KTWO0",
+    "date": "2022-10-22",
+    "season": 2022,
+    "inning": 9,
+    "half": "T",
+    "outs": 3,
+    "source": "https://www.koreabaseball.com/Schedule/GameCenter/Main.aspx?gameDate=20221022&gameId=20221022KTWO0&section=REVIEW",
+    "rawSha256": "149e343dd5178e76c7c542ef132bc96fbad841a4c5a5cec0cd571c9e49285459"
+  },
+  {
+    "id": "20221024WOLG0",
+    "date": "2022-10-24",
+    "season": 2022,
+    "inning": 9,
+    "half": "T",
+    "outs": 3,
+    "source": "https://www.koreabaseball.com/Schedule/GameCenter/Main.aspx?gameDate=20221024&gameId=20221024WOLG0&section=REVIEW",
+    "rawSha256": "4f3edf994a06f31affbef08aed2b52772840d38e2e62cdf327fc202da8b9c12d"
+  },
+  {
+    "id": "20221025WOLG0",
+    "date": "2022-10-25",
+    "season": 2022,
+    "inning": 9,
+    "half": "B",
+    "outs": 3,
+    "source": "https://www.koreabaseball.com/Schedule/GameCenter/Main.aspx?gameDate=20221025&gameId=20221025WOLG0&section=REVIEW",
+    "rawSha256": "2ebf74ef0f65a53e4953e5d213856fde8ef50626c83e03c63716fab59f288d75"
+  },
+  {
+    "id": "20221027LGWO0",
+    "date": "2022-10-27",
+    "season": 2022,
+    "inning": 9,
+    "half": "T",
+    "outs": 3,
+    "source": "https://www.koreabaseball.com/Schedule/GameCenter/Main.aspx?gameDate=20221027&gameId=20221027LGWO0&section=REVIEW",
+    "rawSha256": "340c2ba02bec54f48e057bd5dc4146d9d0850c8f59abf3c27b387f978deea2be"
+  },
+  {
+    "id": "20221028LGWO0",
+    "date": "2022-10-28",
+    "season": 2022,
+    "inning": 9,
+    "half": "T",
+    "outs": 3,
+    "source": "https://www.koreabaseball.com/Schedule/GameCenter/Main.aspx?gameDate=20221028&gameId=20221028LGWO0&section=REVIEW",
+    "rawSha256": "8dd5cdbd24eaa117198ab305cb4753aed5f9413392b285bd2094ee4e4181c318"
+  },
+  {
+    "id": "20221101WOSK0",
+    "date": "2022-11-01",
+    "season": 2022,
+    "inning": 10,
+    "half": "B",
+    "outs": 3,
+    "source": "https://www.koreabaseball.com/Schedule/GameCenter/Main.aspx?gameDate=20221101&gameId=20221101WOSK0&section=REVIEW",
+    "rawSha256": "3b4776500ff980101ea70831f179c39ce3c48559117bdacc4d0c8a1c27134cbe"
+  },
+  {
+    "id": "20221102WOSK0",
+    "date": "2022-11-02",
+    "season": 2022,
+    "inning": 9,
+    "half": "T",
+    "outs": 3,
+    "source": "https://www.koreabaseball.com/Schedule/GameCenter/Main.aspx?gameDate=20221102&gameId=20221102WOSK0&section=REVIEW",
+    "rawSha256": "c753a6fd53d98b59aec4c6112a18a1b343bb8446835ec1d2b6f052f18c805081"
+  },
+  {
+    "id": "20221104SKWO0",
+    "date": "2022-11-04",
+    "season": 2022,
+    "inning": 9,
+    "half": "B",
+    "outs": 3,
+    "source": "https://www.koreabaseball.com/Schedule/GameCenter/Main.aspx?gameDate=20221104&gameId=20221104SKWO0&section=REVIEW",
+    "rawSha256": "9f457c168038631314ccf34812a3b94a093a352c1482d6d53b4f0e852000b174"
+  },
+  {
+    "id": "20221105SKWO0",
+    "date": "2022-11-05",
+    "season": 2022,
+    "inning": 9,
+    "half": "T",
+    "outs": 3,
+    "source": "https://www.koreabaseball.com/Schedule/GameCenter/Main.aspx?gameDate=20221105&gameId=20221105SKWO0&section=REVIEW",
+    "rawSha256": "a986b5b6891d959e5fa6c35b00d71e9b737eb1fb32f8b481944c44a94092f6e8"
+  },
+  {
+    "id": "20221107WOSK0",
+    "date": "2022-11-07",
+    "season": 2022,
+    "inning": 9,
+    "half": "B",
+    "outs": 0,
+    "source": "https://www.koreabaseball.com/Schedule/GameCenter/Main.aspx?gameDate=20221107&gameId=20221107WOSK0&section=REVIEW",
+    "rawSha256": "f100da14f5e2f67c2013e8294d0cf44e56855504b1d9da0d4a51bc497c9ccc4a"
+  },
+  {
+    "id": "20221108WOSK0",
+    "date": "2022-11-08",
+    "season": 2022,
+    "inning": 9,
+    "half": "T",
+    "outs": 3,
+    "source": "https://www.koreabaseball.com/Schedule/GameCenter/Main.aspx?gameDate=20221108&gameId=20221108WOSK0&section=REVIEW",
+    "rawSha256": "59df1d0b71bcf52e5c66cc07b01c0811085f2f002e41c6bf28e8d6a7e03a4da0"
+  },
+  {
+    "id": "20231019OBNC0",
+    "date": "2023-10-19",
+    "season": 2023,
+    "inning": 9,
+    "half": "T",
+    "outs": 3,
+    "source": "https://www.koreabaseball.com/Schedule/GameCenter/Main.aspx?gameDate=20231019&gameId=20231019OBNC0&section=REVIEW",
+    "rawSha256": "98934796d1795aa94e7d537f90783fa2d5e43dff45bad768c9a558720f441d08"
+  },
+  {
+    "id": "20231022NCSK0",
+    "date": "2023-10-22",
+    "season": 2023,
+    "inning": 9,
+    "half": "B",
+    "outs": 3,
+    "source": "https://www.koreabaseball.com/Schedule/GameCenter/Main.aspx?gameDate=20231022&gameId=20231022NCSK0&section=REVIEW",
+    "rawSha256": "7efe5e001899cc9673687341fd3f35c1c33ea42070dc488e461adae57135593a"
+  },
+  {
+    "id": "20231023NCSK0",
+    "date": "2023-10-23",
+    "season": 2023,
+    "inning": 9,
+    "half": "B",
+    "outs": 3,
+    "source": "https://www.koreabaseball.com/Schedule/GameCenter/Main.aspx?gameDate=20231023&gameId=20231023NCSK0&section=REVIEW",
+    "rawSha256": "1ea20efcd88a101d750017df60b5a77da24f27fc5d73c10f4568727e4bbe0329"
+  },
+  {
+    "id": "20231025SKNC0",
+    "date": "2023-10-25",
+    "season": 2023,
+    "inning": 9,
+    "half": "T",
+    "outs": 3,
+    "source": "https://www.koreabaseball.com/Schedule/GameCenter/Main.aspx?gameDate=20231025&gameId=20231025SKNC0&section=REVIEW",
+    "rawSha256": "b3b2b5101be6d9d049f485f73c50ab38ae2db2863f0ac384d255c21557a325a2"
+  },
+  {
+    "id": "20231030NCKT0",
+    "date": "2023-10-30",
+    "season": 2023,
+    "inning": 9,
+    "half": "B",
+    "outs": 3,
+    "source": "https://www.koreabaseball.com/Schedule/GameCenter/Main.aspx?gameDate=20231030&gameId=20231030NCKT0&section=REVIEW",
+    "rawSha256": "5d2a0de39c193a8b445eb0f025ac4f650f4deac746a57b7d7542b2f388723783"
+  },
+  {
+    "id": "20231031NCKT0",
+    "date": "2023-10-31",
+    "season": 2023,
+    "inning": 9,
+    "half": "B",
+    "outs": 3,
+    "source": "https://www.koreabaseball.com/Schedule/GameCenter/Main.aspx?gameDate=20231031&gameId=20231031NCKT0&section=REVIEW",
+    "rawSha256": "1e8b33d4467db3df88ae5eb623d605463263177bbcd6e314fe1bf03ad76956c6"
+  },
+  {
+    "id": "20231102KTNC0",
+    "date": "2023-11-02",
+    "season": 2023,
+    "inning": 9,
+    "half": "B",
+    "outs": 3,
+    "source": "https://www.koreabaseball.com/Schedule/GameCenter/Main.aspx?gameDate=20231102&gameId=20231102KTNC0&section=REVIEW",
+    "rawSha256": "6c5552cea7fa6391110fee758b9c2e7230c56d8fec7fe0ff7cd0d7da810b34d3"
+  },
+  {
+    "id": "20231103KTNC0",
+    "date": "2023-11-03",
+    "season": 2023,
+    "inning": 9,
+    "half": "B",
+    "outs": 3,
+    "source": "https://www.koreabaseball.com/Schedule/GameCenter/Main.aspx?gameDate=20231103&gameId=20231103KTNC0&section=REVIEW",
+    "rawSha256": "14f52f91097fbd66334ab2642adbb571210cecf6da428f31312669b445c0e56c"
+  },
+  {
+    "id": "20231105NCKT0",
+    "date": "2023-11-05",
+    "season": 2023,
+    "inning": 9,
+    "half": "T",
+    "outs": 3,
+    "source": "https://www.koreabaseball.com/Schedule/GameCenter/Main.aspx?gameDate=20231105&gameId=20231105NCKT0&section=REVIEW",
+    "rawSha256": "f6325ba62e3265b5eb4471236c5d26289afce2d810f952a221836637783023c2"
+  },
+  {
+    "id": "20231107KTLG0",
+    "date": "2023-11-07",
+    "season": 2023,
+    "inning": 9,
+    "half": "B",
+    "outs": 3,
+    "source": "https://www.koreabaseball.com/Schedule/GameCenter/Main.aspx?gameDate=20231107&gameId=20231107KTLG0&section=REVIEW",
+    "rawSha256": "b282007d6486229357fac98342c3221e9223ebf2afdc43098fcb980232864f6d"
+  },
+  {
+    "id": "20231108KTLG0",
+    "date": "2023-11-08",
+    "season": 2023,
+    "inning": 9,
+    "half": "T",
+    "outs": 3,
+    "source": "https://www.koreabaseball.com/Schedule/GameCenter/Main.aspx?gameDate=20231108&gameId=20231108KTLG0&section=REVIEW",
+    "rawSha256": "4e884d13d8d119ee3a5e02206a4654ac48f0996d5a2f9b93ba62cc142894b9cf"
+  },
+  {
+    "id": "20231110LGKT0",
+    "date": "2023-11-10",
+    "season": 2023,
+    "inning": 9,
+    "half": "B",
+    "outs": 3,
+    "source": "https://www.koreabaseball.com/Schedule/GameCenter/Main.aspx?gameDate=20231110&gameId=20231110LGKT0&section=REVIEW",
+    "rawSha256": "841af6ce5542e686ab1df21e9eb5f5b0dd446e3c422434c598effe5d88dc0560"
+  },
+  {
+    "id": "20231111LGKT0",
+    "date": "2023-11-11",
+    "season": 2023,
+    "inning": 9,
+    "half": "B",
+    "outs": 3,
+    "source": "https://www.koreabaseball.com/Schedule/GameCenter/Main.aspx?gameDate=20231111&gameId=20231111LGKT0&section=REVIEW",
+    "rawSha256": "a0857e52799abd26dce2b9d521bc01297d01ff752baf9b6d5674da1a2b58f603"
+  },
+  {
+    "id": "20231113KTLG0",
+    "date": "2023-11-13",
+    "season": 2023,
+    "inning": 9,
+    "half": "T",
+    "outs": 3,
+    "source": "https://www.koreabaseball.com/Schedule/GameCenter/Main.aspx?gameDate=20231113&gameId=20231113KTLG0&section=REVIEW",
+    "rawSha256": "ce8970189ed5372e07058e7a1cde8ccb7e23cbc752eb22977fae82dbfb750a74"
+  },
+  {
+    "id": "20241002KTOB0",
+    "date": "2024-10-02",
+    "season": 2024,
+    "inning": 9,
+    "half": "B",
+    "outs": 3,
+    "source": "https://www.koreabaseball.com/Schedule/GameCenter/Main.aspx?gameDate=20241002&gameId=20241002KTOB0&section=REVIEW",
+    "rawSha256": "66ca0a3ef9b9ad20805aa52ea5defca76edf6ceb6907a2b9c6976abdf675af2d"
+  },
+  {
+    "id": "20241003KTOB0",
+    "date": "2024-10-03",
+    "season": 2024,
+    "inning": 9,
+    "half": "B",
+    "outs": 3,
+    "source": "https://www.koreabaseball.com/Schedule/GameCenter/Main.aspx?gameDate=20241003&gameId=20241003KTOB0&section=REVIEW",
+    "rawSha256": "0e1fb489c2ecc5332c4ab371e06d2804c10d7224b00626f9bd1299a19277a2cb"
+  },
+  {
+    "id": "20241005KTLG0",
+    "date": "2024-10-05",
+    "season": 2024,
+    "inning": 9,
+    "half": "B",
+    "outs": 3,
+    "source": "https://www.koreabaseball.com/Schedule/GameCenter/Main.aspx?gameDate=20241005&gameId=20241005KTLG0&section=REVIEW",
+    "rawSha256": "d0f55167f943f247020e7aaefb109e00c0e84eb156dd8b7e8fe4e61049d6214b"
+  },
+  {
+    "id": "20241006KTLG0",
+    "date": "2024-10-06",
+    "season": 2024,
+    "inning": 9,
+    "half": "T",
+    "outs": 3,
+    "source": "https://www.koreabaseball.com/Schedule/GameCenter/Main.aspx?gameDate=20241006&gameId=20241006KTLG0&section=REVIEW",
+    "rawSha256": "abcdcc405f09cee898d90315119c1ddc5f0c54f04a0dd3332bd7bc7faa66507f"
+  },
+  {
+    "id": "20241008LGKT0",
+    "date": "2024-10-08",
+    "season": 2024,
+    "inning": 9,
+    "half": "B",
+    "outs": 3,
+    "source": "https://www.koreabaseball.com/Schedule/GameCenter/Main.aspx?gameDate=20241008&gameId=20241008LGKT0&section=REVIEW",
+    "rawSha256": "9ab9cba1818cfa4441ef1dee8d98fbb6b26f0ee09a8ff525eedbc4bc3123ebe4"
+  },
+  {
+    "id": "20241009LGKT0",
+    "date": "2024-10-09",
+    "season": 2024,
+    "inning": 11,
+    "half": "B",
+    "outs": 2,
+    "source": "https://www.koreabaseball.com/Schedule/GameCenter/Main.aspx?gameDate=20241009&gameId=20241009LGKT0&section=REVIEW",
+    "rawSha256": "c66d3285c9b64f21f65f5457b46983e65e62576cb5f580e03acbddae193c1a3a"
+  },
+  {
+    "id": "20241011KTLG0",
+    "date": "2024-10-11",
+    "season": 2024,
+    "inning": 9,
+    "half": "T",
+    "outs": 3,
+    "source": "https://www.koreabaseball.com/Schedule/GameCenter/Main.aspx?gameDate=20241011&gameId=20241011KTLG0&section=REVIEW",
+    "rawSha256": "c547855bf540fc5d931757b944e7c40aa2043b426cebaa0ec4ec83c6c50842ec"
+  },
+  {
+    "id": "20241013LGSS0",
+    "date": "2024-10-13",
+    "season": 2024,
+    "inning": 9,
+    "half": "T",
+    "outs": 3,
+    "source": "https://www.koreabaseball.com/Schedule/GameCenter/Main.aspx?gameDate=20241013&gameId=20241013LGSS0&section=REVIEW",
+    "rawSha256": "70b5b7ba70b45ed4142dc8f63bfe9b59f88e3a27639499f0d3ca2503717e575e"
+  },
+  {
+    "id": "20241015LGSS0",
+    "date": "2024-10-15",
+    "season": 2024,
+    "inning": 9,
+    "half": "T",
+    "outs": 3,
+    "source": "https://www.koreabaseball.com/Schedule/GameCenter/Main.aspx?gameDate=20241015&gameId=20241015LGSS0&section=REVIEW",
+    "rawSha256": "7a2a7f92271afb4061625e821f735fef31a5a68e9336819bd224f29d16f48cf0"
+  },
+  {
+    "id": "20241017SSLG0",
+    "date": "2024-10-17",
+    "season": 2024,
+    "inning": 9,
+    "half": "T",
+    "outs": 3,
+    "source": "https://www.koreabaseball.com/Schedule/GameCenter/Main.aspx?gameDate=20241017&gameId=20241017SSLG0&section=REVIEW",
+    "rawSha256": "128f72c53e377bb15f1ed449d884378d5fd3068cac952beadfbc0c545ded9d25"
+  },
+  {
+    "id": "20241019SSLG0",
+    "date": "2024-10-19",
+    "season": 2024,
+    "inning": 9,
+    "half": "B",
+    "outs": 3,
+    "source": "https://www.koreabaseball.com/Schedule/GameCenter/Main.aspx?gameDate=20241019&gameId=20241019SSLG0&section=REVIEW",
+    "rawSha256": "cd73ddec1891f3fd9263acfaf182965853344ae56185e04b74bb43bddf0773cb"
+  },
+  {
+    "id": "20241021SSHT0",
+    "date": "2024-10-21",
+    "season": 2024,
+    "inning": 9,
+    "half": "T",
+    "outs": 3,
+    "source": "https://www.koreabaseball.com/Schedule/GameCenter/Main.aspx?gameDate=20241021&gameId=20241021SSHT0&section=REVIEW",
+    "rawSha256": "6fe7801cea179bfb83da1b4f7350c4d06abc16a60e65dadcefbee377927f2435"
+  },
+  {
+    "id": "20241023SSHT0",
+    "date": "2024-10-23",
+    "season": 2024,
+    "inning": 9,
+    "half": "T",
+    "outs": 3,
+    "source": "https://www.koreabaseball.com/Schedule/GameCenter/Main.aspx?gameDate=20241023&gameId=20241023SSHT0&section=REVIEW",
+    "rawSha256": "eff4ca2332f6033cb046c1db2a9f0383ac01bc814bff2fe9bd39cc499cf5fe16"
+  },
+  {
+    "id": "20241025HTSS0",
+    "date": "2024-10-25",
+    "season": 2024,
+    "inning": 9,
+    "half": "T",
+    "outs": 3,
+    "source": "https://www.koreabaseball.com/Schedule/GameCenter/Main.aspx?gameDate=20241025&gameId=20241025HTSS0&section=REVIEW",
+    "rawSha256": "3e9a7e4189a76ad4d0a8feeb0aa11c691ad70fe9223898f4c4c16dccb10d4ece"
+  },
+  {
+    "id": "20241026HTSS0",
+    "date": "2024-10-26",
+    "season": 2024,
+    "inning": 9,
+    "half": "B",
+    "outs": 3,
+    "source": "https://www.koreabaseball.com/Schedule/GameCenter/Main.aspx?gameDate=20241026&gameId=20241026HTSS0&section=REVIEW",
+    "rawSha256": "3dd2f1fcf0b6177730950a160b2e34f4908e6e4c6f1e379a57ddd2a77fb77d66"
+  },
+  {
+    "id": "20241028SSHT0",
+    "date": "2024-10-28",
+    "season": 2024,
+    "inning": 9,
+    "half": "T",
+    "outs": 3,
+    "source": "https://www.koreabaseball.com/Schedule/GameCenter/Main.aspx?gameDate=20241028&gameId=20241028SSHT0&section=REVIEW",
+    "rawSha256": "fafcb06c6e133683751ea9b2a16fd41f6120eeddac640f8ca2742962bcb80d88"
+  },
+  {
+    "id": "20251006NCSS0",
+    "date": "2025-10-06",
+    "season": 2025,
+    "inning": 9,
+    "half": "B",
+    "outs": 3,
+    "source": "https://www.koreabaseball.com/Schedule/GameCenter/Main.aspx?gameDate=20251006&gameId=20251006NCSS0&section=REVIEW",
+    "rawSha256": "f01f85bf7d7d05a449fc274750309b28c2be3e78a438e7b3f6fe87586d2499a9"
+  },
+  {
+    "id": "20251007NCSS0",
+    "date": "2025-10-07",
+    "season": 2025,
+    "inning": 9,
+    "half": "T",
+    "outs": 3,
+    "source": "https://www.koreabaseball.com/Schedule/GameCenter/Main.aspx?gameDate=20251007&gameId=20251007NCSS0&section=REVIEW",
+    "rawSha256": "0d142630785d0096f584b15e812cd1fa67deaa6203d2f4471ddd256608c380a7"
+  },
+  {
+    "id": "20251009SSSK0",
+    "date": "2025-10-09",
+    "season": 2025,
+    "inning": 9,
+    "half": "B",
+    "outs": 3,
+    "source": "https://www.koreabaseball.com/Schedule/GameCenter/Main.aspx?gameDate=20251009&gameId=20251009SSSK0&section=REVIEW",
+    "rawSha256": "2492cc1fbd295c8c96d53e7f514ee14c91d357e15b138193e73ed68cbcf2c0bd"
+  },
+  {
+    "id": "20251011SSSK0",
+    "date": "2025-10-11",
+    "season": 2025,
+    "inning": 9,
+    "half": "B",
+    "outs": 1,
+    "source": "https://www.koreabaseball.com/Schedule/GameCenter/Main.aspx?gameDate=20251011&gameId=20251011SSSK0&section=REVIEW",
+    "rawSha256": "f22d6813b7d1897a9d6cff588892df998e0112d9b77058e49051c2d8c980d1d1"
+  },
+  {
+    "id": "20251013SKSS0",
+    "date": "2025-10-13",
+    "season": 2025,
+    "inning": 9,
+    "half": "T",
+    "outs": 3,
+    "source": "https://www.koreabaseball.com/Schedule/GameCenter/Main.aspx?gameDate=20251013&gameId=20251013SKSS0&section=REVIEW",
+    "rawSha256": "5480e2af093e9f016b48ffd0966cbfd30d2334d688734e03a6efb4dce74bb13b"
+  },
+  {
+    "id": "20251014SKSS0",
+    "date": "2025-10-14",
+    "season": 2025,
+    "inning": 9,
+    "half": "T",
+    "outs": 3,
+    "source": "https://www.koreabaseball.com/Schedule/GameCenter/Main.aspx?gameDate=20251014&gameId=20251014SKSS0&section=REVIEW",
+    "rawSha256": "2efed96ea46fc8762671023ec950db65fb28dbc8feee8c1388313400330cff5f"
+  },
+  {
+    "id": "20251018SSHH0",
+    "date": "2025-10-18",
+    "season": 2025,
+    "inning": 9,
+    "half": "T",
+    "outs": 3,
+    "source": "https://www.koreabaseball.com/Schedule/GameCenter/Main.aspx?gameDate=20251018&gameId=20251018SSHH0&section=REVIEW",
+    "rawSha256": "d6ecaacdf11b3bd88e272537dbaf95550df85ac5f5c0465726cce10aad9aba1d"
+  },
+  {
+    "id": "20251019SSHH0",
+    "date": "2025-10-19",
+    "season": 2025,
+    "inning": 9,
+    "half": "B",
+    "outs": 3,
+    "source": "https://www.koreabaseball.com/Schedule/GameCenter/Main.aspx?gameDate=20251019&gameId=20251019SSHH0&section=REVIEW",
+    "rawSha256": "2a588a0315c978b92c5314aae9c413c37df594143c4f90503aecd35986d9817a"
+  },
+  {
+    "id": "20251021HHSS0",
+    "date": "2025-10-21",
+    "season": 2025,
+    "inning": 9,
+    "half": "B",
+    "outs": 3,
+    "source": "https://www.koreabaseball.com/Schedule/GameCenter/Main.aspx?gameDate=20251021&gameId=20251021HHSS0&section=REVIEW",
+    "rawSha256": "57d0335addd29c2a9af970e1de62d86b23f66007a2c744d4de811f469ff5fef4"
+  },
+  {
+    "id": "20251022HHSS0",
+    "date": "2025-10-22",
+    "season": 2025,
+    "inning": 9,
+    "half": "T",
+    "outs": 3,
+    "source": "https://www.koreabaseball.com/Schedule/GameCenter/Main.aspx?gameDate=20251022&gameId=20251022HHSS0&section=REVIEW",
+    "rawSha256": "3d57bb245bdda542e87faaa7c99a34589ae5939ee6a875c083a3db9a66c9dd25"
+  },
+  {
+    "id": "20251024SSHH0",
+    "date": "2025-10-24",
+    "season": 2025,
+    "inning": 9,
+    "half": "T",
+    "outs": 3,
+    "source": "https://www.koreabaseball.com/Schedule/GameCenter/Main.aspx?gameDate=20251024&gameId=20251024SSHH0&section=REVIEW",
+    "rawSha256": "630b35512b8c805e72eb54f5b1348668d212b90d0f2af8c9a0be5061e5cdeeb1"
+  },
+  {
+    "id": "20251026HHLG0",
+    "date": "2025-10-26",
+    "season": 2025,
+    "inning": 9,
+    "half": "T",
+    "outs": 3,
+    "source": "https://www.koreabaseball.com/Schedule/GameCenter/Main.aspx?gameDate=20251026&gameId=20251026HHLG0&section=REVIEW",
+    "rawSha256": "cf2e9032ad766272e55f7fd35a6a3410c52c822c9d6038f6c62f0b05e7a283dc"
+  },
+  {
+    "id": "20251027HHLG0",
+    "date": "2025-10-27",
+    "season": 2025,
+    "inning": 9,
+    "half": "T",
+    "outs": 3,
+    "source": "https://www.koreabaseball.com/Schedule/GameCenter/Main.aspx?gameDate=20251027&gameId=20251027HHLG0&section=REVIEW",
+    "rawSha256": "d21cb5d95fe3b8ffee2cc2d2144d27b5756bfe850d55a2ba3b6ea96c11d991f1"
+  },
+  {
+    "id": "20251029LGHH0",
+    "date": "2025-10-29",
+    "season": 2025,
+    "inning": 9,
+    "half": "T",
+    "outs": 3,
+    "source": "https://www.koreabaseball.com/Schedule/GameCenter/Main.aspx?gameDate=20251029&gameId=20251029LGHH0&section=REVIEW",
+    "rawSha256": "49fdc3db74d858b7df27afe5f82ddbd14fc04b8fc163688fc6c9a131b5efa733"
+  },
+  {
+    "id": "20251030LGHH0",
+    "date": "2025-10-30",
+    "season": 2025,
+    "inning": 9,
+    "half": "B",
+    "outs": 3,
+    "source": "https://www.koreabaseball.com/Schedule/GameCenter/Main.aspx?gameDate=20251030&gameId=20251030LGHH0&section=REVIEW",
+    "rawSha256": "efab78328f6bc7198947dcaf4d637a7fd19a4a989f940c21041fbdd25f6fd02a"
+  },
+  {
+    "id": "20251031LGHH0",
+    "date": "2025-10-31",
+    "season": 2025,
+    "inning": 9,
+    "half": "B",
+    "outs": 3,
+    "source": "https://www.koreabaseball.com/Schedule/GameCenter/Main.aspx?gameDate=20251031&gameId=20251031LGHH0&section=REVIEW",
+    "rawSha256": "4b7d05500fdffc2fcd73aecf72146a7c8410a4553e2ff5a4272e583c7fed6acb"
+  }
+]

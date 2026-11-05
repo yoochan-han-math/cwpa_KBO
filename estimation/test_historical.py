@@ -10,7 +10,7 @@ class HistoricalFitTests(unittest.TestCase):
     def setUpClass(cls):
         cls.rows,cls.initial,cls.summary,cls.exclusions=prepare(DATA)
         cls.regular=regular_features(DATA)
-        cls.report=json.loads((ROOT/'model-fit.json').read_text(encoding='utf-8'))
+        cls.report=json.loads((ROOT/'strength-home-fit.json').read_text(encoding='utf-8'))
 
     def test_real_source_coverage_and_activity_exceptions(self):
         self.assertEqual(len(self.rows),229);self.assertEqual(len(self.regular),8130)

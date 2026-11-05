@@ -5,8 +5,9 @@ import {createHash} from 'node:crypto';
 import {calculateModel,adjustedPrior} from './models.mjs';
 import {fittedModel} from './fitted-model.mjs';
 import {engine,teams} from './model.mjs';
+import {fatigueAdapter} from './fatigue.mjs';
 const read=name=>JSON.parse(readFileSync(new URL(name,import.meta.url)));
-const games=read('./data.json'),report=read('./model-fit.json'),training=read('./estimation/data/training-features.json');
+const games=read('./data.json'),report=read('./model-fit.json'),training=read('./fatigue-training-features.json');
 const close=(a,b)=>assert.ok(Math.abs(a-b)<1e-10,`${a} != ${b}`);
 
 test('published coefficients, reports and normalized source hashes agree',()=>{
@@ -19,7 +20,7 @@ test('published coefficients, reports and normalized source hashes agree',()=>{
   assert.equal(read('./estimation/data/postseason.json').length,231);
 });
 test('adjusted all reachable states conserve probability and terminate correctly',()=>{
-  const e=engine((_s,c)=>adjustedPrior(c.home,c.away)),seen=new Set();
+  const e=engine((_s,c)=>c.fatigue.homePrior,fatigueAdapter()),seen=new Set();
   function walk(s){const k=JSON.stringify(s);if(seen.has(k))return;seen.add(k);const p=e.probs(s);close(p.reduce((a,b)=>a+b,0),1);assert.ok(p.every(x=>x>=0&&x<=1));if(s.champion)assert.equal(p[teams.indexOf(s.champion)],1);else{const c=e.context(s);walk(e.step(s,c.high));walk(e.step(s,c.low));}}
   walk(e.initial);
 });
@@ -39,7 +40,7 @@ test('adjusted source WP shifts, per-play formula and all-game telescope agree',
     for(const r of rows){r.cp.forEach((v,i)=>sums[i]+=100*(v-previous[i]));previous=r.cp;}
     sums.forEach((v,i)=>close(v,g.change[i]));
   }
-  for(let i=1;i<data.summaries.length;i++)data.summaries[i].start.forEach((v,j)=>close(v,data.summaries[i-1].end[j]));
+  for(let i=1;i<data.summaries.length;i++)data.summaries[i].start.forEach((v,j)=>close((v-data.summaries[i-1].end[j])*100,data.summaries[i].calendarChange[j]));
 });
 test('adjusted forecasts do not use subsequent observed games or dates',()=>{
   const full=calculateModel(games,'kbo-adjusted'),prefix=calculateModel(games.slice(0,9),'kbo-adjusted');
@@ -56,8 +57,11 @@ test('2026 inputs are pre-postseason observations; current outcomes cannot refit
   assert.ok(report.selection.candidates.every(c=>c.folds.every(f=>f.year<=2022&&f.trainThrough<f.year)));
   assert.equal(report.holdout.trainedThrough,2022);assert.equal(report.holdout.adjusted.n,44);
 });
-test('rest/fatigue were estimated and rejected by published earlier-season criterion',()=>{
-  const best=report.selection.candidates[0];assert.deepEqual(best.features,['strength','home']);
+test('fatigue inclusion is explicit and all candidate results remain public',()=>{
+  const best=report.selection.candidates[0];assert.deepEqual(best.features,['strength','home','load7']);
+  assert.equal(report.selection.candidates.length,48);
+  assert.ok(report.comparisonWithoutFatigue.validation.logLoss<best.validation.logLoss);
+  assert.ok(report.coefficientIntervals.intervals95.load7[0]<0);
   for(const family of report.familyComparison){
     assert.ok(family.validation.logLoss>=best.validation.logLoss);
     for(const f of family.features)assert.ok(Number.isFinite(family.deploymentCoefficients[f]));

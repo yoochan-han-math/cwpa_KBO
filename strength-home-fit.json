@@ -1,0 +1,5116 @@
+{
+  "id": "kbo-adjusted-v1",
+  "status": "estimated-experimental",
+  "available": true,
+  "checkedAt": "2026-11-05",
+  "trainingPeriod": "2010–2025",
+  "sampleSize": 229,
+  "coefficients": {
+    "strength": 0.6860342481998694,
+    "home": 0.10922659486963733
+  },
+  "features": [
+    "strength",
+    "home"
+  ],
+  "lambda": 1.0,
+  "priorType": "regular-season",
+  "regularPrior": {
+    "eligibleGames": 8130,
+    "coefficients": {
+      "strength": 0.44246760205433244,
+      "home": 0.10088017581157983
+    },
+    "minimumPriorDecisions": 30,
+    "fit": "unpenalized logistic; prior-calendar-date features only"
+  },
+  "familyComparison": [
+    {
+      "features": [
+        "strength",
+        "home"
+      ],
+      "lambda": 1.0,
+      "priorType": "regular-season",
+      "validation": {
+        "n": 126,
+        "logLoss": 0.6867553328577265,
+        "brier": 0.2468132024763982,
+        "accuracy": 0.5317460317460317,
+        "meanPrediction": 0.5244585973525441,
+        "observedHomeWin": 0.5396825396825397
+      },
+      "folds": [
+        {
+          "year": 2014,
+          "trainThrough": 2013,
+          "n": 14,
+          "logLoss": 0.6935998851330908,
+          "brier": 0.25022693253558737,
+          "accuracy": 0.5714285714285714,
+          "meanPrediction": 0.5144015359340719,
+          "observedHomeWin": 0.35714285714285715
+        },
+        {
+          "year": 2015,
+          "trainThrough": 2014,
+          "n": 15,
+          "logLoss": 0.7046523191970858,
+          "brier": 0.2557384449076769,
+          "accuracy": 0.4666666666666667,
+          "meanPrediction": 0.5190356073920445,
+          "observedHomeWin": 0.6666666666666666
+        },
+        {
+          "year": 2016,
+          "trainThrough": 2015,
+          "n": 14,
+          "logLoss": 0.6511676993670095,
+          "brier": 0.22914156625777846,
+          "accuracy": 0.6428571428571429,
+          "meanPrediction": 0.5247142957368045,
+          "observedHomeWin": 0.6428571428571429
+        },
+        {
+          "year": 2017,
+          "trainThrough": 2016,
+          "n": 15,
+          "logLoss": 0.7002531902661995,
+          "brier": 0.25355824227871093,
+          "accuracy": 0.3333333333333333,
+          "meanPrediction": 0.5292864128078376,
+          "observedHomeWin": 0.3333333333333333
+        },
+        {
+          "year": 2018,
+          "trainThrough": 2017,
+          "n": 16,
+          "logLoss": 0.7048086256591246,
+          "brier": 0.25569843354771654,
+          "accuracy": 0.5625,
+          "meanPrediction": 0.5263996003327491,
+          "observedHomeWin": 0.625
+        },
+        {
+          "year": 2019,
+          "trainThrough": 2018,
+          "n": 12,
+          "logLoss": 0.6707231642071009,
+          "brier": 0.23884122267877572,
+          "accuracy": 0.5833333333333334,
+          "meanPrediction": 0.5305376295790468,
+          "observedHomeWin": 0.5833333333333334
+        },
+        {
+          "year": 2020,
+          "trainThrough": 2019,
+          "n": 13,
+          "logLoss": 0.6814895138860327,
+          "brier": 0.2441779520734536,
+          "accuracy": 0.5384615384615384,
+          "meanPrediction": 0.5114256795153272,
+          "observedHomeWin": 0.5384615384615384
+        },
+        {
+          "year": 2021,
+          "trainThrough": 2020,
+          "n": 11,
+          "logLoss": 0.7068190605772666,
+          "brier": 0.2567786166806073,
+          "accuracy": 0.5454545454545454,
+          "meanPrediction": 0.5232417165067494,
+          "observedHomeWin": 0.36363636363636365
+        },
+        {
+          "year": 2022,
+          "trainThrough": 2021,
+          "n": 16,
+          "logLoss": 0.6669283617014583,
+          "brier": 0.2369816532358054,
+          "accuracy": 0.5625,
+          "meanPrediction": 0.5385183402802496,
+          "observedHomeWin": 0.6875
+        }
+      ],
+      "deploymentCoefficients": {
+        "strength": 0.6860342481998694,
+        "home": 0.10922659486963733
+      }
+    },
+    {
+      "features": [
+        "strength",
+        "home",
+        "rest"
+      ],
+      "lambda": 1.0,
+      "priorType": "regular-season",
+      "validation": {
+        "n": 126,
+        "logLoss": 0.6875033577740562,
+        "brier": 0.24719571351896705,
+        "accuracy": 0.5317460317460317,
+        "meanPrediction": 0.525602046876768,
+        "observedHomeWin": 0.5396825396825397
+      },
+      "folds": [
+        {
+          "year": 2014,
+          "trainThrough": 2013,
+          "n": 14,
+          "logLoss": 0.6941739354362871,
+          "brier": 0.2506115303253544,
+          "accuracy": 0.5714285714285714,
+          "meanPrediction": 0.516617478214222,
+          "observedHomeWin": 0.35714285714285715
+        },
+        {
+          "year": 2015,
+          "trainThrough": 2014,
+          "n": 15,
+          "logLoss": 0.7028686804769777,
+          "brier": 0.2548682471677114,
+          "accuracy": 0.4666666666666667,
+          "meanPrediction": 0.5213197844374655,
+          "observedHomeWin": 0.6666666666666666
+        },
+        {
+          "year": 2016,
+          "trainThrough": 2015,
+          "n": 14,
+          "logLoss": 0.649249366893929,
+          "brier": 0.2282164915437412,
+          "accuracy": 0.6428571428571429,
+          "meanPrediction": 0.5270094662187221,
+          "observedHomeWin": 0.6428571428571429
+        },
+        {
+          "year": 2017,
+          "trainThrough": 2016,
+          "n": 15,
+          "logLoss": 0.7083586505864238,
+          "brier": 0.2575570466489149,
+          "accuracy": 0.3333333333333333,
+          "meanPrediction": 0.5323361891356125,
+          "observedHomeWin": 0.3333333333333333
+        },
+        {
+          "year": 2018,
+          "trainThrough": 2017,
+          "n": 16,
+          "logLoss": 0.7055543163428701,
+          "brier": 0.2560534995553444,
+          "accuracy": 0.5625,
+          "meanPrediction": 0.5269353399333991,
+          "observedHomeWin": 0.625
+        },
+        {
+          "year": 2019,
+          "trainThrough": 2018,
+          "n": 12,
+          "logLoss": 0.6709031908241014,
+          "brier": 0.23893023736303995,
+          "accuracy": 0.5833333333333334,
+          "meanPrediction": 0.5301088420512597,
+          "observedHomeWin": 0.5833333333333334
+        },
+        {
+          "year": 2020,
+          "trainThrough": 2019,
+          "n": 13,
+          "logLoss": 0.6816792025212742,
+          "brier": 0.24427230395491933,
+          "accuracy": 0.5384615384615384,
+          "meanPrediction": 0.5111879473447882,
+          "observedHomeWin": 0.5384615384615384
+        },
+        {
+          "year": 2021,
+          "trainThrough": 2020,
+          "n": 11,
+          "logLoss": 0.7070796341279606,
+          "brier": 0.256906158661642,
+          "accuracy": 0.5454545454545454,
+          "meanPrediction": 0.5235501793713908,
+          "observedHomeWin": 0.36363636363636365
+        },
+        {
+          "year": 2022,
+          "trainThrough": 2021,
+          "n": 16,
+          "logLoss": 0.6668546200873591,
+          "brier": 0.23694760325244452,
+          "accuracy": 0.5625,
+          "meanPrediction": 0.5383421405436446,
+          "observedHomeWin": 0.6875
+        }
+      ],
+      "deploymentCoefficients": {
+        "strength": 0.6900588379765751,
+        "home": 0.11009863708309406,
+        "rest": -0.01628845524898714
+      }
+    },
+    {
+      "features": [
+        "strength",
+        "home",
+        "rest",
+        "games7"
+      ],
+      "lambda": 1.0,
+      "priorType": "regular-season",
+      "validation": {
+        "n": 126,
+        "logLoss": 0.6878145157938579,
+        "brier": 0.24734899106511984,
+        "accuracy": 0.5396825396825397,
+        "meanPrediction": 0.5262371672347123,
+        "observedHomeWin": 0.5396825396825397
+      },
+      "folds": [
+        {
+          "year": 2014,
+          "trainThrough": 2013,
+          "n": 14,
+          "logLoss": 0.6945909345152044,
+          "brier": 0.25080398506033685,
+          "accuracy": 0.5714285714285714,
+          "meanPrediction": 0.517938578271197,
+          "observedHomeWin": 0.35714285714285715
+        },
+        {
+          "year": 2015,
+          "trainThrough": 2014,
+          "n": 15,
+          "logLoss": 0.7043625209075532,
+          "brier": 0.2556122455495691,
+          "accuracy": 0.4666666666666667,
+          "meanPrediction": 0.521924683234955,
+          "observedHomeWin": 0.6666666666666666
+        },
+        {
+          "year": 2016,
+          "trainThrough": 2015,
+          "n": 14,
+          "logLoss": 0.6488895358468822,
+          "brier": 0.22805009376743593,
+          "accuracy": 0.6428571428571429,
+          "meanPrediction": 0.5275305790660985,
+          "observedHomeWin": 0.6428571428571429
+        },
+        {
+          "year": 2017,
+          "trainThrough": 2016,
+          "n": 15,
+          "logLoss": 0.7078453258182038,
+          "brier": 0.25729193640601467,
+          "accuracy": 0.4,
+          "meanPrediction": 0.5330063301473152,
+          "observedHomeWin": 0.3333333333333333
+        },
+        {
+          "year": 2018,
+          "trainThrough": 2017,
+          "n": 16,
+          "logLoss": 0.7052363121435138,
+          "brier": 0.25589246204105587,
+          "accuracy": 0.5625,
+          "meanPrediction": 0.5282177335263553,
+          "observedHomeWin": 0.625
+        },
+        {
+          "year": 2019,
+          "trainThrough": 2018,
+          "n": 12,
+          "logLoss": 0.672394231392285,
+          "brier": 0.23967291151348666,
+          "accuracy": 0.5833333333333334,
+          "meanPrediction": 0.5308389961781107,
+          "observedHomeWin": 0.5833333333333334
+        },
+        {
+          "year": 2020,
+          "trainThrough": 2019,
+          "n": 13,
+          "logLoss": 0.6825514001591997,
+          "brier": 0.24470781564004665,
+          "accuracy": 0.5384615384615384,
+          "meanPrediction": 0.5117527632596766,
+          "observedHomeWin": 0.5384615384615384
+        },
+        {
+          "year": 2021,
+          "trainThrough": 2020,
+          "n": 11,
+          "logLoss": 0.7074540581218284,
+          "brier": 0.2570897917196912,
+          "accuracy": 0.5454545454545454,
+          "meanPrediction": 0.5237138653232933,
+          "observedHomeWin": 0.36363636363636365
+        },
+        {
+          "year": 2022,
+          "trainThrough": 2021,
+          "n": 16,
+          "logLoss": 0.6665693807285743,
+          "brier": 0.23680683738916103,
+          "accuracy": 0.5625,
+          "meanPrediction": 0.538134971039157,
+          "observedHomeWin": 0.6875
+        }
+      ],
+      "deploymentCoefficients": {
+        "strength": 0.69168318409281,
+        "home": 0.1102139533315817,
+        "rest": -0.015802876665435877,
+        "games7": 0.0014351755233620955
+      }
+    }
+  ],
+  "selection": {
+    "metric": "logLoss",
+    "validationSeasons": "2014–2022 expanding window",
+    "candidates": [
+      {
+        "features": [
+          "strength",
+          "home"
+        ],
+        "lambda": 1.0,
+        "priorType": "regular-season",
+        "validation": {
+          "n": 126,
+          "logLoss": 0.6867553328577265,
+          "brier": 0.2468132024763982,
+          "accuracy": 0.5317460317460317,
+          "meanPrediction": 0.5244585973525441,
+          "observedHomeWin": 0.5396825396825397
+        },
+        "folds": [
+          {
+            "year": 2014,
+            "trainThrough": 2013,
+            "n": 14,
+            "logLoss": 0.6935998851330908,
+            "brier": 0.25022693253558737,
+            "accuracy": 0.5714285714285714,
+            "meanPrediction": 0.5144015359340719,
+            "observedHomeWin": 0.35714285714285715
+          },
+          {
+            "year": 2015,
+            "trainThrough": 2014,
+            "n": 15,
+            "logLoss": 0.7046523191970858,
+            "brier": 0.2557384449076769,
+            "accuracy": 0.4666666666666667,
+            "meanPrediction": 0.5190356073920445,
+            "observedHomeWin": 0.6666666666666666
+          },
+          {
+            "year": 2016,
+            "trainThrough": 2015,
+            "n": 14,
+            "logLoss": 0.6511676993670095,
+            "brier": 0.22914156625777846,
+            "accuracy": 0.6428571428571429,
+            "meanPrediction": 0.5247142957368045,
+            "observedHomeWin": 0.6428571428571429
+          },
+          {
+            "year": 2017,
+            "trainThrough": 2016,
+            "n": 15,
+            "logLoss": 0.7002531902661995,
+            "brier": 0.25355824227871093,
+            "accuracy": 0.3333333333333333,
+            "meanPrediction": 0.5292864128078376,
+            "observedHomeWin": 0.3333333333333333
+          },
+          {
+            "year": 2018,
+            "trainThrough": 2017,
+            "n": 16,
+            "logLoss": 0.7048086256591246,
+            "brier": 0.25569843354771654,
+            "accuracy": 0.5625,
+            "meanPrediction": 0.5263996003327491,
+            "observedHomeWin": 0.625
+          },
+          {
+            "year": 2019,
+            "trainThrough": 2018,
+            "n": 12,
+            "logLoss": 0.6707231642071009,
+            "brier": 0.23884122267877572,
+            "accuracy": 0.5833333333333334,
+            "meanPrediction": 0.5305376295790468,
+            "observedHomeWin": 0.5833333333333334
+          },
+          {
+            "year": 2020,
+            "trainThrough": 2019,
+            "n": 13,
+            "logLoss": 0.6814895138860327,
+            "brier": 0.2441779520734536,
+            "accuracy": 0.5384615384615384,
+            "meanPrediction": 0.5114256795153272,
+            "observedHomeWin": 0.5384615384615384
+          },
+          {
+            "year": 2021,
+            "trainThrough": 2020,
+            "n": 11,
+            "logLoss": 0.7068190605772666,
+            "brier": 0.2567786166806073,
+            "accuracy": 0.5454545454545454,
+            "meanPrediction": 0.5232417165067494,
+            "observedHomeWin": 0.36363636363636365
+          },
+          {
+            "year": 2022,
+            "trainThrough": 2021,
+            "n": 16,
+            "logLoss": 0.6669283617014583,
+            "brier": 0.2369816532358054,
+            "accuracy": 0.5625,
+            "meanPrediction": 0.5385183402802496,
+            "observedHomeWin": 0.6875
+          }
+        ]
+      },
+      {
+        "features": [
+          "strength",
+          "home",
+          "rest"
+        ],
+        "lambda": 1.0,
+        "priorType": "regular-season",
+        "validation": {
+          "n": 126,
+          "logLoss": 0.6875033577740562,
+          "brier": 0.24719571351896705,
+          "accuracy": 0.5317460317460317,
+          "meanPrediction": 0.525602046876768,
+          "observedHomeWin": 0.5396825396825397
+        },
+        "folds": [
+          {
+            "year": 2014,
+            "trainThrough": 2013,
+            "n": 14,
+            "logLoss": 0.6941739354362871,
+            "brier": 0.2506115303253544,
+            "accuracy": 0.5714285714285714,
+            "meanPrediction": 0.516617478214222,
+            "observedHomeWin": 0.35714285714285715
+          },
+          {
+            "year": 2015,
+            "trainThrough": 2014,
+            "n": 15,
+            "logLoss": 0.7028686804769777,
+            "brier": 0.2548682471677114,
+            "accuracy": 0.4666666666666667,
+            "meanPrediction": 0.5213197844374655,
+            "observedHomeWin": 0.6666666666666666
+          },
+          {
+            "year": 2016,
+            "trainThrough": 2015,
+            "n": 14,
+            "logLoss": 0.649249366893929,
+            "brier": 0.2282164915437412,
+            "accuracy": 0.6428571428571429,
+            "meanPrediction": 0.5270094662187221,
+            "observedHomeWin": 0.6428571428571429
+          },
+          {
+            "year": 2017,
+            "trainThrough": 2016,
+            "n": 15,
+            "logLoss": 0.7083586505864238,
+            "brier": 0.2575570466489149,
+            "accuracy": 0.3333333333333333,
+            "meanPrediction": 0.5323361891356125,
+            "observedHomeWin": 0.3333333333333333
+          },
+          {
+            "year": 2018,
+            "trainThrough": 2017,
+            "n": 16,
+            "logLoss": 0.7055543163428701,
+            "brier": 0.2560534995553444,
+            "accuracy": 0.5625,
+            "meanPrediction": 0.5269353399333991,
+            "observedHomeWin": 0.625
+          },
+          {
+            "year": 2019,
+            "trainThrough": 2018,
+            "n": 12,
+            "logLoss": 0.6709031908241014,
+            "brier": 0.23893023736303995,
+            "accuracy": 0.5833333333333334,
+            "meanPrediction": 0.5301088420512597,
+            "observedHomeWin": 0.5833333333333334
+          },
+          {
+            "year": 2020,
+            "trainThrough": 2019,
+            "n": 13,
+            "logLoss": 0.6816792025212742,
+            "brier": 0.24427230395491933,
+            "accuracy": 0.5384615384615384,
+            "meanPrediction": 0.5111879473447882,
+            "observedHomeWin": 0.5384615384615384
+          },
+          {
+            "year": 2021,
+            "trainThrough": 2020,
+            "n": 11,
+            "logLoss": 0.7070796341279606,
+            "brier": 0.256906158661642,
+            "accuracy": 0.5454545454545454,
+            "meanPrediction": 0.5235501793713908,
+            "observedHomeWin": 0.36363636363636365
+          },
+          {
+            "year": 2022,
+            "trainThrough": 2021,
+            "n": 16,
+            "logLoss": 0.6668546200873591,
+            "brier": 0.23694760325244452,
+            "accuracy": 0.5625,
+            "meanPrediction": 0.5383421405436446,
+            "observedHomeWin": 0.6875
+          }
+        ]
+      },
+      {
+        "features": [
+          "strength",
+          "home",
+          "rest",
+          "games7"
+        ],
+        "lambda": 1.0,
+        "priorType": "regular-season",
+        "validation": {
+          "n": 126,
+          "logLoss": 0.6878145157938579,
+          "brier": 0.24734899106511984,
+          "accuracy": 0.5396825396825397,
+          "meanPrediction": 0.5262371672347123,
+          "observedHomeWin": 0.5396825396825397
+        },
+        "folds": [
+          {
+            "year": 2014,
+            "trainThrough": 2013,
+            "n": 14,
+            "logLoss": 0.6945909345152044,
+            "brier": 0.25080398506033685,
+            "accuracy": 0.5714285714285714,
+            "meanPrediction": 0.517938578271197,
+            "observedHomeWin": 0.35714285714285715
+          },
+          {
+            "year": 2015,
+            "trainThrough": 2014,
+            "n": 15,
+            "logLoss": 0.7043625209075532,
+            "brier": 0.2556122455495691,
+            "accuracy": 0.4666666666666667,
+            "meanPrediction": 0.521924683234955,
+            "observedHomeWin": 0.6666666666666666
+          },
+          {
+            "year": 2016,
+            "trainThrough": 2015,
+            "n": 14,
+            "logLoss": 0.6488895358468822,
+            "brier": 0.22805009376743593,
+            "accuracy": 0.6428571428571429,
+            "meanPrediction": 0.5275305790660985,
+            "observedHomeWin": 0.6428571428571429
+          },
+          {
+            "year": 2017,
+            "trainThrough": 2016,
+            "n": 15,
+            "logLoss": 0.7078453258182038,
+            "brier": 0.25729193640601467,
+            "accuracy": 0.4,
+            "meanPrediction": 0.5330063301473152,
+            "observedHomeWin": 0.3333333333333333
+          },
+          {
+            "year": 2018,
+            "trainThrough": 2017,
+            "n": 16,
+            "logLoss": 0.7052363121435138,
+            "brier": 0.25589246204105587,
+            "accuracy": 0.5625,
+            "meanPrediction": 0.5282177335263553,
+            "observedHomeWin": 0.625
+          },
+          {
+            "year": 2019,
+            "trainThrough": 2018,
+            "n": 12,
+            "logLoss": 0.672394231392285,
+            "brier": 0.23967291151348666,
+            "accuracy": 0.5833333333333334,
+            "meanPrediction": 0.5308389961781107,
+            "observedHomeWin": 0.5833333333333334
+          },
+          {
+            "year": 2020,
+            "trainThrough": 2019,
+            "n": 13,
+            "logLoss": 0.6825514001591997,
+            "brier": 0.24470781564004665,
+            "accuracy": 0.5384615384615384,
+            "meanPrediction": 0.5117527632596766,
+            "observedHomeWin": 0.5384615384615384
+          },
+          {
+            "year": 2021,
+            "trainThrough": 2020,
+            "n": 11,
+            "logLoss": 0.7074540581218284,
+            "brier": 0.2570897917196912,
+            "accuracy": 0.5454545454545454,
+            "meanPrediction": 0.5237138653232933,
+            "observedHomeWin": 0.36363636363636365
+          },
+          {
+            "year": 2022,
+            "trainThrough": 2021,
+            "n": 16,
+            "logLoss": 0.6665693807285743,
+            "brier": 0.23680683738916103,
+            "accuracy": 0.5625,
+            "meanPrediction": 0.538134971039157,
+            "observedHomeWin": 0.6875
+          }
+        ]
+      },
+      {
+        "features": [
+          "strength",
+          "home"
+        ],
+        "lambda": 1.0,
+        "priorType": "zero",
+        "validation": {
+          "n": 126,
+          "logLoss": 0.6909122390367032,
+          "brier": 0.24888729245840774,
+          "accuracy": 0.5317460317460317,
+          "meanPrediction": 0.5060607986002797,
+          "observedHomeWin": 0.5396825396825397
+        },
+        "folds": [
+          {
+            "year": 2014,
+            "trainThrough": 2013,
+            "n": 14,
+            "logLoss": 0.6876012983043464,
+            "brier": 0.24727872046759014,
+            "accuracy": 0.5714285714285714,
+            "meanPrediction": 0.5057057090870246,
+            "observedHomeWin": 0.35714285714285715
+          },
+          {
+            "year": 2015,
+            "trainThrough": 2014,
+            "n": 15,
+            "logLoss": 0.7049678721088125,
+            "brier": 0.2559035283251285,
+            "accuracy": 0.4666666666666667,
+            "meanPrediction": 0.5011213883331526,
+            "observedHomeWin": 0.6666666666666666
+          },
+          {
+            "year": 2016,
+            "trainThrough": 2015,
+            "n": 14,
+            "logLoss": 0.6754699988919832,
+            "brier": 0.2411703650283899,
+            "accuracy": 0.6428571428571429,
+            "meanPrediction": 0.5063112096320926,
+            "observedHomeWin": 0.6428571428571429
+          },
+          {
+            "year": 2017,
+            "trainThrough": 2016,
+            "n": 15,
+            "logLoss": 0.6924244120535128,
+            "brier": 0.24963939142494024,
+            "accuracy": 0.4666666666666667,
+            "meanPrediction": 0.5097480085253733,
+            "observedHomeWin": 0.3333333333333333
+          },
+          {
+            "year": 2018,
+            "trainThrough": 2017,
+            "n": 16,
+            "logLoss": 0.7021719341084427,
+            "brier": 0.25449691605651925,
+            "accuracy": 0.4375,
+            "meanPrediction": 0.5049150715090847,
+            "observedHomeWin": 0.625
+          },
+          {
+            "year": 2019,
+            "trainThrough": 2018,
+            "n": 12,
+            "logLoss": 0.6843949695352866,
+            "brier": 0.2456260562013558,
+            "accuracy": 0.5833333333333334,
+            "meanPrediction": 0.5073271286223223,
+            "observedHomeWin": 0.5833333333333334
+          },
+          {
+            "year": 2020,
+            "trainThrough": 2019,
+            "n": 13,
+            "logLoss": 0.6885987387305228,
+            "brier": 0.24772615158267813,
+            "accuracy": 0.5384615384615384,
+            "meanPrediction": 0.5035279611262885,
+            "observedHomeWin": 0.5384615384615384
+          },
+          {
+            "year": 2021,
+            "trainThrough": 2020,
+            "n": 11,
+            "logLoss": 0.6946904461840403,
+            "brier": 0.2507701925730705,
+            "accuracy": 0.5454545454545454,
+            "meanPrediction": 0.5063666941144113,
+            "observedHomeWin": 0.36363636363636365
+          },
+          {
+            "year": 2022,
+            "trainThrough": 2021,
+            "n": 16,
+            "logLoss": 0.6856369127350854,
+            "brier": 0.24624952727284052,
+            "accuracy": 0.5625,
+            "meanPrediction": 0.5093699369485136,
+            "observedHomeWin": 0.6875
+          }
+        ]
+      },
+      {
+        "features": [
+          "strength",
+          "home",
+          "rest"
+        ],
+        "lambda": 1.0,
+        "priorType": "zero",
+        "validation": {
+          "n": 126,
+          "logLoss": 0.6917592823201929,
+          "brier": 0.24931564760376076,
+          "accuracy": 0.5317460317460317,
+          "meanPrediction": 0.5081398594932474,
+          "observedHomeWin": 0.5396825396825397
+        },
+        "folds": [
+          {
+            "year": 2014,
+            "trainThrough": 2013,
+            "n": 14,
+            "logLoss": 0.6880553033974716,
+            "brier": 0.24756469132049255,
+            "accuracy": 0.5714285714285714,
+            "meanPrediction": 0.5084607608355957,
+            "observedHomeWin": 0.35714285714285715
+          },
+          {
+            "year": 2015,
+            "trainThrough": 2014,
+            "n": 15,
+            "logLoss": 0.7021324075001146,
+            "brier": 0.25449786872226965,
+            "accuracy": 0.4666666666666667,
+            "meanPrediction": 0.5042831091108607,
+            "observedHomeWin": 0.6666666666666666
+          },
+          {
+            "year": 2016,
+            "trainThrough": 2015,
+            "n": 14,
+            "logLoss": 0.6724985810359925,
+            "brier": 0.23969772670887685,
+            "accuracy": 0.6428571428571429,
+            "meanPrediction": 0.5093798461775051,
+            "observedHomeWin": 0.6428571428571429
+          },
+          {
+            "year": 2017,
+            "trainThrough": 2016,
+            "n": 15,
+            "logLoss": 0.7026583678318569,
+            "brier": 0.254732430209417,
+            "accuracy": 0.4666666666666667,
+            "meanPrediction": 0.513767350682016,
+            "observedHomeWin": 0.3333333333333333
+          },
+          {
+            "year": 2018,
+            "trainThrough": 2017,
+            "n": 16,
+            "logLoss": 0.7039500355092072,
+            "brier": 0.2553743378037436,
+            "accuracy": 0.4375,
+            "meanPrediction": 0.5063792577063755,
+            "observedHomeWin": 0.625
+          },
+          {
+            "year": 2019,
+            "trainThrough": 2018,
+            "n": 12,
+            "logLoss": 0.6840387914990326,
+            "brier": 0.2454481916840265,
+            "accuracy": 0.5833333333333334,
+            "meanPrediction": 0.5080080054253758,
+            "observedHomeWin": 0.5833333333333334
+          },
+          {
+            "year": 2020,
+            "trainThrough": 2019,
+            "n": 13,
+            "logLoss": 0.687821841930613,
+            "brier": 0.24733812562020402,
+            "accuracy": 0.5384615384615384,
+            "meanPrediction": 0.5044617141907815,
+            "observedHomeWin": 0.5384615384615384
+          },
+          {
+            "year": 2021,
+            "trainThrough": 2020,
+            "n": 11,
+            "logLoss": 0.6959538818684122,
+            "brier": 0.2513999308180747,
+            "accuracy": 0.5454545454545454,
+            "meanPrediction": 0.508083345155293,
+            "observedHomeWin": 0.36363636363636365
+          },
+          {
+            "year": 2022,
+            "trainThrough": 2021,
+            "n": 16,
+            "logLoss": 0.6858256780318757,
+            "brier": 0.24634254278485573,
+            "accuracy": 0.5625,
+            "meanPrediction": 0.5100008519673569,
+            "observedHomeWin": 0.6875
+          }
+        ]
+      },
+      {
+        "features": [
+          "strength",
+          "home",
+          "rest",
+          "games7"
+        ],
+        "lambda": 1.0,
+        "priorType": "zero",
+        "validation": {
+          "n": 126,
+          "logLoss": 0.6923048870866447,
+          "brier": 0.24958757326050218,
+          "accuracy": 0.5317460317460317,
+          "meanPrediction": 0.5094001554476615,
+          "observedHomeWin": 0.5396825396825397
+        },
+        "folds": [
+          {
+            "year": 2014,
+            "trainThrough": 2013,
+            "n": 14,
+            "logLoss": 0.6881948795695738,
+            "brier": 0.2476375516544192,
+            "accuracy": 0.6428571428571429,
+            "meanPrediction": 0.5102093866196645,
+            "observedHomeWin": 0.35714285714285715
+          },
+          {
+            "year": 2015,
+            "trainThrough": 2014,
+            "n": 15,
+            "logLoss": 0.7040077336865965,
+            "brier": 0.25543721323756896,
+            "accuracy": 0.4666666666666667,
+            "meanPrediction": 0.5052055979784842,
+            "observedHomeWin": 0.6666666666666666
+          },
+          {
+            "year": 2016,
+            "trainThrough": 2015,
+            "n": 14,
+            "logLoss": 0.6714873943652693,
+            "brier": 0.2392004170030864,
+            "accuracy": 0.6428571428571429,
+            "meanPrediction": 0.5104974476933515,
+            "observedHomeWin": 0.6428571428571429
+          },
+          {
+            "year": 2017,
+            "trainThrough": 2016,
+            "n": 15,
+            "logLoss": 0.701542336838089,
+            "brier": 0.2541634967813665,
+            "accuracy": 0.4666666666666667,
+            "meanPrediction": 0.5150155541962187,
+            "observedHomeWin": 0.3333333333333333
+          },
+          {
+            "year": 2018,
+            "trainThrough": 2017,
+            "n": 16,
+            "logLoss": 0.7029635624466855,
+            "brier": 0.25487575056266265,
+            "accuracy": 0.4375,
+            "meanPrediction": 0.5086080374339841,
+            "observedHomeWin": 0.625
+          },
+          {
+            "year": 2019,
+            "trainThrough": 2018,
+            "n": 12,
+            "logLoss": 0.6864335347736382,
+            "brier": 0.2466448442394538,
+            "accuracy": 0.5,
+            "meanPrediction": 0.5092567052048423,
+            "observedHomeWin": 0.5833333333333334
+          },
+          {
+            "year": 2020,
+            "trainThrough": 2019,
+            "n": 13,
+            "logLoss": 0.6898601347158677,
+            "brier": 0.24835758713130873,
+            "accuracy": 0.5384615384615384,
+            "meanPrediction": 0.5057782162184762,
+            "observedHomeWin": 0.5384615384615384
+          },
+          {
+            "year": 2021,
+            "trainThrough": 2020,
+            "n": 11,
+            "logLoss": 0.6976407004462621,
+            "brier": 0.25224026588922865,
+            "accuracy": 0.5454545454545454,
+            "meanPrediction": 0.5088842706788884,
+            "observedHomeWin": 0.36363636363636365
+          },
+          {
+            "year": 2022,
+            "trainThrough": 2021,
+            "n": 16,
+            "logLoss": 0.6865477504570855,
+            "brier": 0.24670314512309882,
+            "accuracy": 0.5625,
+            "meanPrediction": 0.5105971108557967,
+            "observedHomeWin": 0.6875
+          }
+        ]
+      },
+      {
+        "features": [
+          "strength",
+          "home"
+        ],
+        "lambda": 0.1,
+        "priorType": "zero",
+        "validation": {
+          "n": 126,
+          "logLoss": 0.696706304275826,
+          "brier": 0.25146879895877844,
+          "accuracy": 0.5317460317460317,
+          "meanPrediction": 0.5198586513856268,
+          "observedHomeWin": 0.5396825396825397
+        },
+        "folds": [
+          {
+            "year": 2014,
+            "trainThrough": 2013,
+            "n": 14,
+            "logLoss": 0.7230795267893241,
+            "brier": 0.26323085753111874,
+            "accuracy": 0.5714285714285714,
+            "meanPrediction": 0.515353087996874,
+            "observedHomeWin": 0.35714285714285715
+          },
+          {
+            "year": 2015,
+            "trainThrough": 2014,
+            "n": 15,
+            "logLoss": 0.7472609979453076,
+            "brier": 0.27661780837139277,
+            "accuracy": 0.4666666666666667,
+            "meanPrediction": 0.502131052662257,
+            "observedHomeWin": 0.6666666666666666
+          },
+          {
+            "year": 2016,
+            "trainThrough": 2015,
+            "n": 14,
+            "logLoss": 0.6373709204463782,
+            "brier": 0.2224484920882703,
+            "accuracy": 0.6428571428571429,
+            "meanPrediction": 0.521091562505665,
+            "observedHomeWin": 0.6428571428571429
+          },
+          {
+            "year": 2017,
+            "trainThrough": 2016,
+            "n": 15,
+            "logLoss": 0.6925437943533592,
+            "brier": 0.2497199314312389,
+            "accuracy": 0.4666666666666667,
+            "meanPrediction": 0.5335346268602134,
+            "observedHomeWin": 0.3333333333333333
+          },
+          {
+            "year": 2018,
+            "trainThrough": 2017,
+            "n": 16,
+            "logLoss": 0.7408337793876905,
+            "brier": 0.2728315856940793,
+            "accuracy": 0.4375,
+            "meanPrediction": 0.5156958644024372,
+            "observedHomeWin": 0.625
+          },
+          {
+            "year": 2019,
+            "trainThrough": 2018,
+            "n": 12,
+            "logLoss": 0.6646087025687423,
+            "brier": 0.23581604517072532,
+            "accuracy": 0.5833333333333334,
+            "meanPrediction": 0.525012284303297,
+            "observedHomeWin": 0.5833333333333334
+          },
+          {
+            "year": 2020,
+            "trainThrough": 2019,
+            "n": 13,
+            "logLoss": 0.678478640115818,
+            "brier": 0.24268011778407111,
+            "accuracy": 0.5384615384615384,
+            "meanPrediction": 0.5122858526439319,
+            "observedHomeWin": 0.5384615384615384
+          },
+          {
+            "year": 2021,
+            "trainThrough": 2020,
+            "n": 11,
+            "logLoss": 0.7012619438757256,
+            "brier": 0.2539879541038282,
+            "accuracy": 0.5454545454545454,
+            "meanPrediction": 0.5218253354096258,
+            "observedHomeWin": 0.36363636363636365
+          },
+          {
+            "year": 2022,
+            "trainThrough": 2021,
+            "n": 16,
+            "logLoss": 0.6736792242379785,
+            "brier": 0.24041779610038422,
+            "accuracy": 0.5625,
+            "meanPrediction": 0.531618984922551,
+            "observedHomeWin": 0.6875
+          }
+        ]
+      },
+      {
+        "features": [
+          "strength",
+          "home"
+        ],
+        "lambda": 0.1,
+        "priorType": "regular-season",
+        "validation": {
+          "n": 126,
+          "logLoss": 0.6967594433484633,
+          "brier": 0.25139767980928607,
+          "accuracy": 0.5317460317460317,
+          "meanPrediction": 0.526224177848777,
+          "observedHomeWin": 0.5396825396825397
+        },
+        "folds": [
+          {
+            "year": 2014,
+            "trainThrough": 2013,
+            "n": 14,
+            "logLoss": 0.7295804970521921,
+            "brier": 0.2657731119644897,
+            "accuracy": 0.5714285714285714,
+            "meanPrediction": 0.5178605928112298,
+            "observedHomeWin": 0.35714285714285715
+          },
+          {
+            "year": 2015,
+            "trainThrough": 2014,
+            "n": 15,
+            "logLoss": 0.7485686312316138,
+            "brier": 0.27721960960803926,
+            "accuracy": 0.4666666666666667,
+            "meanPrediction": 0.5083577773187472,
+            "observedHomeWin": 0.6666666666666666
+          },
+          {
+            "year": 2016,
+            "trainThrough": 2015,
+            "n": 14,
+            "logLoss": 0.630120951232426,
+            "brier": 0.21898417636404538,
+            "accuracy": 0.6428571428571429,
+            "meanPrediction": 0.527436915921443,
+            "observedHomeWin": 0.6428571428571429
+          },
+          {
+            "year": 2017,
+            "trainThrough": 2016,
+            "n": 15,
+            "logLoss": 0.6960078692012935,
+            "brier": 0.2514558534191436,
+            "accuracy": 0.4666666666666667,
+            "meanPrediction": 0.5404870458254362,
+            "observedHomeWin": 0.3333333333333333
+          },
+          {
+            "year": 2018,
+            "trainThrough": 2017,
+            "n": 16,
+            "logLoss": 0.7440884215240493,
+            "brier": 0.274120342513061,
+            "accuracy": 0.4375,
+            "meanPrediction": 0.5230686235925064,
+            "observedHomeWin": 0.625
+          },
+          {
+            "year": 2019,
+            "trainThrough": 2018,
+            "n": 12,
+            "logLoss": 0.6603765762755772,
+            "brier": 0.23375867811632223,
+            "accuracy": 0.5833333333333334,
+            "meanPrediction": 0.5331966579087457,
+            "observedHomeWin": 0.5833333333333334
+          },
+          {
+            "year": 2020,
+            "trainThrough": 2019,
+            "n": 13,
+            "logLoss": 0.6762544557613899,
+            "brier": 0.2415752071200609,
+            "accuracy": 0.5384615384615384,
+            "meanPrediction": 0.5150944347783084,
+            "observedHomeWin": 0.5384615384615384
+          },
+          {
+            "year": 2021,
+            "trainThrough": 2020,
+            "n": 11,
+            "logLoss": 0.706391094490325,
+            "brier": 0.25648393984458956,
+            "accuracy": 0.5454545454545454,
+            "meanPrediction": 0.5277843306922968,
+            "observedHomeWin": 0.36363636363636365
+          },
+          {
+            "year": 2022,
+            "trainThrough": 2021,
+            "n": 16,
+            "logLoss": 0.6684799034652956,
+            "brier": 0.23790893909416838,
+            "accuracy": 0.5625,
+            "meanPrediction": 0.5417559860879625,
+            "observedHomeWin": 0.6875
+          }
+        ]
+      },
+      {
+        "features": [
+          "strength",
+          "home",
+          "rest",
+          "games7"
+        ],
+        "lambda": 0.1,
+        "priorType": "regular-season",
+        "validation": {
+          "n": 126,
+          "logLoss": 0.6978368603967007,
+          "brier": 0.2520848308358703,
+          "accuracy": 0.5396825396825397,
+          "meanPrediction": 0.5258875452718959,
+          "observedHomeWin": 0.5396825396825397
+        },
+        "folds": [
+          {
+            "year": 2014,
+            "trainThrough": 2013,
+            "n": 14,
+            "logLoss": 0.727657480556409,
+            "brier": 0.2659172009385668,
+            "accuracy": 0.5714285714285714,
+            "meanPrediction": 0.5178909121087447,
+            "observedHomeWin": 0.35714285714285715
+          },
+          {
+            "year": 2015,
+            "trainThrough": 2014,
+            "n": 15,
+            "logLoss": 0.7435416079024262,
+            "brier": 0.27489848692950386,
+            "accuracy": 0.4666666666666667,
+            "meanPrediction": 0.511059628198291,
+            "observedHomeWin": 0.6666666666666666
+          },
+          {
+            "year": 2016,
+            "trainThrough": 2015,
+            "n": 14,
+            "logLoss": 0.6287754193669925,
+            "brier": 0.2184107285077919,
+            "accuracy": 0.6428571428571429,
+            "meanPrediction": 0.5285599189081299,
+            "observedHomeWin": 0.6428571428571429
+          },
+          {
+            "year": 2017,
+            "trainThrough": 2016,
+            "n": 15,
+            "logLoss": 0.7210962000285248,
+            "brier": 0.2635872386612135,
+            "accuracy": 0.4666666666666667,
+            "meanPrediction": 0.5429287674908311,
+            "observedHomeWin": 0.3333333333333333
+          },
+          {
+            "year": 2018,
+            "trainThrough": 2017,
+            "n": 16,
+            "logLoss": 0.7435326370344295,
+            "brier": 0.27387965894484984,
+            "accuracy": 0.4375,
+            "meanPrediction": 0.5223381114417405,
+            "observedHomeWin": 0.625
+          },
+          {
+            "year": 2019,
+            "trainThrough": 2018,
+            "n": 12,
+            "logLoss": 0.6668486152788123,
+            "brier": 0.23697231235617222,
+            "accuracy": 0.5833333333333334,
+            "meanPrediction": 0.5311839867361169,
+            "observedHomeWin": 0.5833333333333334
+          },
+          {
+            "year": 2020,
+            "trainThrough": 2019,
+            "n": 13,
+            "logLoss": 0.6783657087306654,
+            "brier": 0.2426231131155006,
+            "accuracy": 0.6153846153846154,
+            "meanPrediction": 0.5116876027563868,
+            "observedHomeWin": 0.5384615384615384
+          },
+          {
+            "year": 2021,
+            "trainThrough": 2020,
+            "n": 11,
+            "logLoss": 0.6997357535356987,
+            "brier": 0.253239550889629,
+            "accuracy": 0.5454545454545454,
+            "meanPrediction": 0.5254042409889048,
+            "observedHomeWin": 0.36363636363636365
+          },
+          {
+            "year": 2022,
+            "trainThrough": 2021,
+            "n": 16,
+            "logLoss": 0.6595789758627775,
+            "brier": 0.23370837297067404,
+            "accuracy": 0.5625,
+            "meanPrediction": 0.5399181265045969,
+            "observedHomeWin": 0.6875
+          }
+        ]
+      },
+      {
+        "features": [
+          "strength",
+          "home",
+          "rest"
+        ],
+        "lambda": 0.1,
+        "priorType": "regular-season",
+        "validation": {
+          "n": 126,
+          "logLoss": 0.6982656411578702,
+          "brier": 0.2522554615664314,
+          "accuracy": 0.5396825396825397,
+          "meanPrediction": 0.5265961389850664,
+          "observedHomeWin": 0.5396825396825397
+        },
+        "folds": [
+          {
+            "year": 2014,
+            "trainThrough": 2013,
+            "n": 14,
+            "logLoss": 0.7279248265584776,
+            "brier": 0.26579315322582536,
+            "accuracy": 0.5714285714285714,
+            "meanPrediction": 0.5192759140358988,
+            "observedHomeWin": 0.35714285714285715
+          },
+          {
+            "year": 2015,
+            "trainThrough": 2014,
+            "n": 15,
+            "logLoss": 0.7444075973209838,
+            "brier": 0.2753123487531611,
+            "accuracy": 0.4666666666666667,
+            "meanPrediction": 0.5109927026773877,
+            "observedHomeWin": 0.6666666666666666
+          },
+          {
+            "year": 2016,
+            "trainThrough": 2015,
+            "n": 14,
+            "logLoss": 0.6305604140461956,
+            "brier": 0.2193309400090877,
+            "accuracy": 0.6428571428571429,
+            "meanPrediction": 0.5298520810141304,
+            "observedHomeWin": 0.6428571428571429
+          },
+          {
+            "year": 2017,
+            "trainThrough": 2016,
+            "n": 15,
+            "logLoss": 0.7164896201194826,
+            "brier": 0.26124983693342296,
+            "accuracy": 0.4666666666666667,
+            "meanPrediction": 0.5439170342914825,
+            "observedHomeWin": 0.3333333333333333
+          },
+          {
+            "year": 2018,
+            "trainThrough": 2017,
+            "n": 16,
+            "logLoss": 0.7427718090296014,
+            "brier": 0.2735352523354956,
+            "accuracy": 0.4375,
+            "meanPrediction": 0.522688227495572,
+            "observedHomeWin": 0.625
+          },
+          {
+            "year": 2019,
+            "trainThrough": 2018,
+            "n": 12,
+            "logLoss": 0.6608503518611113,
+            "brier": 0.23400026999285187,
+            "accuracy": 0.5833333333333334,
+            "meanPrediction": 0.5311757156365453,
+            "observedHomeWin": 0.5833333333333334
+          },
+          {
+            "year": 2020,
+            "trainThrough": 2019,
+            "n": 13,
+            "logLoss": 0.678877958278458,
+            "brier": 0.24287743418148827,
+            "accuracy": 0.6153846153846154,
+            "meanPrediction": 0.5117903164371348,
+            "observedHomeWin": 0.5384615384615384
+          },
+          {
+            "year": 2021,
+            "trainThrough": 2020,
+            "n": 11,
+            "logLoss": 0.7044644288819062,
+            "brier": 0.2555545953456152,
+            "accuracy": 0.5454545454545454,
+            "meanPrediction": 0.5257805533781604,
+            "observedHomeWin": 0.36363636363636365
+          },
+          {
+            "year": 2022,
+            "trainThrough": 2021,
+            "n": 16,
+            "logLoss": 0.6662589883557091,
+            "brier": 0.23693397477122177,
+            "accuracy": 0.5625,
+            "meanPrediction": 0.5416059436546671,
+            "observedHomeWin": 0.6875
+          }
+        ]
+      },
+      {
+        "features": [
+          "strength",
+          "home",
+          "rest"
+        ],
+        "lambda": 0.1,
+        "priorType": "zero",
+        "validation": {
+          "n": 126,
+          "logLoss": 0.6988096352147023,
+          "brier": 0.2526100279461999,
+          "accuracy": 0.5317460317460317,
+          "meanPrediction": 0.5208338037005353,
+          "observedHomeWin": 0.5396825396825397
+        },
+        "folds": [
+          {
+            "year": 2014,
+            "trainThrough": 2013,
+            "n": 14,
+            "logLoss": 0.7211970136210422,
+            "brier": 0.2632016673975736,
+            "accuracy": 0.5714285714285714,
+            "meanPrediction": 0.5170501374931255,
+            "observedHomeWin": 0.35714285714285715
+          },
+          {
+            "year": 2015,
+            "trainThrough": 2014,
+            "n": 15,
+            "logLoss": 0.7422490980429,
+            "brier": 0.2743019494558319,
+            "accuracy": 0.4,
+            "meanPrediction": 0.5052823781448113,
+            "observedHomeWin": 0.6666666666666666
+          },
+          {
+            "year": 2016,
+            "trainThrough": 2015,
+            "n": 14,
+            "logLoss": 0.6378514156368983,
+            "brier": 0.22282749234977345,
+            "accuracy": 0.6428571428571429,
+            "meanPrediction": 0.5238692074078217,
+            "observedHomeWin": 0.6428571428571429
+          },
+          {
+            "year": 2017,
+            "trainThrough": 2016,
+            "n": 15,
+            "logLoss": 0.7165043358811644,
+            "brier": 0.2612323777995242,
+            "accuracy": 0.4666666666666667,
+            "meanPrediction": 0.5375483392328253,
+            "observedHomeWin": 0.3333333333333333
+          },
+          {
+            "year": 2018,
+            "trainThrough": 2017,
+            "n": 16,
+            "logLoss": 0.7411008139637904,
+            "brier": 0.272952485385364,
+            "accuracy": 0.4375,
+            "meanPrediction": 0.5157729313524739,
+            "observedHomeWin": 0.625
+          },
+          {
+            "year": 2019,
+            "trainThrough": 2018,
+            "n": 12,
+            "logLoss": 0.6649316788362856,
+            "brier": 0.23597962573564912,
+            "accuracy": 0.5833333333333334,
+            "meanPrediction": 0.5237043158161159,
+            "observedHomeWin": 0.5833333333333334
+          },
+          {
+            "year": 2020,
+            "trainThrough": 2019,
+            "n": 13,
+            "logLoss": 0.6799816193549327,
+            "brier": 0.24342660355832874,
+            "accuracy": 0.6153846153846154,
+            "meanPrediction": 0.5103722665856341,
+            "observedHomeWin": 0.5384615384615384
+          },
+          {
+            "year": 2021,
+            "trainThrough": 2020,
+            "n": 11,
+            "logLoss": 0.7006735822378632,
+            "brier": 0.2537014838922924,
+            "accuracy": 0.5454545454545454,
+            "meanPrediction": 0.5212018045091728,
+            "observedHomeWin": 0.36363636363636365
+          },
+          {
+            "year": 2022,
+            "trainThrough": 2021,
+            "n": 16,
+            "logLoss": 0.6723794308058554,
+            "brier": 0.23982393324130552,
+            "accuracy": 0.5625,
+            "meanPrediction": 0.5315531043964081,
+            "observedHomeWin": 0.6875
+          }
+        ]
+      },
+      {
+        "features": [
+          "strength",
+          "home",
+          "rest",
+          "games7"
+        ],
+        "lambda": 0.1,
+        "priorType": "zero",
+        "validation": {
+          "n": 126,
+          "logLoss": 0.6989940144358934,
+          "brier": 0.2527342793923459,
+          "accuracy": 0.5238095238095238,
+          "meanPrediction": 0.5204260177131975,
+          "observedHomeWin": 0.5396825396825397
+        },
+        "folds": [
+          {
+            "year": 2014,
+            "trainThrough": 2013,
+            "n": 14,
+            "logLoss": 0.7210068448955892,
+            "brier": 0.2632849162673606,
+            "accuracy": 0.5714285714285714,
+            "meanPrediction": 0.5159857174001903,
+            "observedHomeWin": 0.35714285714285715
+          },
+          {
+            "year": 2015,
+            "trainThrough": 2014,
+            "n": 15,
+            "logLoss": 0.7422687033448786,
+            "brier": 0.274311378940871,
+            "accuracy": 0.4,
+            "meanPrediction": 0.5052808977513401,
+            "observedHomeWin": 0.6666666666666666
+          },
+          {
+            "year": 2016,
+            "trainThrough": 2015,
+            "n": 14,
+            "logLoss": 0.6366426721235234,
+            "brier": 0.2222089563204333,
+            "accuracy": 0.6428571428571429,
+            "meanPrediction": 0.5229602827666195,
+            "observedHomeWin": 0.6428571428571429
+          },
+          {
+            "year": 2017,
+            "trainThrough": 2016,
+            "n": 15,
+            "logLoss": 0.71984842067958,
+            "brier": 0.262933516149589,
+            "accuracy": 0.4666666666666667,
+            "meanPrediction": 0.5368341750389967,
+            "observedHomeWin": 0.3333333333333333
+          },
+          {
+            "year": 2018,
+            "trainThrough": 2017,
+            "n": 16,
+            "logLoss": 0.7403184498936717,
+            "brier": 0.2725897768955175,
+            "accuracy": 0.4375,
+            "meanPrediction": 0.5161304334561229,
+            "observedHomeWin": 0.625
+          },
+          {
+            "year": 2019,
+            "trainThrough": 2018,
+            "n": 12,
+            "logLoss": 0.6732547761165083,
+            "brier": 0.2401158269426683,
+            "accuracy": 0.5,
+            "meanPrediction": 0.523703138738805,
+            "observedHomeWin": 0.5833333333333334
+          },
+          {
+            "year": 2020,
+            "trainThrough": 2019,
+            "n": 13,
+            "logLoss": 0.6817237738801905,
+            "brier": 0.24429344521708068,
+            "accuracy": 0.6153846153846154,
+            "meanPrediction": 0.5107157009636034,
+            "observedHomeWin": 0.5384615384615384
+          },
+          {
+            "year": 2021,
+            "trainThrough": 2020,
+            "n": 11,
+            "logLoss": 0.6975809230520151,
+            "brier": 0.25217871412929427,
+            "accuracy": 0.5454545454545454,
+            "meanPrediction": 0.520955496111684,
+            "observedHomeWin": 0.36363636363636365
+          },
+          {
+            "year": 2022,
+            "trainThrough": 2021,
+            "n": 16,
+            "logLoss": 0.6671527496610387,
+            "brier": 0.23727028524781196,
+            "accuracy": 0.5625,
+            "meanPrediction": 0.530273060484594,
+            "observedHomeWin": 0.6875
+          }
+        ]
+      },
+      {
+        "features": [
+          "strength",
+          "home"
+        ],
+        "lambda": 0.01,
+        "priorType": "zero",
+        "validation": {
+          "n": 126,
+          "logLoss": 0.7058066285672232,
+          "brier": 0.255090560158623,
+          "accuracy": 0.5317460317460317,
+          "meanPrediction": 0.5257083563846924,
+          "observedHomeWin": 0.5396825396825397
+        },
+        "folds": [
+          {
+            "year": 2014,
+            "trainThrough": 2013,
+            "n": 14,
+            "logLoss": 0.7655398391050349,
+            "brier": 0.27857605732014806,
+            "accuracy": 0.5714285714285714,
+            "meanPrediction": 0.517461984767394,
+            "observedHomeWin": 0.35714285714285715
+          },
+          {
+            "year": 2015,
+            "trainThrough": 2014,
+            "n": 15,
+            "logLoss": 0.7766040350809172,
+            "brier": 0.29040292204778706,
+            "accuracy": 0.4666666666666667,
+            "meanPrediction": 0.5016419937694143,
+            "observedHomeWin": 0.6666666666666666
+          },
+          {
+            "year": 2016,
+            "trainThrough": 2015,
+            "n": 14,
+            "logLoss": 0.6222497175174854,
+            "brier": 0.21530748834637622,
+            "accuracy": 0.6428571428571429,
+            "meanPrediction": 0.5274740215670185,
+            "observedHomeWin": 0.6428571428571429
+          },
+          {
+            "year": 2017,
+            "trainThrough": 2016,
+            "n": 15,
+            "logLoss": 0.6935165107866669,
+            "brier": 0.2502237015953328,
+            "accuracy": 0.4666666666666667,
+            "meanPrediction": 0.544752092037663,
+            "observedHomeWin": 0.3333333333333333
+          },
+          {
+            "year": 2018,
+            "trainThrough": 2017,
+            "n": 16,
+            "logLoss": 0.7689505741214605,
+            "brier": 0.28499214598029327,
+            "accuracy": 0.4375,
+            "meanPrediction": 0.5199939917536309,
+            "observedHomeWin": 0.625
+          },
+          {
+            "year": 2019,
+            "trainThrough": 2018,
+            "n": 12,
+            "logLoss": 0.6561654831084143,
+            "brier": 0.23170660719389846,
+            "accuracy": 0.5833333333333334,
+            "meanPrediction": 0.5330828412650878,
+            "observedHomeWin": 0.5833333333333334
+          },
+          {
+            "year": 2020,
+            "trainThrough": 2019,
+            "n": 13,
+            "logLoss": 0.6742535823829593,
+            "brier": 0.24058619201838566,
+            "accuracy": 0.5384615384615384,
+            "meanPrediction": 0.5164682074686577,
+            "observedHomeWin": 0.5384615384615384
+          },
+          {
+            "year": 2021,
+            "trainThrough": 2020,
+            "n": 11,
+            "logLoss": 0.7058207787767643,
+            "brier": 0.25615945579617533,
+            "accuracy": 0.5454545454545454,
+            "meanPrediction": 0.5289815484926843,
+            "observedHomeWin": 0.36363636363636365
+          },
+          {
+            "year": 2022,
+            "trainThrough": 2021,
+            "n": 16,
+            "logLoss": 0.6715158186233684,
+            "brier": 0.23949459087499664,
+            "accuracy": 0.5625,
+            "meanPrediction": 0.5415284896832551,
+            "observedHomeWin": 0.6875
+          }
+        ]
+      },
+      {
+        "features": [
+          "strength",
+          "home"
+        ],
+        "lambda": 0.01,
+        "priorType": "regular-season",
+        "validation": {
+          "n": 126,
+          "logLoss": 0.7059243994026566,
+          "brier": 0.25511854937842454,
+          "accuracy": 0.5317460317460317,
+          "meanPrediction": 0.5265587851274517,
+          "observedHomeWin": 0.5396825396825397
+        },
+        "folds": [
+          {
+            "year": 2014,
+            "trainThrough": 2013,
+            "n": 14,
+            "logLoss": 0.7667166501327046,
+            "brier": 0.27895737612023724,
+            "accuracy": 0.5714285714285714,
+            "meanPrediction": 0.5177651200270635,
+            "observedHomeWin": 0.35714285714285715
+          },
+          {
+            "year": 2015,
+            "trainThrough": 2014,
+            "n": 15,
+            "logLoss": 0.7769278686112231,
+            "brier": 0.2905469225941127,
+            "accuracy": 0.4666666666666667,
+            "meanPrediction": 0.5024737277864106,
+            "observedHomeWin": 0.6666666666666666
+          },
+          {
+            "year": 2016,
+            "trainThrough": 2015,
+            "n": 14,
+            "logLoss": 0.6213506444160377,
+            "brier": 0.21488949700401244,
+            "accuracy": 0.6428571428571429,
+            "meanPrediction": 0.5283155246481815,
+            "observedHomeWin": 0.6428571428571429
+          },
+          {
+            "year": 2017,
+            "trainThrough": 2016,
+            "n": 15,
+            "logLoss": 0.6940310680136293,
+            "brier": 0.25048120869682206,
+            "accuracy": 0.4666666666666667,
+            "meanPrediction": 0.5457027099080481,
+            "observedHomeWin": 0.3333333333333333
+          },
+          {
+            "year": 2018,
+            "trainThrough": 2017,
+            "n": 16,
+            "logLoss": 0.7695772619012402,
+            "brier": 0.2852162334774567,
+            "accuracy": 0.4375,
+            "meanPrediction": 0.5209709649565593,
+            "observedHomeWin": 0.625
+          },
+          {
+            "year": 2019,
+            "trainThrough": 2018,
+            "n": 12,
+            "logLoss": 0.6556278748866275,
+            "brier": 0.23144937245814864,
+            "accuracy": 0.5833333333333334,
+            "meanPrediction": 0.5341859540789277,
+            "observedHomeWin": 0.5833333333333334
+          },
+          {
+            "year": 2020,
+            "trainThrough": 2019,
+            "n": 13,
+            "logLoss": 0.6739695373883852,
+            "brier": 0.24044557404664427,
+            "accuracy": 0.5384615384615384,
+            "meanPrediction": 0.5168509240555113,
+            "observedHomeWin": 0.5384615384615384
+          },
+          {
+            "year": 2021,
+            "trainThrough": 2020,
+            "n": 11,
+            "logLoss": 0.7065711034202594,
+            "brier": 0.2565201286933457,
+            "accuracy": 0.5454545454545454,
+            "meanPrediction": 0.5297878486496453,
+            "observedHomeWin": 0.36363636363636365
+          },
+          {
+            "year": 2022,
+            "trainThrough": 2021,
+            "n": 16,
+            "logLoss": 0.6709057086842716,
+            "brier": 0.2392058090754817,
+            "accuracy": 0.5625,
+            "meanPrediction": 0.5428835061917985,
+            "observedHomeWin": 0.6875
+          }
+        ]
+      },
+      {
+        "features": [
+          "strength",
+          "home",
+          "rest"
+        ],
+        "lambda": 0.01,
+        "priorType": "zero",
+        "validation": {
+          "n": 126,
+          "logLoss": 0.7072846852484664,
+          "brier": 0.2559438394634127,
+          "accuracy": 0.5238095238095238,
+          "meanPrediction": 0.5252155072631984,
+          "observedHomeWin": 0.5396825396825397
+        },
+        "folds": [
+          {
+            "year": 2014,
+            "trainThrough": 2013,
+            "n": 14,
+            "logLoss": 0.7642003956688027,
+            "brier": 0.27842720234272417,
+            "accuracy": 0.5714285714285714,
+            "meanPrediction": 0.5176692001972837,
+            "observedHomeWin": 0.35714285714285715
+          },
+          {
+            "year": 2015,
+            "trainThrough": 2014,
+            "n": 15,
+            "logLoss": 0.7713468872930803,
+            "brier": 0.2880807786205633,
+            "accuracy": 0.4,
+            "meanPrediction": 0.5028507032858958,
+            "observedHomeWin": 0.6666666666666666
+          },
+          {
+            "year": 2016,
+            "trainThrough": 2015,
+            "n": 14,
+            "logLoss": 0.6262688102457351,
+            "brier": 0.21744038169915528,
+            "accuracy": 0.6428571428571429,
+            "meanPrediction": 0.5278409016496485,
+            "observedHomeWin": 0.6428571428571429
+          },
+          {
+            "year": 2017,
+            "trainThrough": 2016,
+            "n": 15,
+            "logLoss": 0.7165672937699923,
+            "brier": 0.2610668330276861,
+            "accuracy": 0.4666666666666667,
+            "meanPrediction": 0.5462835143747353,
+            "observedHomeWin": 0.3333333333333333
+          },
+          {
+            "year": 2018,
+            "trainThrough": 2017,
+            "n": 16,
+            "logLoss": 0.7651724425997843,
+            "brier": 0.28330829240637984,
+            "accuracy": 0.4375,
+            "meanPrediction": 0.5197911755699529,
+            "observedHomeWin": 0.625
+          },
+          {
+            "year": 2019,
+            "trainThrough": 2018,
+            "n": 12,
+            "logLoss": 0.6559895990136878,
+            "brier": 0.23166093400792578,
+            "accuracy": 0.5833333333333334,
+            "meanPrediction": 0.5315317694767411,
+            "observedHomeWin": 0.5833333333333334
+          },
+          {
+            "year": 2020,
+            "trainThrough": 2019,
+            "n": 13,
+            "logLoss": 0.6792863703888651,
+            "brier": 0.2430893243945653,
+            "accuracy": 0.6153846153846154,
+            "meanPrediction": 0.5104411386595739,
+            "observedHomeWin": 0.5384615384615384
+          },
+          {
+            "year": 2021,
+            "trainThrough": 2020,
+            "n": 11,
+            "logLoss": 0.7019632955190814,
+            "brier": 0.2543079687295977,
+            "accuracy": 0.5454545454545454,
+            "meanPrediction": 0.5250869483864131,
+            "observedHomeWin": 0.36363636363636365
+          },
+          {
+            "year": 2022,
+            "trainThrough": 2021,
+            "n": 16,
+            "logLoss": 0.6666022129394524,
+            "brier": 0.23744691633299006,
+            "accuracy": 0.5,
+            "meanPrediction": 0.5435167466707096,
+            "observedHomeWin": 0.6875
+          }
+        ]
+      },
+      {
+        "features": [
+          "strength",
+          "home",
+          "rest"
+        ],
+        "lambda": 0.01,
+        "priorType": "regular-season",
+        "validation": {
+          "n": 126,
+          "logLoss": 0.7072943872595224,
+          "brier": 0.2559174426447641,
+          "accuracy": 0.5238095238095238,
+          "meanPrediction": 0.5260062478310146,
+          "observedHomeWin": 0.5396825396825397
+        },
+        "folds": [
+          {
+            "year": 2014,
+            "trainThrough": 2013,
+            "n": 14,
+            "logLoss": 0.7655633965850605,
+            "brier": 0.2788318744811877,
+            "accuracy": 0.5714285714285714,
+            "meanPrediction": 0.5179429913252845,
+            "observedHomeWin": 0.35714285714285715
+          },
+          {
+            "year": 2015,
+            "trainThrough": 2014,
+            "n": 15,
+            "logLoss": 0.7718343175113987,
+            "brier": 0.2882992580263469,
+            "accuracy": 0.4,
+            "meanPrediction": 0.5036413603782228,
+            "observedHomeWin": 0.6666666666666666
+          },
+          {
+            "year": 2016,
+            "trainThrough": 2015,
+            "n": 14,
+            "logLoss": 0.6252585348454437,
+            "brier": 0.21696127696417247,
+            "accuracy": 0.6428571428571429,
+            "meanPrediction": 0.528673665723854,
+            "observedHomeWin": 0.6428571428571429
+          },
+          {
+            "year": 2017,
+            "trainThrough": 2016,
+            "n": 15,
+            "logLoss": 0.7163181958762549,
+            "brier": 0.26095890838248625,
+            "accuracy": 0.4666666666666667,
+            "meanPrediction": 0.5471838990372817,
+            "observedHomeWin": 0.3333333333333333
+          },
+          {
+            "year": 2018,
+            "trainThrough": 2017,
+            "n": 16,
+            "logLoss": 0.7655579417856833,
+            "brier": 0.2834273121514842,
+            "accuracy": 0.4375,
+            "meanPrediction": 0.5207520796926519,
+            "observedHomeWin": 0.625
+          },
+          {
+            "year": 2019,
+            "trainThrough": 2018,
+            "n": 12,
+            "logLoss": 0.6554564857394296,
+            "brier": 0.2314092232978683,
+            "accuracy": 0.5833333333333334,
+            "meanPrediction": 0.5325772030832446,
+            "observedHomeWin": 0.5833333333333334
+          },
+          {
+            "year": 2020,
+            "trainThrough": 2019,
+            "n": 13,
+            "logLoss": 0.6792452540976612,
+            "brier": 0.24306978245270952,
+            "accuracy": 0.6153846153846154,
+            "meanPrediction": 0.5105601844689809,
+            "observedHomeWin": 0.5384615384615384
+          },
+          {
+            "year": 2021,
+            "trainThrough": 2020,
+            "n": 11,
+            "logLoss": 0.7024926092545651,
+            "brier": 0.2545650771030308,
+            "accuracy": 0.5454545454545454,
+            "meanPrediction": 0.5256670222707874,
+            "observedHomeWin": 0.36363636363636365
+          },
+          {
+            "year": 2022,
+            "trainThrough": 2021,
+            "n": 16,
+            "logLoss": 0.665830384459003,
+            "brier": 0.2371094039285,
+            "accuracy": 0.5,
+            "meanPrediction": 0.5449497363519104,
+            "observedHomeWin": 0.6875
+          }
+        ]
+      },
+      {
+        "features": [
+          "strength",
+          "home"
+        ],
+        "lambda": 0.001,
+        "priorType": "zero",
+        "validation": {
+          "n": 126,
+          "logLoss": 0.7074819576339041,
+          "brier": 0.25571690846125256,
+          "accuracy": 0.5317460317460317,
+          "meanPrediction": 0.5264941957331554,
+          "observedHomeWin": 0.5396825396825397
+        },
+        "folds": [
+          {
+            "year": 2014,
+            "trainThrough": 2013,
+            "n": 14,
+            "logLoss": 0.7730176165957554,
+            "brier": 0.28097880298327654,
+            "accuracy": 0.5714285714285714,
+            "meanPrediction": 0.5176465879022952,
+            "observedHomeWin": 0.35714285714285715
+          },
+          {
+            "year": 2015,
+            "trainThrough": 2014,
+            "n": 15,
+            "logLoss": 0.7814522558100264,
+            "brier": 0.29262658499614763,
+            "accuracy": 0.4666666666666667,
+            "meanPrediction": 0.5015163942150261,
+            "observedHomeWin": 0.6666666666666666
+          },
+          {
+            "year": 2016,
+            "trainThrough": 2015,
+            "n": 14,
+            "logLoss": 0.620282863492027,
+            "brier": 0.21439945222311918,
+            "accuracy": 0.6428571428571429,
+            "meanPrediction": 0.5283295788660903,
+            "observedHomeWin": 0.6428571428571429
+          },
+          {
+            "year": 2017,
+            "trainThrough": 2016,
+            "n": 15,
+            "logLoss": 0.6937009652002734,
+            "brier": 0.2503181903209585,
+            "accuracy": 0.4666666666666667,
+            "meanPrediction": 0.5463348323581173,
+            "observedHomeWin": 0.3333333333333333
+          },
+          {
+            "year": 2018,
+            "trainThrough": 2017,
+            "n": 16,
+            "logLoss": 0.7735304711268368,
+            "brier": 0.28687762291965935,
+            "accuracy": 0.4375,
+            "meanPrediction": 0.5205536054679418,
+            "observedHomeWin": 0.625
+          },
+          {
+            "year": 2019,
+            "trainThrough": 2018,
+            "n": 12,
+            "logLoss": 0.6550276827693059,
+            "brier": 0.23115840070291724,
+            "accuracy": 0.5833333333333334,
+            "meanPrediction": 0.5341962436510502,
+            "observedHomeWin": 0.5833333333333334
+          },
+          {
+            "year": 2020,
+            "trainThrough": 2019,
+            "n": 13,
+            "logLoss": 0.6736899434583182,
+            "brier": 0.24030778048302354,
+            "accuracy": 0.5384615384615384,
+            "meanPrediction": 0.5170586537614709,
+            "observedHomeWin": 0.5384615384615384
+          },
+          {
+            "year": 2021,
+            "trainThrough": 2020,
+            "n": 11,
+            "logLoss": 0.7065412493484015,
+            "brier": 0.25649830458624606,
+            "accuracy": 0.5454545454545454,
+            "meanPrediction": 0.5299778272332882,
+            "observedHomeWin": 0.36363636363636365
+          },
+          {
+            "year": 2022,
+            "trainThrough": 2021,
+            "n": 16,
+            "logLoss": 0.6714049304023045,
+            "brier": 0.23946487447463272,
+            "accuracy": 0.5625,
+            "meanPrediction": 0.5428814199536285,
+            "observedHomeWin": 0.6875
+          }
+        ]
+      },
+      {
+        "features": [
+          "strength",
+          "home"
+        ],
+        "lambda": 0.001,
+        "priorType": "regular-season",
+        "validation": {
+          "n": 126,
+          "logLoss": 0.7074959729147129,
+          "brier": 0.25572036622847555,
+          "accuracy": 0.5317460317460317,
+          "meanPrediction": 0.5265822517086854,
+          "observedHomeWin": 0.5396825396825397
+        },
+        "folds": [
+          {
+            "year": 2014,
+            "trainThrough": 2013,
+            "n": 14,
+            "logLoss": 0.773144517780438,
+            "brier": 0.28101870505792564,
+            "accuracy": 0.5714285714285714,
+            "meanPrediction": 0.5176775511451901,
+            "observedHomeWin": 0.35714285714285715
+          },
+          {
+            "year": 2015,
+            "trainThrough": 2014,
+            "n": 15,
+            "logLoss": 0.7814886385006753,
+            "brier": 0.2926426650494172,
+            "accuracy": 0.4666666666666667,
+            "meanPrediction": 0.5016024882011719,
+            "observedHomeWin": 0.6666666666666666
+          },
+          {
+            "year": 2016,
+            "trainThrough": 2015,
+            "n": 14,
+            "logLoss": 0.6201907727817524,
+            "brier": 0.21435682883116072,
+            "accuracy": 0.6428571428571429,
+            "meanPrediction": 0.5284165814078207,
+            "observedHomeWin": 0.6428571428571429
+          },
+          {
+            "year": 2017,
+            "trainThrough": 2016,
+            "n": 15,
+            "logLoss": 0.6937550298002768,
+            "brier": 0.2503452374910539,
+            "accuracy": 0.4666666666666667,
+            "meanPrediction": 0.5464336485003064,
+            "observedHomeWin": 0.3333333333333333
+          },
+          {
+            "year": 2018,
+            "trainThrough": 2017,
+            "n": 16,
+            "logLoss": 0.773598590685123,
+            "brier": 0.28690159036192764,
+            "accuracy": 0.4375,
+            "meanPrediction": 0.5206546243095764,
+            "observedHomeWin": 0.625
+          },
+          {
+            "year": 2019,
+            "trainThrough": 2018,
+            "n": 12,
+            "logLoss": 0.6549724021945479,
+            "brier": 0.23113201813371145,
+            "accuracy": 0.5833333333333334,
+            "meanPrediction": 0.5343105896215333,
+            "observedHomeWin": 0.5833333333333334
+          },
+          {
+            "year": 2020,
+            "trainThrough": 2019,
+            "n": 13,
+            "logLoss": 0.6736607163668075,
+            "brier": 0.24029331944539425,
+            "accuracy": 0.5384615384615384,
+            "meanPrediction": 0.5170984057140408,
+            "observedHomeWin": 0.5384615384615384
+          },
+          {
+            "year": 2021,
+            "trainThrough": 2020,
+            "n": 11,
+            "logLoss": 0.7066199289990569,
+            "brier": 0.25653605194849555,
+            "accuracy": 0.5454545454545454,
+            "meanPrediction": 0.5300614724208996,
+            "observedHomeWin": 0.36363636363636365
+          },
+          {
+            "year": 2022,
+            "trainThrough": 2021,
+            "n": 16,
+            "logLoss": 0.6713430428633875,
+            "brier": 0.239435671538418,
+            "accuracy": 0.5625,
+            "meanPrediction": 0.5430217046066235,
+            "observedHomeWin": 0.6875
+          }
+        ]
+      },
+      {
+        "features": [
+          "strength",
+          "home"
+        ],
+        "lambda": 0.0001,
+        "priorType": "zero",
+        "validation": {
+          "n": 126,
+          "logLoss": 0.7076627364264212,
+          "brier": 0.25578385425360445,
+          "accuracy": 0.5317460317460317,
+          "meanPrediction": 0.5265755331756788,
+          "observedHomeWin": 0.5396825396825397
+        },
+        "folds": [
+          {
+            "year": 2014,
+            "trainThrough": 2013,
+            "n": 14,
+            "logLoss": 0.7738201219975817,
+            "brier": 0.2812320491969155,
+            "accuracy": 0.5714285714285714,
+            "meanPrediction": 0.5176643418049114,
+            "observedHomeWin": 0.35714285714285715
+          },
+          {
+            "year": 2015,
+            "trainThrough": 2014,
+            "n": 15,
+            "logLoss": 0.7819697420285967,
+            "brier": 0.2928629961428174,
+            "accuracy": 0.4666666666666667,
+            "meanPrediction": 0.5015024422093964,
+            "observedHomeWin": 0.6666666666666666
+          },
+          {
+            "year": 2016,
+            "trainThrough": 2015,
+            "n": 14,
+            "logLoss": 0.6200802869482296,
+            "brier": 0.21430625465121314,
+            "accuracy": 0.6428571428571429,
+            "meanPrediction": 0.5284180559054262,
+            "observedHomeWin": 0.6428571428571429
+          },
+          {
+            "year": 2017,
+            "trainThrough": 2016,
+            "n": 15,
+            "logLoss": 0.6937208712837127,
+            "brier": 0.2503283708934185,
+            "accuracy": 0.4666666666666667,
+            "meanPrediction": 0.5464998456254928,
+            "observedHomeWin": 0.3333333333333333
+          },
+          {
+            "year": 2018,
+            "trainThrough": 2017,
+            "n": 16,
+            "logLoss": 0.7740173996054459,
+            "brier": 0.28707653524776733,
+            "accuracy": 0.4375,
+            "meanPrediction": 0.5206112595925816,
+            "observedHomeWin": 0.625
+          },
+          {
+            "year": 2019,
+            "trainThrough": 2018,
+            "n": 12,
+            "logLoss": 0.6549098694721645,
+            "brier": 0.23110172402787177,
+            "accuracy": 0.5833333333333334,
+            "meanPrediction": 0.5343118892625659,
+            "observedHomeWin": 0.5833333333333334
+          },
+          {
+            "year": 2020,
+            "trainThrough": 2019,
+            "n": 13,
+            "logLoss": 0.6736316697283444,
+            "brier": 0.24027901047259806,
+            "accuracy": 0.5384615384615384,
+            "meanPrediction": 0.5171201973598766,
+            "observedHomeWin": 0.5384615384615384
+          },
+          {
+            "year": 2021,
+            "trainThrough": 2020,
+            "n": 11,
+            "logLoss": 0.7066174620817497,
+            "brier": 0.2565340811526519,
+            "accuracy": 0.5454545454545454,
+            "meanPrediction": 0.530081461024305,
+            "observedHomeWin": 0.36363636363636365
+          },
+          {
+            "year": 2022,
+            "trainThrough": 2021,
+            "n": 16,
+            "logLoss": 0.6713962030051419,
+            "brier": 0.2394632247134459,
+            "accuracy": 0.5625,
+            "meanPrediction": 0.5430217395681015,
+            "observedHomeWin": 0.6875
+          }
+        ]
+      },
+      {
+        "features": [
+          "strength",
+          "home"
+        ],
+        "lambda": 0.0001,
+        "priorType": "regular-season",
+        "validation": {
+          "n": 126,
+          "logLoss": 0.7076641628263196,
+          "brier": 0.25578420733540236,
+          "accuracy": 0.5317460317460317,
+          "meanPrediction": 0.526584370190317,
+          "observedHomeWin": 0.5396825396825397
+        },
+        "folds": [
+          {
+            "year": 2014,
+            "trainThrough": 2013,
+            "n": 14,
+            "logLoss": 0.7738329126382527,
+            "brier": 0.28123605823588044,
+            "accuracy": 0.5714285714285714,
+            "meanPrediction": 0.5176674448776978,
+            "observedHomeWin": 0.35714285714285715
+          },
+          {
+            "year": 2015,
+            "trainThrough": 2014,
+            "n": 15,
+            "logLoss": 0.7819734265665043,
+            "brier": 0.2928646235608147,
+            "accuracy": 0.4666666666666667,
+            "meanPrediction": 0.5015110819699763,
+            "observedHomeWin": 0.6666666666666666
+          },
+          {
+            "year": 2016,
+            "trainThrough": 2015,
+            "n": 14,
+            "logLoss": 0.6200710555016313,
+            "brier": 0.21430198398215058,
+            "accuracy": 0.6428571428571429,
+            "meanPrediction": 0.528426785774277,
+            "observedHomeWin": 0.6428571428571429
+          },
+          {
+            "year": 2017,
+            "trainThrough": 2016,
+            "n": 15,
+            "logLoss": 0.6937263052936835,
+            "brier": 0.25033108929089587,
+            "accuracy": 0.4666666666666667,
+            "meanPrediction": 0.546509766677043,
+            "observedHomeWin": 0.3333333333333333
+          },
+          {
+            "year": 2018,
+            "trainThrough": 2017,
+            "n": 16,
+            "logLoss": 0.7740242706400635,
+            "brier": 0.2870789486618738,
+            "accuracy": 0.4375,
+            "meanPrediction": 0.5206213960301828,
+            "observedHomeWin": 0.625
+          },
+          {
+            "year": 2019,
+            "trainThrough": 2018,
+            "n": 12,
+            "logLoss": 0.6549043256963659,
+            "brier": 0.2310990789929058,
+            "accuracy": 0.5833333333333334,
+            "meanPrediction": 0.5343233659296577,
+            "observedHomeWin": 0.5833333333333334
+          },
+          {
+            "year": 2020,
+            "trainThrough": 2019,
+            "n": 13,
+            "logLoss": 0.6736287385074632,
+            "brier": 0.24027756024217506,
+            "accuracy": 0.5384615384615384,
+            "meanPrediction": 0.517124188055413,
+            "observedHomeWin": 0.5384615384615384
+          },
+          {
+            "year": 2021,
+            "trainThrough": 2020,
+            "n": 11,
+            "logLoss": 0.7066253685107158,
+            "brier": 0.25653787356650964,
+            "accuracy": 0.5454545454545454,
+            "meanPrediction": 0.5300898570460792,
+            "observedHomeWin": 0.36363636363636365
+          },
+          {
+            "year": 2022,
+            "trainThrough": 2021,
+            "n": 16,
+            "logLoss": 0.6713900057151734,
+            "brier": 0.2394603013467419,
+            "accuracy": 0.5625,
+            "meanPrediction": 0.5430358178300602,
+            "observedHomeWin": 0.6875
+          }
+        ]
+      },
+      {
+        "features": [
+          "strength",
+          "home",
+          "rest",
+          "games7"
+        ],
+        "lambda": 0.01,
+        "priorType": "regular-season",
+        "validation": {
+          "n": 126,
+          "logLoss": 0.7076877757582716,
+          "brier": 0.25624247195198385,
+          "accuracy": 0.5158730158730159,
+          "meanPrediction": 0.523782288273611,
+          "observedHomeWin": 0.5396825396825397
+        },
+        "folds": [
+          {
+            "year": 2014,
+            "trainThrough": 2013,
+            "n": 14,
+            "logLoss": 0.7695908666980689,
+            "brier": 0.2824745406059511,
+            "accuracy": 0.5,
+            "meanPrediction": 0.5111815595400317,
+            "observedHomeWin": 0.35714285714285715
+          },
+          {
+            "year": 2015,
+            "trainThrough": 2014,
+            "n": 15,
+            "logLoss": 0.7653982486308738,
+            "brier": 0.2852939588639901,
+            "accuracy": 0.4,
+            "meanPrediction": 0.505210715527445,
+            "observedHomeWin": 0.6666666666666666
+          },
+          {
+            "year": 2016,
+            "trainThrough": 2015,
+            "n": 14,
+            "logLoss": 0.6150791805344268,
+            "brier": 0.21200223430383963,
+            "accuracy": 0.7142857142857143,
+            "meanPrediction": 0.5244476786264628,
+            "observedHomeWin": 0.6428571428571429
+          },
+          {
+            "year": 2017,
+            "trainThrough": 2016,
+            "n": 15,
+            "logLoss": 0.7414701015002394,
+            "brier": 0.2734686735679277,
+            "accuracy": 0.3333333333333333,
+            "meanPrediction": 0.5449045304028288,
+            "observedHomeWin": 0.3333333333333333
+          },
+          {
+            "year": 2018,
+            "trainThrough": 2017,
+            "n": 16,
+            "logLoss": 0.780712864264719,
+            "brier": 0.289792168268008,
+            "accuracy": 0.4375,
+            "meanPrediction": 0.5169729448059603,
+            "observedHomeWin": 0.625
+          },
+          {
+            "year": 2019,
+            "trainThrough": 2018,
+            "n": 12,
+            "logLoss": 0.6646107916144183,
+            "brier": 0.23592814392280057,
+            "accuracy": 0.5833333333333334,
+            "meanPrediction": 0.5319864173234078,
+            "observedHomeWin": 0.5833333333333334
+          },
+          {
+            "year": 2020,
+            "trainThrough": 2019,
+            "n": 13,
+            "logLoss": 0.6719353568171987,
+            "brier": 0.2394580835268217,
+            "accuracy": 0.6153846153846154,
+            "meanPrediction": 0.5098827535188173,
+            "observedHomeWin": 0.5384615384615384
+          },
+          {
+            "year": 2021,
+            "trainThrough": 2020,
+            "n": 11,
+            "logLoss": 0.6887188810763383,
+            "brier": 0.24783801278951606,
+            "accuracy": 0.5454545454545454,
+            "meanPrediction": 0.5265621306181059,
+            "observedHomeWin": 0.36363636363636365
+          },
+          {
+            "year": 2022,
+            "trainThrough": 2021,
+            "n": 16,
+            "logLoss": 0.6501531983905455,
+            "brier": 0.22971571780243977,
+            "accuracy": 0.5625,
+            "meanPrediction": 0.5418729338668684,
+            "observedHomeWin": 0.6875
+          }
+        ]
+      },
+      {
+        "features": [
+          "strength",
+          "home",
+          "rest",
+          "games7"
+        ],
+        "lambda": 0.01,
+        "priorType": "zero",
+        "validation": {
+          "n": 126,
+          "logLoss": 0.7077599537312936,
+          "brier": 0.2563113003797061,
+          "accuracy": 0.5158730158730159,
+          "meanPrediction": 0.5230358815167518,
+          "observedHomeWin": 0.5396825396825397
+        },
+        "folds": [
+          {
+            "year": 2014,
+            "trainThrough": 2013,
+            "n": 14,
+            "logLoss": 0.7681613649203557,
+            "brier": 0.28201095251540137,
+            "accuracy": 0.5,
+            "meanPrediction": 0.5109761833767447,
+            "observedHomeWin": 0.35714285714285715
+          },
+          {
+            "year": 2015,
+            "trainThrough": 2014,
+            "n": 15,
+            "logLoss": 0.765074579482857,
+            "brier": 0.28514925651595213,
+            "accuracy": 0.4,
+            "meanPrediction": 0.5043770897275028,
+            "observedHomeWin": 0.6666666666666666
+          },
+          {
+            "year": 2016,
+            "trainThrough": 2015,
+            "n": 14,
+            "logLoss": 0.61628808091978,
+            "brier": 0.2125788829990008,
+            "accuracy": 0.7142857142857143,
+            "meanPrediction": 0.5236862520128104,
+            "observedHomeWin": 0.6428571428571429
+          },
+          {
+            "year": 2017,
+            "trainThrough": 2016,
+            "n": 15,
+            "logLoss": 0.7412521974518749,
+            "brier": 0.2733465785157597,
+            "accuracy": 0.3333333333333333,
+            "meanPrediction": 0.5440401103399016,
+            "observedHomeWin": 0.3333333333333333
+          },
+          {
+            "year": 2018,
+            "trainThrough": 2017,
+            "n": 16,
+            "logLoss": 0.7796871072857471,
+            "brier": 0.2894320154491144,
+            "accuracy": 0.4375,
+            "meanPrediction": 0.5161679577000506,
+            "observedHomeWin": 0.625
+          },
+          {
+            "year": 2019,
+            "trainThrough": 2018,
+            "n": 12,
+            "logLoss": 0.6658050485846667,
+            "brier": 0.23650929514818356,
+            "accuracy": 0.5833333333333334,
+            "meanPrediction": 0.5308965126604211,
+            "observedHomeWin": 0.5833333333333334
+          },
+          {
+            "year": 2020,
+            "trainThrough": 2019,
+            "n": 13,
+            "logLoss": 0.6725762899511367,
+            "brier": 0.23977237598445073,
+            "accuracy": 0.6153846153846154,
+            "meanPrediction": 0.5098209824180782,
+            "observedHomeWin": 0.5384615384615384
+          },
+          {
+            "year": 2021,
+            "trainThrough": 2020,
+            "n": 11,
+            "logLoss": 0.6885202145386633,
+            "brier": 0.247735454052113,
+            "accuracy": 0.5454545454545454,
+            "meanPrediction": 0.5259549014456794,
+            "observedHomeWin": 0.36363636363636365
+          },
+          {
+            "year": 2022,
+            "trainThrough": 2021,
+            "n": 16,
+            "logLoss": 0.6511682403426313,
+            "brier": 0.23014837211440817,
+            "accuracy": 0.5625,
+            "meanPrediction": 0.540522925761408,
+            "observedHomeWin": 0.6875
+          }
+        ]
+      },
+      {
+        "features": [
+          "strength",
+          "home",
+          "rest"
+        ],
+        "lambda": 0.001,
+        "priorType": "zero",
+        "validation": {
+          "n": 126,
+          "logLoss": 0.7088966916835875,
+          "brier": 0.256513894110786,
+          "accuracy": 0.5238095238095238,
+          "meanPrediction": 0.5258519454261077,
+          "observedHomeWin": 0.5396825396825397
+        },
+        "folds": [
+          {
+            "year": 2014,
+            "trainThrough": 2013,
+            "n": 14,
+            "logLoss": 0.7726551812894408,
+            "brier": 0.2809380181175619,
+            "accuracy": 0.5714285714285714,
+            "meanPrediction": 0.5176900758817912,
+            "observedHomeWin": 0.35714285714285715
+          },
+          {
+            "year": 2015,
+            "trainThrough": 2014,
+            "n": 15,
+            "logLoss": 0.7761983753197513,
+            "brier": 0.29032127243587136,
+            "accuracy": 0.4,
+            "meanPrediction": 0.5024390227184806,
+            "observedHomeWin": 0.6666666666666666
+          },
+          {
+            "year": 2016,
+            "trainThrough": 2015,
+            "n": 14,
+            "logLoss": 0.6248028565616465,
+            "brier": 0.21677186593639658,
+            "accuracy": 0.6428571428571429,
+            "meanPrediction": 0.5282982112532322,
+            "observedHomeWin": 0.6428571428571429
+          },
+          {
+            "year": 2017,
+            "trainThrough": 2016,
+            "n": 15,
+            "logLoss": 0.7160454982710541,
+            "brier": 0.2607986086556357,
+            "accuracy": 0.4666666666666667,
+            "meanPrediction": 0.547492014741404,
+            "observedHomeWin": 0.3333333333333333
+          },
+          {
+            "year": 2018,
+            "trainThrough": 2017,
+            "n": 16,
+            "logLoss": 0.7691650037749627,
+            "brier": 0.28491920584728464,
+            "accuracy": 0.4375,
+            "meanPrediction": 0.5205045672285278,
+            "observedHomeWin": 0.625
+          },
+          {
+            "year": 2019,
+            "trainThrough": 2018,
+            "n": 12,
+            "logLoss": 0.6546851005032329,
+            "brier": 0.2310441657154195,
+            "accuracy": 0.5833333333333334,
+            "meanPrediction": 0.5328203772145773,
+            "observedHomeWin": 0.5833333333333334
+          },
+          {
+            "year": 2020,
+            "trainThrough": 2019,
+            "n": 13,
+            "logLoss": 0.6794653712238427,
+            "brier": 0.24318221343435953,
+            "accuracy": 0.6153846153846154,
+            "meanPrediction": 0.5102600628981914,
+            "observedHomeWin": 0.5384615384615384
+          },
+          {
+            "year": 2021,
+            "trainThrough": 2020,
+            "n": 11,
+            "logLoss": 0.7021615229564128,
+            "brier": 0.2544001469276804,
+            "accuracy": 0.5454545454545454,
+            "meanPrediction": 0.5255520172994682,
+            "observedHomeWin": 0.36363636363636365
+          },
+          {
+            "year": 2022,
+            "trainThrough": 2021,
+            "n": 16,
+            "logLoss": 0.6658265420928773,
+            "brier": 0.23718789948989177,
+            "accuracy": 0.5,
+            "meanPrediction": 0.545510808231185,
+            "observedHomeWin": 0.6875
+          }
+        ]
+      },
+      {
+        "features": [
+          "strength",
+          "home",
+          "rest"
+        ],
+        "lambda": 0.001,
+        "priorType": "regular-season",
+        "validation": {
+          "n": 126,
+          "logLoss": 0.7088995875489655,
+          "brier": 0.25651159981020705,
+          "accuracy": 0.5238095238095238,
+          "meanPrediction": 0.5259344351718775,
+          "observedHomeWin": 0.5396825396825397
+        },
+        "folds": [
+          {
+            "year": 2014,
+            "trainThrough": 2013,
+            "n": 14,
+            "logLoss": 0.772806106223789,
+            "brier": 0.28098070061151803,
+            "accuracy": 0.5714285714285714,
+            "meanPrediction": 0.5177181477791692,
+            "observedHomeWin": 0.35714285714285715
+          },
+          {
+            "year": 2015,
+            "trainThrough": 2014,
+            "n": 15,
+            "logLoss": 0.7762529825417437,
+            "brier": 0.29034558200913047,
+            "accuracy": 0.4,
+            "meanPrediction": 0.5025215971250002,
+            "observedHomeWin": 0.6666666666666666
+          },
+          {
+            "year": 2016,
+            "trainThrough": 2015,
+            "n": 14,
+            "logLoss": 0.6246971401671331,
+            "brier": 0.216721792603018,
+            "accuracy": 0.6428571428571429,
+            "meanPrediction": 0.5283852405439519,
+            "observedHomeWin": 0.6428571428571429
+          },
+          {
+            "year": 2017,
+            "trainThrough": 2016,
+            "n": 15,
+            "logLoss": 0.7160148216120988,
+            "brier": 0.2607852888850464,
+            "accuracy": 0.4666666666666667,
+            "meanPrediction": 0.5475864259460922,
+            "observedHomeWin": 0.3333333333333333
+          },
+          {
+            "year": 2018,
+            "trainThrough": 2017,
+            "n": 16,
+            "logLoss": 0.7692089296822322,
+            "brier": 0.2849324895732447,
+            "accuracy": 0.4375,
+            "meanPrediction": 0.5206050288260505,
+            "observedHomeWin": 0.625
+          },
+          {
+            "year": 2019,
+            "trainThrough": 2018,
+            "n": 12,
+            "logLoss": 0.6546301206155197,
+            "brier": 0.23101836065490375,
+            "accuracy": 0.5833333333333334,
+            "meanPrediction": 0.532929878874335,
+            "observedHomeWin": 0.5833333333333334
+          },
+          {
+            "year": 2020,
+            "trainThrough": 2019,
+            "n": 13,
+            "logLoss": 0.6794633825908585,
+            "brier": 0.2431813454198243,
+            "accuracy": 0.6153846153846154,
+            "meanPrediction": 0.5102711804470995,
+            "observedHomeWin": 0.5384615384615384
+          },
+          {
+            "year": 2021,
+            "trainThrough": 2020,
+            "n": 11,
+            "logLoss": 0.7022171882053698,
+            "brier": 0.2544271458197571,
+            "accuracy": 0.5454545454545454,
+            "meanPrediction": 0.5256117305866806,
+            "observedHomeWin": 0.36363636363636365
+          },
+          {
+            "year": 2022,
+            "trainThrough": 2021,
+            "n": 16,
+            "logLoss": 0.6657480095716837,
+            "brier": 0.23715420951025812,
+            "accuracy": 0.5,
+            "meanPrediction": 0.5456611036932424,
+            "observedHomeWin": 0.6875
+          }
+        ]
+      },
+      {
+        "features": [
+          "strength",
+          "home",
+          "rest"
+        ],
+        "lambda": 0.0001,
+        "priorType": "zero",
+        "validation": {
+          "n": 126,
+          "logLoss": 0.7090729747207986,
+          "brier": 0.25657510051038923,
+          "accuracy": 0.5238095238095238,
+          "meanPrediction": 0.5259193292635169,
+          "observedHomeWin": 0.5396825396825397
+        },
+        "folds": [
+          {
+            "year": 2014,
+            "trainThrough": 2013,
+            "n": 14,
+            "logLoss": 0.773583773059536,
+            "brier": 0.2812054358954548,
+            "accuracy": 0.5714285714285714,
+            "meanPrediction": 0.5176919414696218,
+            "observedHomeWin": 0.35714285714285715
+          },
+          {
+            "year": 2015,
+            "trainThrough": 2014,
+            "n": 15,
+            "logLoss": 0.7767172915420706,
+            "brier": 0.29055992299789424,
+            "accuracy": 0.4,
+            "meanPrediction": 0.502395709989568,
+            "observedHomeWin": 0.6666666666666666
+          },
+          {
+            "year": 2016,
+            "trainThrough": 2015,
+            "n": 14,
+            "logLoss": 0.6246520914945608,
+            "brier": 0.21670329602783214,
+            "accuracy": 0.6428571428571429,
+            "meanPrediction": 0.5283446600655843,
+            "observedHomeWin": 0.6428571428571429
+          },
+          {
+            "year": 2017,
+            "trainThrough": 2016,
+            "n": 15,
+            "logLoss": 0.7159815297970886,
+            "brier": 0.26076632493391183,
+            "accuracy": 0.4666666666666667,
+            "meanPrediction": 0.5476184452465976,
+            "observedHomeWin": 0.3333333333333333
+          },
+          {
+            "year": 2018,
+            "trainThrough": 2017,
+            "n": 16,
+            "logLoss": 0.7695933337184824,
+            "brier": 0.2850899611830279,
+            "accuracy": 0.4375,
+            "meanPrediction": 0.520582443045683,
+            "observedHomeWin": 0.625
+          },
+          {
+            "year": 2019,
+            "trainThrough": 2018,
+            "n": 12,
+            "logLoss": 0.6545483667491764,
+            "brier": 0.23097979270566782,
+            "accuracy": 0.5833333333333334,
+            "meanPrediction": 0.532958828182385,
+            "observedHomeWin": 0.5833333333333334
+          },
+          {
+            "year": 2020,
+            "trainThrough": 2019,
+            "n": 13,
+            "logLoss": 0.6794895875158651,
+            "brier": 0.24319472519064347,
+            "accuracy": 0.6153846153846154,
+            "meanPrediction": 0.5102379352024002,
+            "observedHomeWin": 0.5384615384615384
+          },
+          {
+            "year": 2021,
+            "trainThrough": 2020,
+            "n": 11,
+            "logLoss": 0.7021834149215466,
+            "brier": 0.25441030895305067,
+            "accuracy": 0.5454545454545454,
+            "meanPrediction": 0.5255995678728316,
+            "observedHomeWin": 0.36363636363636365
+          },
+          {
+            "year": 2022,
+            "trainThrough": 2021,
+            "n": 16,
+            "logLoss": 0.6657471530404248,
+            "brier": 0.2371628113154723,
+            "accuracy": 0.5,
+            "meanPrediction": 0.5457248316259911,
+            "observedHomeWin": 0.6875
+          }
+        ]
+      },
+      {
+        "features": [
+          "strength",
+          "home",
+          "rest"
+        ],
+        "lambda": 0.0001,
+        "priorType": "regular-season",
+        "validation": {
+          "n": 126,
+          "logLoss": 0.7090732873982494,
+          "brier": 0.25657487545166874,
+          "accuracy": 0.5238095238095238,
+          "meanPrediction": 0.5259276147466831,
+          "observedHomeWin": 0.5396825396825397
+        },
+        "folds": [
+          {
+            "year": 2014,
+            "trainThrough": 2013,
+            "n": 14,
+            "logLoss": 0.7735990302685044,
+            "brier": 0.28120972802208055,
+            "accuracy": 0.5714285714285714,
+            "meanPrediction": 0.517694756025304,
+            "observedHomeWin": 0.35714285714285715
+          },
+          {
+            "year": 2015,
+            "trainThrough": 2014,
+            "n": 15,
+            "logLoss": 0.7767228195932943,
+            "brier": 0.29056238217354713,
+            "accuracy": 0.4,
+            "meanPrediction": 0.5024040049037926,
+            "observedHomeWin": 0.6666666666666666
+          },
+          {
+            "year": 2016,
+            "trainThrough": 2015,
+            "n": 14,
+            "logLoss": 0.6246414694945875,
+            "brier": 0.21669826544776646,
+            "accuracy": 0.6428571428571429,
+            "meanPrediction": 0.5283534030455213,
+            "observedHomeWin": 0.6428571428571429
+          },
+          {
+            "year": 2017,
+            "trainThrough": 2016,
+            "n": 15,
+            "logLoss": 0.7159783989492301,
+            "brier": 0.2607649653163801,
+            "accuracy": 0.4666666666666667,
+            "meanPrediction": 0.5476279337424174,
+            "observedHomeWin": 0.3333333333333333
+          },
+          {
+            "year": 2018,
+            "trainThrough": 2017,
+            "n": 16,
+            "logLoss": 0.7695977880649936,
+            "brier": 0.28509130526349324,
+            "accuracy": 0.4375,
+            "meanPrediction": 0.520592535987535,
+            "observedHomeWin": 0.625
+          },
+          {
+            "year": 2019,
+            "trainThrough": 2018,
+            "n": 12,
+            "logLoss": 0.6545428516654416,
+            "brier": 0.23097720590536044,
+            "accuracy": 0.5833333333333334,
+            "meanPrediction": 0.5329698316458898,
+            "observedHomeWin": 0.5833333333333334
+          },
+          {
+            "year": 2020,
+            "trainThrough": 2019,
+            "n": 13,
+            "logLoss": 0.6794894133050663,
+            "brier": 0.2431946510037997,
+            "accuracy": 0.6153846153846154,
+            "meanPrediction": 0.5102390379125126,
+            "observedHomeWin": 0.5384615384615384
+          },
+          {
+            "year": 2021,
+            "trainThrough": 2020,
+            "n": 11,
+            "logLoss": 0.7021890115197391,
+            "brier": 0.254413022966039,
+            "accuracy": 0.5454545454545454,
+            "meanPrediction": 0.5256055570605982,
+            "observedHomeWin": 0.36363636363636365
+          },
+          {
+            "year": 2022,
+            "trainThrough": 2021,
+            "n": 16,
+            "logLoss": 0.6657392880406305,
+            "brier": 0.23715944470171607,
+            "accuracy": 0.5,
+            "meanPrediction": 0.5457399359573065,
+            "observedHomeWin": 0.6875
+          }
+        ]
+      },
+      {
+        "features": [
+          "strength",
+          "home",
+          "rest",
+          "games7"
+        ],
+        "lambda": 0.001,
+        "priorType": "regular-season",
+        "validation": {
+          "n": 126,
+          "logLoss": 0.710102120752694,
+          "brier": 0.25722780269677814,
+          "accuracy": 0.5,
+          "meanPrediction": 0.5233342986599276,
+          "observedHomeWin": 0.5396825396825397
+        },
+        "folds": [
+          {
+            "year": 2014,
+            "trainThrough": 2013,
+            "n": 14,
+            "logLoss": 0.7789697646352478,
+            "brier": 0.2860208460303905,
+            "accuracy": 0.5,
+            "meanPrediction": 0.5095310766250091,
+            "observedHomeWin": 0.35714285714285715
+          },
+          {
+            "year": 2015,
+            "trainThrough": 2014,
+            "n": 15,
+            "logLoss": 0.7688233550964008,
+            "brier": 0.2868809845622012,
+            "accuracy": 0.4,
+            "meanPrediction": 0.5045769180621618,
+            "observedHomeWin": 0.6666666666666666
+          },
+          {
+            "year": 2016,
+            "trainThrough": 2015,
+            "n": 14,
+            "logLoss": 0.6120613962982518,
+            "brier": 0.21062295742942522,
+            "accuracy": 0.7142857142857143,
+            "meanPrediction": 0.5233388064812804,
+            "observedHomeWin": 0.6428571428571429
+          },
+          {
+            "year": 2017,
+            "trainThrough": 2016,
+            "n": 15,
+            "logLoss": 0.748401894710577,
+            "brier": 0.27683838897060187,
+            "accuracy": 0.26666666666666666,
+            "meanPrediction": 0.5450297556079949,
+            "observedHomeWin": 0.3333333333333333
+          },
+          {
+            "year": 2018,
+            "trainThrough": 2017,
+            "n": 16,
+            "logLoss": 0.789805792858792,
+            "brier": 0.2934515580848812,
+            "accuracy": 0.4375,
+            "meanPrediction": 0.5158381038362261,
+            "observedHomeWin": 0.625
+          },
+          {
+            "year": 2019,
+            "trainThrough": 2018,
+            "n": 12,
+            "logLoss": 0.6644959919930901,
+            "brier": 0.23588502239034326,
+            "accuracy": 0.5,
+            "meanPrediction": 0.5322460517336616,
+            "observedHomeWin": 0.5833333333333334
+          },
+          {
+            "year": 2020,
+            "trainThrough": 2019,
+            "n": 13,
+            "logLoss": 0.6701123206989971,
+            "brier": 0.23856566046131814,
+            "accuracy": 0.6153846153846154,
+            "meanPrediction": 0.5095229066283843,
+            "observedHomeWin": 0.5384615384615384
+          },
+          {
+            "year": 2021,
+            "trainThrough": 2020,
+            "n": 11,
+            "logLoss": 0.6861227255220683,
+            "brier": 0.2465764778083276,
+            "accuracy": 0.5454545454545454,
+            "meanPrediction": 0.526988734286959,
+            "observedHomeWin": 0.36363636363636365
+          },
+          {
+            "year": 2022,
+            "trainThrough": 2021,
+            "n": 16,
+            "logLoss": 0.6481498421986442,
+            "brier": 0.2288974530271013,
+            "accuracy": 0.5625,
+            "meanPrediction": 0.5421754385688355,
+            "observedHomeWin": 0.6875
+          }
+        ]
+      },
+      {
+        "features": [
+          "strength",
+          "home",
+          "rest",
+          "games7"
+        ],
+        "lambda": 0.001,
+        "priorType": "zero",
+        "validation": {
+          "n": 126,
+          "logLoss": 0.7101064212373656,
+          "brier": 0.25723410629102994,
+          "accuracy": 0.5,
+          "meanPrediction": 0.5232565896427135,
+          "observedHomeWin": 0.5396825396825397
+        },
+        "folds": [
+          {
+            "year": 2014,
+            "trainThrough": 2013,
+            "n": 14,
+            "logLoss": 0.7788086899347767,
+            "brier": 0.28597036615012733,
+            "accuracy": 0.5,
+            "meanPrediction": 0.5095107827307024,
+            "observedHomeWin": 0.35714285714285715
+          },
+          {
+            "year": 2015,
+            "trainThrough": 2014,
+            "n": 15,
+            "logLoss": 0.7687860005937428,
+            "brier": 0.286864416120924,
+            "accuracy": 0.4,
+            "meanPrediction": 0.5044890255180999,
+            "observedHomeWin": 0.6666666666666666
+          },
+          {
+            "year": 2016,
+            "trainThrough": 2015,
+            "n": 14,
+            "logLoss": 0.6121904342905962,
+            "brier": 0.21068431088509043,
+            "accuracy": 0.7142857142857143,
+            "meanPrediction": 0.523259644282019,
+            "observedHomeWin": 0.6428571428571429
+          },
+          {
+            "year": 2017,
+            "trainThrough": 2016,
+            "n": 15,
+            "logLoss": 0.748373385408344,
+            "brier": 0.27682255305583586,
+            "accuracy": 0.26666666666666666,
+            "meanPrediction": 0.5449389246254019,
+            "observedHomeWin": 0.3333333333333333
+          },
+          {
+            "year": 2018,
+            "trainThrough": 2017,
+            "n": 16,
+            "logLoss": 0.7896806028289389,
+            "brier": 0.29340894449123334,
+            "accuracy": 0.4375,
+            "meanPrediction": 0.5157557759302078,
+            "observedHomeWin": 0.625
+          },
+          {
+            "year": 2019,
+            "trainThrough": 2018,
+            "n": 12,
+            "logLoss": 0.6646289121127155,
+            "brier": 0.2359496225597181,
+            "accuracy": 0.5,
+            "meanPrediction": 0.5321309589690851,
+            "observedHomeWin": 0.5833333333333334
+          },
+          {
+            "year": 2020,
+            "trainThrough": 2019,
+            "n": 13,
+            "logLoss": 0.6701845114022906,
+            "brier": 0.23860092711498837,
+            "accuracy": 0.6153846153846154,
+            "meanPrediction": 0.5095176229314263,
+            "observedHomeWin": 0.5384615384615384
+          },
+          {
+            "year": 2021,
+            "trainThrough": 2020,
+            "n": 11,
+            "logLoss": 0.6861036779959186,
+            "brier": 0.2465663947707679,
+            "accuracy": 0.5454545454545454,
+            "meanPrediction": 0.5269249595534098,
+            "observedHomeWin": 0.36363636363636365
+          },
+          {
+            "year": 2022,
+            "trainThrough": 2021,
+            "n": 16,
+            "logLoss": 0.6482534281200647,
+            "brier": 0.22894039993598025,
+            "accuracy": 0.5625,
+            "meanPrediction": 0.542034843058929,
+            "observedHomeWin": 0.6875
+          }
+        ]
+      },
+      {
+        "features": [
+          "strength",
+          "home",
+          "rest",
+          "games7"
+        ],
+        "lambda": 0.0001,
+        "priorType": "regular-season",
+        "validation": {
+          "n": 126,
+          "logLoss": 0.710386499978594,
+          "brier": 0.2573435830427698,
+          "accuracy": 0.5,
+          "meanPrediction": 0.5232835778644469,
+          "observedHomeWin": 0.5396825396825397
+        },
+        "folds": [
+          {
+            "year": 2014,
+            "trainThrough": 2013,
+            "n": 14,
+            "logLoss": 0.7800341590383209,
+            "brier": 0.2864217496988947,
+            "accuracy": 0.5,
+            "meanPrediction": 0.5093415650783227,
+            "observedHomeWin": 0.35714285714285715
+          },
+          {
+            "year": 2015,
+            "trainThrough": 2014,
+            "n": 15,
+            "logLoss": 0.7691902131435733,
+            "brier": 0.2870499714949929,
+            "accuracy": 0.4,
+            "meanPrediction": 0.5045166210016248,
+            "observedHomeWin": 0.6666666666666666
+          },
+          {
+            "year": 2016,
+            "trainThrough": 2015,
+            "n": 14,
+            "logLoss": 0.6117172160611671,
+            "brier": 0.21046670329009295,
+            "accuracy": 0.7142857142857143,
+            "meanPrediction": 0.5232100374164927,
+            "observedHomeWin": 0.6428571428571429
+          },
+          {
+            "year": 2017,
+            "trainThrough": 2016,
+            "n": 15,
+            "logLoss": 0.7492632262090102,
+            "brier": 0.27725655944861743,
+            "accuracy": 0.26666666666666666,
+            "meanPrediction": 0.5450400751352175,
+            "observedHomeWin": 0.3333333333333333
+          },
+          {
+            "year": 2018,
+            "trainThrough": 2017,
+            "n": 16,
+            "logLoss": 0.7908679859564339,
+            "brier": 0.29387369050799306,
+            "accuracy": 0.4375,
+            "meanPrediction": 0.5157075345900003,
+            "observedHomeWin": 0.625
+          },
+          {
+            "year": 2019,
+            "trainThrough": 2018,
+            "n": 12,
+            "logLoss": 0.6644912064863325,
+            "brier": 0.23588416605981744,
+            "accuracy": 0.5,
+            "meanPrediction": 0.5322759195375278,
+            "observedHomeWin": 0.5833333333333334
+          },
+          {
+            "year": 2020,
+            "trainThrough": 2019,
+            "n": 13,
+            "logLoss": 0.6698958548646724,
+            "brier": 0.23845978958819186,
+            "accuracy": 0.6153846153846154,
+            "meanPrediction": 0.5094837312260624,
+            "observedHomeWin": 0.5384615384615384
+          },
+          {
+            "year": 2021,
+            "trainThrough": 2020,
+            "n": 11,
+            "logLoss": 0.685825805086033,
+            "brier": 0.24643255270684392,
+            "accuracy": 0.5454545454545454,
+            "meanPrediction": 0.527041239743582,
+            "observedHomeWin": 0.36363636363636365
+          },
+          {
+            "year": 2022,
+            "trainThrough": 2021,
+            "n": 16,
+            "logLoss": 0.6479291208309511,
+            "brier": 0.22880817325759575,
+            "accuracy": 0.5625,
+            "meanPrediction": 0.5422052626832322,
+            "observedHomeWin": 0.6875
+          }
+        ]
+      },
+      {
+        "features": [
+          "strength",
+          "home",
+          "rest",
+          "games7"
+        ],
+        "lambda": 0.0001,
+        "priorType": "zero",
+        "validation": {
+          "n": 126,
+          "logLoss": 0.7103868919291141,
+          "brier": 0.25734420517440215,
+          "accuracy": 0.5,
+          "meanPrediction": 0.5232757747890875,
+          "observedHomeWin": 0.5396825396825397
+        },
+        "folds": [
+          {
+            "year": 2014,
+            "trainThrough": 2013,
+            "n": 14,
+            "logLoss": 0.7800178426310226,
+            "brier": 0.28641665484917656,
+            "accuracy": 0.5,
+            "meanPrediction": 0.5093395394757224,
+            "observedHomeWin": 0.35714285714285715
+          },
+          {
+            "year": 2015,
+            "trainThrough": 2014,
+            "n": 15,
+            "logLoss": 0.769186417025336,
+            "brier": 0.28704828926403775,
+            "accuracy": 0.4,
+            "meanPrediction": 0.5045077816726683,
+            "observedHomeWin": 0.6666666666666666
+          },
+          {
+            "year": 2016,
+            "trainThrough": 2015,
+            "n": 14,
+            "logLoss": 0.6117302103747206,
+            "brier": 0.21047287922129507,
+            "accuracy": 0.7142857142857143,
+            "meanPrediction": 0.523202089140464,
+            "observedHomeWin": 0.6428571428571429
+          },
+          {
+            "year": 2017,
+            "trainThrough": 2016,
+            "n": 15,
+            "logLoss": 0.7492602894903586,
+            "brier": 0.27725492958995557,
+            "accuracy": 0.26666666666666666,
+            "meanPrediction": 0.5450309467077264,
+            "observedHomeWin": 0.3333333333333333
+          },
+          {
+            "year": 2018,
+            "trainThrough": 2017,
+            "n": 16,
+            "logLoss": 0.7908551902223556,
+            "brier": 0.29386935027299355,
+            "accuracy": 0.4375,
+            "meanPrediction": 0.5156992857411364,
+            "observedHomeWin": 0.625
+          },
+          {
+            "year": 2019,
+            "trainThrough": 2018,
+            "n": 12,
+            "logLoss": 0.6645046550471719,
+            "brier": 0.23589070131251458,
+            "accuracy": 0.5,
+            "meanPrediction": 0.5322643437250929,
+            "observedHomeWin": 0.5833333333333334
+          },
+          {
+            "year": 2020,
+            "trainThrough": 2019,
+            "n": 13,
+            "logLoss": 0.6699031700420318,
+            "brier": 0.23846336165646742,
+            "accuracy": 0.6153846153846154,
+            "meanPrediction": 0.5094832128767153,
+            "observedHomeWin": 0.5384615384615384
+          },
+          {
+            "year": 2021,
+            "trainThrough": 2020,
+            "n": 11,
+            "logLoss": 0.6858239099493799,
+            "brier": 0.2464315461228929,
+            "accuracy": 0.5454545454545454,
+            "meanPrediction": 0.5270348280564787,
+            "observedHomeWin": 0.36363636363636365
+          },
+          {
+            "year": 2022,
+            "trainThrough": 2021,
+            "n": 16,
+            "logLoss": 0.6479394949462012,
+            "brier": 0.22881246019838747,
+            "accuracy": 0.5625,
+            "meanPrediction": 0.5421911452821648,
+            "observedHomeWin": 0.6875
+          }
+        ]
+      }
+    ]
+  },
+  "holdout": {
+    "period": "2023–2025",
+    "trainedThrough": 2022,
+    "coefficients": {
+      "strength": 0.6808512448712205,
+      "home": 0.12439424028593299
+    },
+    "adjusted": {
+      "n": 44,
+      "logLoss": 0.6841273197985793,
+      "brier": 0.2455146973981705,
+      "accuracy": 0.5681818181818182,
+      "meanPrediction": 0.5335019635876447,
+      "observedHomeWin": 0.5227272727272727
+    },
+    "baseline": {
+      "n": 44,
+      "logLoss": 0.692325570644381,
+      "brier": 0.24958899999999995,
+      "accuracy": 0.5227272727272727,
+      "meanPrediction": 0.5330000000000001,
+      "observedHomeWin": 0.5227272727272727
+    },
+    "yearly": [
+      {
+        "season": 2023,
+        "adjusted": {
+          "n": 14,
+          "logLoss": 0.7002494768064571,
+          "brier": 0.25354417926630873,
+          "accuracy": 0.5,
+          "meanPrediction": 0.5356858314293281,
+          "observedHomeWin": 0.35714285714285715
+        },
+        "baseline": {
+          "n": 14,
+          "logLoss": 0.7142145332786157,
+          "brier": 0.2605175714285714,
+          "accuracy": 0.35714285714285715,
+          "meanPrediction": 0.5330000000000001,
+          "observedHomeWin": 0.35714285714285715
+        }
+      },
+      {
+        "season": 2024,
+        "adjusted": {
+          "n": 14,
+          "logLoss": 0.67822132829852,
+          "brier": 0.24258086624850234,
+          "accuracy": 0.5714285714285714,
+          "meanPrediction": 0.5305679426491038,
+          "observedHomeWin": 0.5714285714285714
+        },
+        "baseline": {
+          "n": 14,
+          "logLoss": 0.6858876404578412,
+          "brier": 0.24637471428571425,
+          "accuracy": 0.5714285714285714,
+          "meanPrediction": 0.5330000000000001,
+          "observedHomeWin": 0.5714285714285714
+        }
+      },
+      {
+        "season": 2025,
+        "adjusted": {
+          "n": 16,
+          "logLoss": 0.6751881749792379,
+          "brier": 0.24105600301950908,
+          "accuracy": 0.625,
+          "meanPrediction": 0.5341583475473949,
+          "observedHomeWin": 0.625
+        },
+        "baseline": {
+          "n": 16,
+          "logLoss": 0.6788059172526477,
+          "brier": 0.242839,
+          "accuracy": 0.625,
+          "meanPrediction": 0.533,
+          "observedHomeWin": 0.625
+        }
+      }
+    ],
+    "calibration": [
+      {
+        "low": 0.4,
+        "high": 0.6,
+        "n": 44,
+        "logLoss": 0.6841273197985793,
+        "brier": 0.2455146973981705,
+        "accuracy": 0.5681818181818182,
+        "meanPrediction": 0.5335019635876447,
+        "observedHomeWin": 0.5227272727272727
+      }
+    ]
+  },
+  "coefficientIntervals": {
+    "method": "season-cluster percentile bootstrap, selected specification fixed",
+    "replicates": 500,
+    "seed": 20261105,
+    "intervals95": {
+      "strength": [
+        0.45353788740433176,
+        0.9655740063631957
+      ],
+      "home": [
+        0.05856769797402774,
+        0.15575941453499229
+      ]
+    }
+  },
+  "initialTeams": {
+    "KT": {
+      "w": 90,
+      "l": 49,
+      "d": 5,
+      "runs": 825,
+      "allowed": 649,
+      "strength": 0.6079893722196384,
+      "lastDate": "2026-10-12",
+      "recentDates": [
+        "2026-10-07",
+        "2026-10-11",
+        "2026-10-12"
+      ]
+    },
+    "삼성": {
+      "w": 83,
+      "l": 58,
+      "d": 3,
+      "runs": 806,
+      "allowed": 669,
+      "strength": 0.35839759725017867,
+      "lastDate": "2026-10-12",
+      "recentDates": [
+        "2026-10-07",
+        "2026-10-09",
+        "2026-10-11",
+        "2026-10-12"
+      ]
+    },
+    "KIA": {
+      "w": 79,
+      "l": 63,
+      "d": 2,
+      "runs": 769,
+      "allowed": 664,
+      "strength": 0.22631312607548879,
+      "lastDate": "2026-10-12",
+      "recentDates": [
+        "2026-10-07",
+        "2026-10-09",
+        "2026-10-10",
+        "2026-10-11",
+        "2026-10-12"
+      ]
+    },
+    "LG": {
+      "w": 78,
+      "l": 65,
+      "d": 1,
+      "runs": 723,
+      "allowed": 726,
+      "strength": 0.1823215567939546,
+      "lastDate": "2026-10-12",
+      "recentDates": [
+        "2026-10-07",
+        "2026-10-09",
+        "2026-10-10",
+        "2026-10-12"
+      ]
+    },
+    "두산": {
+      "w": 73,
+      "l": 66,
+      "d": 5,
+      "runs": 688,
+      "allowed": 630,
+      "strength": 0.1008046991219655,
+      "lastDate": "2026-10-12",
+      "recentDates": [
+        "2026-10-07",
+        "2026-10-12"
+      ]
+    }
+  },
+  "seasonSummary": [
+    {
+      "season": 2010,
+      "regularGamesBeforePS": 532,
+      "cutoff": "2010-09-29",
+      "teams": {
+        "두산": {
+          "w": 73,
+          "l": 57,
+          "d": 3,
+          "runs": 731,
+          "allowed": 669
+        },
+        "KIA": {
+          "w": 59,
+          "l": 74,
+          "d": 0,
+          "runs": 611,
+          "allowed": 641
+        },
+        "삼성": {
+          "w": 79,
+          "l": 52,
+          "d": 2,
+          "runs": 681,
+          "allowed": 575
+        },
+        "LG": {
+          "w": 57,
+          "l": 71,
+          "d": 5,
+          "runs": 688,
+          "allowed": 746
+        },
+        "롯데": {
+          "w": 69,
+          "l": 61,
+          "d": 3,
+          "runs": 773,
+          "allowed": 710
+        },
+        "키움": {
+          "w": 52,
+          "l": 78,
+          "d": 3,
+          "runs": 570,
+          "allowed": 652
+        },
+        "SSG": {
+          "w": 84,
+          "l": 47,
+          "d": 2,
+          "runs": 704,
+          "allowed": 545
+        },
+        "한화": {
+          "w": 49,
+          "l": 82,
+          "d": 2,
+          "runs": 543,
+          "allowed": 763
+        }
+      }
+    },
+    {
+      "season": 2011,
+      "regularGamesBeforePS": 532,
+      "cutoff": "2011-10-08",
+      "teams": {
+        "KIA": {
+          "w": 70,
+          "l": 63,
+          "d": 0,
+          "runs": 627,
+          "allowed": 580
+        },
+        "삼성": {
+          "w": 79,
+          "l": 50,
+          "d": 4,
+          "runs": 625,
+          "allowed": 513
+        },
+        "두산": {
+          "w": 61,
+          "l": 70,
+          "d": 2,
+          "runs": 614,
+          "allowed": 619
+        },
+        "LG": {
+          "w": 59,
+          "l": 72,
+          "d": 2,
+          "runs": 579,
+          "allowed": 620
+        },
+        "롯데": {
+          "w": 72,
+          "l": 56,
+          "d": 5,
+          "runs": 713,
+          "allowed": 619
+        },
+        "한화": {
+          "w": 59,
+          "l": 72,
+          "d": 2,
+          "runs": 568,
+          "allowed": 727
+        },
+        "SSG": {
+          "w": 71,
+          "l": 59,
+          "d": 3,
+          "runs": 584,
+          "allowed": 522
+        },
+        "키움": {
+          "w": 51,
+          "l": 80,
+          "d": 2,
+          "runs": 512,
+          "allowed": 622
+        }
+      }
+    },
+    {
+      "season": 2012,
+      "regularGamesBeforePS": 532,
+      "cutoff": "2012-10-08",
+      "teams": {
+        "롯데": {
+          "w": 65,
+          "l": 62,
+          "d": 6,
+          "runs": 509,
+          "allowed": 518
+        },
+        "한화": {
+          "w": 53,
+          "l": 77,
+          "d": 3,
+          "runs": 509,
+          "allowed": 647
+        },
+        "SSG": {
+          "w": 71,
+          "l": 59,
+          "d": 3,
+          "runs": 564,
+          "allowed": 528
+        },
+        "KIA": {
+          "w": 62,
+          "l": 65,
+          "d": 6,
+          "runs": 553,
+          "allowed": 564
+        },
+        "두산": {
+          "w": 68,
+          "l": 62,
+          "d": 3,
+          "runs": 524,
+          "allowed": 519
+        },
+        "키움": {
+          "w": 61,
+          "l": 69,
+          "d": 3,
+          "runs": 549,
+          "allowed": 551
+        },
+        "삼성": {
+          "w": 80,
+          "l": 51,
+          "d": 2,
+          "runs": 628,
+          "allowed": 473
+        },
+        "LG": {
+          "w": 57,
+          "l": 72,
+          "d": 4,
+          "runs": 544,
+          "allowed": 580
+        }
+      }
+    },
+    {
+      "season": 2013,
+      "regularGamesBeforePS": 576,
+      "cutoff": "2013-10-08",
+      "teams": {
+        "KIA": {
+          "w": 51,
+          "l": 74,
+          "d": 3,
+          "runs": 587,
+          "allowed": 711
+        },
+        "키움": {
+          "w": 72,
+          "l": 54,
+          "d": 2,
+          "runs": 646,
+          "allowed": 576
+        },
+        "삼성": {
+          "w": 75,
+          "l": 51,
+          "d": 2,
+          "runs": 669,
+          "allowed": 545
+        },
+        "두산": {
+          "w": 71,
+          "l": 54,
+          "d": 3,
+          "runs": 699,
+          "allowed": 625
+        },
+        "롯데": {
+          "w": 66,
+          "l": 58,
+          "d": 4,
+          "runs": 556,
+          "allowed": 553
+        },
+        "한화": {
+          "w": 42,
+          "l": 85,
+          "d": 1,
+          "runs": 480,
+          "allowed": 711
+        },
+        "SSG": {
+          "w": 62,
+          "l": 63,
+          "d": 3,
+          "runs": 588,
+          "allowed": 571
+        },
+        "LG": {
+          "w": 74,
+          "l": 54,
+          "d": 0,
+          "runs": 616,
+          "allowed": 510
+        },
+        "NC": {
+          "w": 52,
+          "l": 72,
+          "d": 4,
+          "runs": 512,
+          "allowed": 551
+        }
+      }
+    },
+    {
+      "season": 2014,
+      "regularGamesBeforePS": 576,
+      "cutoff": "2014-10-19",
+      "teams": {
+        "두산": {
+          "w": 59,
+          "l": 68,
+          "d": 1,
+          "runs": 687,
+          "allowed": 733
+        },
+        "LG": {
+          "w": 62,
+          "l": 64,
+          "d": 2,
+          "runs": 668,
+          "allowed": 643
+        },
+        "삼성": {
+          "w": 78,
+          "l": 47,
+          "d": 3,
+          "runs": 812,
+          "allowed": 621
+        },
+        "KIA": {
+          "w": 54,
+          "l": 74,
+          "d": 0,
+          "runs": 662,
+          "allowed": 788
+        },
+        "SSG": {
+          "w": 61,
+          "l": 65,
+          "d": 2,
+          "runs": 735,
+          "allowed": 760
+        },
+        "키움": {
+          "w": 78,
+          "l": 48,
+          "d": 2,
+          "runs": 841,
+          "allowed": 716
+        },
+        "롯데": {
+          "w": 58,
+          "l": 69,
+          "d": 1,
+          "runs": 716,
+          "allowed": 719
+        },
+        "한화": {
+          "w": 49,
+          "l": 77,
+          "d": 2,
+          "runs": 619,
+          "allowed": 889
+        },
+        "NC": {
+          "w": 70,
+          "l": 57,
+          "d": 1,
+          "runs": 737,
+          "allowed": 608
+        }
+      }
+    },
+    {
+      "season": 2015,
+      "regularGamesBeforePS": 720,
+      "cutoff": "2015-10-07",
+      "teams": {
+        "키움": {
+          "w": 78,
+          "l": 65,
+          "d": 1,
+          "runs": 904,
+          "allowed": 790
+        },
+        "한화": {
+          "w": 68,
+          "l": 76,
+          "d": 0,
+          "runs": 717,
+          "allowed": 800
+        },
+        "두산": {
+          "w": 79,
+          "l": 65,
+          "d": 0,
+          "runs": 807,
+          "allowed": 776
+        },
+        "NC": {
+          "w": 84,
+          "l": 57,
+          "d": 3,
+          "runs": 844,
+          "allowed": 655
+        },
+        "삼성": {
+          "w": 88,
+          "l": 56,
+          "d": 0,
+          "runs": 897,
+          "allowed": 716
+        },
+        "SSG": {
+          "w": 69,
+          "l": 73,
+          "d": 2,
+          "runs": 693,
+          "allowed": 724
+        },
+        "롯데": {
+          "w": 66,
+          "l": 77,
+          "d": 1,
+          "runs": 765,
+          "allowed": 802
+        },
+        "KT": {
+          "w": 52,
+          "l": 91,
+          "d": 1,
+          "runs": 670,
+          "allowed": 875
+        },
+        "KIA": {
+          "w": 67,
+          "l": 77,
+          "d": 0,
+          "runs": 648,
+          "allowed": 739
+        },
+        "LG": {
+          "w": 64,
+          "l": 78,
+          "d": 2,
+          "runs": 653,
+          "allowed": 721
+        }
+      }
+    },
+    {
+      "season": 2016,
+      "regularGamesBeforePS": 720,
+      "cutoff": "2016-10-10",
+      "teams": {
+        "NC": {
+          "w": 83,
+          "l": 58,
+          "d": 3,
+          "runs": 857,
+          "allowed": 690
+        },
+        "KIA": {
+          "w": 70,
+          "l": 73,
+          "d": 1,
+          "runs": 803,
+          "allowed": 785
+        },
+        "LG": {
+          "w": 71,
+          "l": 71,
+          "d": 2,
+          "runs": 786,
+          "allowed": 807
+        },
+        "한화": {
+          "w": 66,
+          "l": 75,
+          "d": 3,
+          "runs": 826,
+          "allowed": 908
+        },
+        "삼성": {
+          "w": 65,
+          "l": 78,
+          "d": 1,
+          "runs": 852,
+          "allowed": 869
+        },
+        "두산": {
+          "w": 93,
+          "l": 50,
+          "d": 1,
+          "runs": 935,
+          "allowed": 682
+        },
+        "SSG": {
+          "w": 69,
+          "l": 75,
+          "d": 0,
+          "runs": 753,
+          "allowed": 784
+        },
+        "KT": {
+          "w": 53,
+          "l": 89,
+          "d": 2,
+          "runs": 672,
+          "allowed": 927
+        },
+        "키움": {
+          "w": 77,
+          "l": 66,
+          "d": 1,
+          "runs": 813,
+          "allowed": 757
+        },
+        "롯데": {
+          "w": 66,
+          "l": 78,
+          "d": 0,
+          "runs": 777,
+          "allowed": 865
+        }
+      }
+    },
+    {
+      "season": 2017,
+      "regularGamesBeforePS": 720,
+      "cutoff": "2017-10-05",
+      "teams": {
+        "NC": {
+          "w": 79,
+          "l": 62,
+          "d": 3,
+          "runs": 786,
+          "allowed": 745
+        },
+        "롯데": {
+          "w": 80,
+          "l": 62,
+          "d": 2,
+          "runs": 743,
+          "allowed": 701
+        },
+        "두산": {
+          "w": 84,
+          "l": 57,
+          "d": 3,
+          "runs": 849,
+          "allowed": 678
+        },
+        "한화": {
+          "w": 61,
+          "l": 81,
+          "d": 2,
+          "runs": 737,
+          "allowed": 820
+        },
+        "삼성": {
+          "w": 55,
+          "l": 84,
+          "d": 5,
+          "runs": 757,
+          "allowed": 911
+        },
+        "KIA": {
+          "w": 87,
+          "l": 56,
+          "d": 1,
+          "runs": 906,
+          "allowed": 743
+        },
+        "SSG": {
+          "w": 75,
+          "l": 68,
+          "d": 1,
+          "runs": 761,
+          "allowed": 767
+        },
+        "KT": {
+          "w": 50,
+          "l": 94,
+          "d": 0,
+          "runs": 655,
+          "allowed": 876
+        },
+        "키움": {
+          "w": 69,
+          "l": 73,
+          "d": 2,
+          "runs": 789,
+          "allowed": 764
+        },
+        "LG": {
+          "w": 69,
+          "l": 72,
+          "d": 3,
+          "runs": 699,
+          "allowed": 677
+        }
+      }
+    },
+    {
+      "season": 2018,
+      "regularGamesBeforePS": 720,
+      "cutoff": "2018-10-16",
+      "teams": {
+        "NC": {
+          "w": 58,
+          "l": 85,
+          "d": 1,
+          "runs": 660,
+          "allowed": 844
+        },
+        "LG": {
+          "w": 68,
+          "l": 75,
+          "d": 1,
+          "runs": 788,
+          "allowed": 816
+        },
+        "두산": {
+          "w": 93,
+          "l": 51,
+          "d": 0,
+          "runs": 944,
+          "allowed": 756
+        },
+        "삼성": {
+          "w": 68,
+          "l": 72,
+          "d": 4,
+          "runs": 776,
+          "allowed": 802
+        },
+        "SSG": {
+          "w": 78,
+          "l": 65,
+          "d": 1,
+          "runs": 829,
+          "allowed": 729
+        },
+        "롯데": {
+          "w": 68,
+          "l": 74,
+          "d": 2,
+          "runs": 821,
+          "allowed": 846
+        },
+        "KIA": {
+          "w": 70,
+          "l": 74,
+          "d": 0,
+          "runs": 865,
+          "allowed": 826
+        },
+        "KT": {
+          "w": 59,
+          "l": 82,
+          "d": 3,
+          "runs": 757,
+          "allowed": 834
+        },
+        "키움": {
+          "w": 75,
+          "l": 69,
+          "d": 0,
+          "runs": 825,
+          "allowed": 780
+        },
+        "한화": {
+          "w": 77,
+          "l": 67,
+          "d": 0,
+          "runs": 729,
+          "allowed": 761
+        }
+      }
+    },
+    {
+      "season": 2019,
+      "regularGamesBeforePS": 720,
+      "cutoff": "2019-10-03",
+      "teams": {
+        "두산": {
+          "w": 88,
+          "l": 55,
+          "d": 1,
+          "runs": 736,
+          "allowed": 550
+        },
+        "한화": {
+          "w": 58,
+          "l": 86,
+          "d": 0,
+          "runs": 607,
+          "allowed": 737
+        },
+        "롯데": {
+          "w": 48,
+          "l": 93,
+          "d": 3,
+          "runs": 578,
+          "allowed": 764
+        },
+        "키움": {
+          "w": 86,
+          "l": 57,
+          "d": 1,
+          "runs": 780,
+          "allowed": 572
+        },
+        "SSG": {
+          "w": 88,
+          "l": 55,
+          "d": 1,
+          "runs": 655,
+          "allowed": 546
+        },
+        "KT": {
+          "w": 71,
+          "l": 71,
+          "d": 2,
+          "runs": 650,
+          "allowed": 661
+        },
+        "KIA": {
+          "w": 62,
+          "l": 80,
+          "d": 2,
+          "runs": 605,
+          "allowed": 723
+        },
+        "LG": {
+          "w": 79,
+          "l": 64,
+          "d": 1,
+          "runs": 641,
+          "allowed": 633
+        },
+        "NC": {
+          "w": 73,
+          "l": 69,
+          "d": 2,
+          "runs": 674,
+          "allowed": 631
+        },
+        "삼성": {
+          "w": 60,
+          "l": 83,
+          "d": 1,
+          "runs": 622,
+          "allowed": 731
+        }
+      }
+    },
+    {
+      "season": 2020,
+      "regularGamesBeforePS": 720,
+      "cutoff": "2020-11-02",
+      "teams": {
+        "LG": {
+          "w": 79,
+          "l": 61,
+          "d": 4,
+          "runs": 802,
+          "allowed": 694
+        },
+        "두산": {
+          "w": 79,
+          "l": 61,
+          "d": 4,
+          "runs": 816,
+          "allowed": 695
+        },
+        "삼성": {
+          "w": 64,
+          "l": 75,
+          "d": 5,
+          "runs": 699,
+          "allowed": 745
+        },
+        "NC": {
+          "w": 83,
+          "l": 55,
+          "d": 6,
+          "runs": 888,
+          "allowed": 714
+        },
+        "SSG": {
+          "w": 51,
+          "l": 92,
+          "d": 1,
+          "runs": 634,
+          "allowed": 846
+        },
+        "한화": {
+          "w": 46,
+          "l": 95,
+          "d": 3,
+          "runs": 551,
+          "allowed": 820
+        },
+        "KIA": {
+          "w": 73,
+          "l": 71,
+          "d": 0,
+          "runs": 724,
+          "allowed": 795
+        },
+        "키움": {
+          "w": 80,
+          "l": 63,
+          "d": 1,
+          "runs": 759,
+          "allowed": 692
+        },
+        "KT": {
+          "w": 81,
+          "l": 62,
+          "d": 1,
+          "runs": 813,
+          "allowed": 715
+        },
+        "롯데": {
+          "w": 71,
+          "l": 72,
+          "d": 1,
+          "runs": 750,
+          "allowed": 720
+        }
+      }
+    },
+    {
+      "season": 2021,
+      "regularGamesBeforePS": 720,
+      "cutoff": "2021-11-01",
+      "teams": {
+        "키움": {
+          "w": 70,
+          "l": 67,
+          "d": 7,
+          "runs": 722,
+          "allowed": 700
+        },
+        "삼성": {
+          "w": 76,
+          "l": 59,
+          "d": 9,
+          "runs": 712,
+          "allowed": 658
+        },
+        "두산": {
+          "w": 71,
+          "l": 65,
+          "d": 8,
+          "runs": 738,
+          "allowed": 656
+        },
+        "KIA": {
+          "w": 58,
+          "l": 76,
+          "d": 10,
+          "runs": 568,
+          "allowed": 752
+        },
+        "SSG": {
+          "w": 66,
+          "l": 64,
+          "d": 14,
+          "runs": 755,
+          "allowed": 741
+        },
+        "롯데": {
+          "w": 65,
+          "l": 71,
+          "d": 8,
+          "runs": 727,
+          "allowed": 808
+        },
+        "KT": {
+          "w": 76,
+          "l": 59,
+          "d": 9,
+          "runs": 719,
+          "allowed": 584
+        },
+        "한화": {
+          "w": 49,
+          "l": 83,
+          "d": 12,
+          "runs": 599,
+          "allowed": 739
+        },
+        "NC": {
+          "w": 67,
+          "l": 68,
+          "d": 9,
+          "runs": 702,
+          "allowed": 697
+        },
+        "LG": {
+          "w": 72,
+          "l": 58,
+          "d": 14,
+          "runs": 654,
+          "allowed": 561
+        }
+      }
+    },
+    {
+      "season": 2022,
+      "regularGamesBeforePS": 720,
+      "cutoff": "2022-10-13",
+      "teams": {
+        "두산": {
+          "w": 60,
+          "l": 82,
+          "d": 2,
+          "runs": 638,
+          "allowed": 721
+        },
+        "한화": {
+          "w": 46,
+          "l": 96,
+          "d": 2,
+          "runs": 564,
+          "allowed": 759
+        },
+        "KIA": {
+          "w": 70,
+          "l": 73,
+          "d": 1,
+          "runs": 720,
+          "allowed": 679
+        },
+        "LG": {
+          "w": 87,
+          "l": 55,
+          "d": 2,
+          "runs": 715,
+          "allowed": 521
+        },
+        "KT": {
+          "w": 80,
+          "l": 62,
+          "d": 2,
+          "runs": 631,
+          "allowed": 562
+        },
+        "삼성": {
+          "w": 66,
+          "l": 76,
+          "d": 2,
+          "runs": 663,
+          "allowed": 695
+        },
+        "NC": {
+          "w": 67,
+          "l": 74,
+          "d": 3,
+          "runs": 646,
+          "allowed": 642
+        },
+        "SSG": {
+          "w": 88,
+          "l": 52,
+          "d": 4,
+          "runs": 720,
+          "allowed": 622
+        },
+        "키움": {
+          "w": 80,
+          "l": 62,
+          "d": 2,
+          "runs": 621,
+          "allowed": 610
+        },
+        "롯데": {
+          "w": 64,
+          "l": 76,
+          "d": 4,
+          "runs": 605,
+          "allowed": 712
+        }
+      }
+    },
+    {
+      "season": 2023,
+      "regularGamesBeforePS": 720,
+      "cutoff": "2023-10-19",
+      "teams": {
+        "두산": {
+          "w": 74,
+          "l": 68,
+          "d": 2,
+          "runs": 620,
+          "allowed": 625
+        },
+        "롯데": {
+          "w": 68,
+          "l": 76,
+          "d": 0,
+          "runs": 653,
+          "allowed": 660
+        },
+        "삼성": {
+          "w": 61,
+          "l": 82,
+          "d": 1,
+          "runs": 636,
+          "allowed": 728
+        },
+        "NC": {
+          "w": 75,
+          "l": 67,
+          "d": 2,
+          "runs": 679,
+          "allowed": 617
+        },
+        "SSG": {
+          "w": 76,
+          "l": 65,
+          "d": 3,
+          "runs": 658,
+          "allowed": 698
+        },
+        "KIA": {
+          "w": 73,
+          "l": 69,
+          "d": 2,
+          "runs": 726,
+          "allowed": 650
+        },
+        "KT": {
+          "w": 79,
+          "l": 62,
+          "d": 3,
+          "runs": 672,
+          "allowed": 616
+        },
+        "LG": {
+          "w": 86,
+          "l": 56,
+          "d": 2,
+          "runs": 767,
+          "allowed": 610
+        },
+        "키움": {
+          "w": 58,
+          "l": 83,
+          "d": 3,
+          "runs": 607,
+          "allowed": 710
+        },
+        "한화": {
+          "w": 58,
+          "l": 80,
+          "d": 6,
+          "runs": 604,
+          "allowed": 708
+        }
+      }
+    },
+    {
+      "season": 2024,
+      "regularGamesBeforePS": 720,
+      "cutoff": "2024-10-02",
+      "teams": {
+        "LG": {
+          "w": 76,
+          "l": 66,
+          "d": 2,
+          "runs": 808,
+          "allowed": 728
+        },
+        "한화": {
+          "w": 66,
+          "l": 76,
+          "d": 2,
+          "runs": 745,
+          "allowed": 780
+        },
+        "SSG": {
+          "w": 72,
+          "l": 70,
+          "d": 2,
+          "runs": 756,
+          "allowed": 814
+        },
+        "롯데": {
+          "w": 66,
+          "l": 74,
+          "d": 4,
+          "runs": 802,
+          "allowed": 791
+        },
+        "KIA": {
+          "w": 87,
+          "l": 55,
+          "d": 2,
+          "runs": 858,
+          "allowed": 759
+        },
+        "키움": {
+          "w": 58,
+          "l": 86,
+          "d": 0,
+          "runs": 672,
+          "allowed": 796
+        },
+        "KT": {
+          "w": 72,
+          "l": 70,
+          "d": 2,
+          "runs": 767,
+          "allowed": 804
+        },
+        "삼성": {
+          "w": 78,
+          "l": 64,
+          "d": 2,
+          "runs": 770,
+          "allowed": 719
+        },
+        "NC": {
+          "w": 61,
+          "l": 81,
+          "d": 2,
+          "runs": 773,
+          "allowed": 801
+        },
+        "두산": {
+          "w": 74,
+          "l": 68,
+          "d": 2,
+          "runs": 789,
+          "allowed": 748
+        }
+      }
+    },
+    {
+      "season": 2025,
+      "regularGamesBeforePS": 720,
+      "cutoff": "2025-10-06",
+      "teams": {
+        "LG": {
+          "w": 85,
+          "l": 56,
+          "d": 3,
+          "runs": 788,
+          "allowed": 584
+        },
+        "롯데": {
+          "w": 66,
+          "l": 72,
+          "d": 6,
+          "runs": 676,
+          "allowed": 749
+        },
+        "삼성": {
+          "w": 74,
+          "l": 68,
+          "d": 2,
+          "runs": 775,
+          "allowed": 647
+        },
+        "키움": {
+          "w": 47,
+          "l": 93,
+          "d": 4,
+          "runs": 581,
+          "allowed": 860
+        },
+        "SSG": {
+          "w": 75,
+          "l": 65,
+          "d": 4,
+          "runs": 609,
+          "allowed": 576
+        },
+        "두산": {
+          "w": 61,
+          "l": 77,
+          "d": 6,
+          "runs": 647,
+          "allowed": 686
+        },
+        "KIA": {
+          "w": 65,
+          "l": 75,
+          "d": 4,
+          "runs": 668,
+          "allowed": 734
+        },
+        "NC": {
+          "w": 71,
+          "l": 67,
+          "d": 6,
+          "runs": 732,
+          "allowed": 766
+        },
+        "KT": {
+          "w": 71,
+          "l": 68,
+          "d": 5,
+          "runs": 648,
+          "allowed": 657
+        },
+        "한화": {
+          "w": 83,
+          "l": 57,
+          "d": 4,
+          "runs": 689,
+          "allowed": 554
+        }
+      }
+    },
+    {
+      "season": 2026,
+      "regularGamesBeforePS": 720,
+      "cutoff": "2026-10-14",
+      "teams": {
+        "LG": {
+          "w": 78,
+          "l": 65,
+          "d": 1,
+          "runs": 723,
+          "allowed": 726
+        },
+        "KT": {
+          "w": 90,
+          "l": 49,
+          "d": 5,
+          "runs": 825,
+          "allowed": 649
+        },
+        "삼성": {
+          "w": 83,
+          "l": 58,
+          "d": 3,
+          "runs": 806,
+          "allowed": 669
+        },
+        "롯데": {
+          "w": 64,
+          "l": 77,
+          "d": 3,
+          "runs": 679,
+          "allowed": 742
+        },
+        "SSG": {
+          "w": 65,
+          "l": 74,
+          "d": 5,
+          "runs": 706,
+          "allowed": 797
+        },
+        "KIA": {
+          "w": 79,
+          "l": 63,
+          "d": 2,
+          "runs": 769,
+          "allowed": 664
+        },
+        "NC": {
+          "w": 64,
+          "l": 78,
+          "d": 2,
+          "runs": 719,
+          "allowed": 772
+        },
+        "두산": {
+          "w": 73,
+          "l": 66,
+          "d": 5,
+          "runs": 688,
+          "allowed": 630
+        },
+        "한화": {
+          "w": 57,
+          "l": 83,
+          "d": 4,
+          "runs": 821,
+          "allowed": 835
+        },
+        "키움": {
+          "w": 50,
+          "l": 90,
+          "d": 4,
+          "runs": 565,
+          "allowed": 817
+        }
+      }
+    }
+  ],
+  "exclusions": [
+    {
+      "id": "20241021SSHT0",
+      "reason": "suspended/same-day resumption rest ambiguity"
+    },
+    {
+      "id": "20241023SSHT0",
+      "reason": "suspended/same-day resumption rest ambiguity"
+    }
+  ],
+  "inputHashes": {
+    "regular.csv": "4daf498e9544d1b528a0f66b06f9aab05179700a96a1686d58c0235d155e7ae4",
+    "postseason.json": "dff18b96e400ea160959cefc2f46761ae71ad9819a4e9fc7655fc98fab47fe9b"
+  },
+  "sources": {
+    "schedule": "https://www.koreabaseball.com/ws/Schedule.asmx/GetScheduleList",
+    "gameAudit": "https://www.koreabaseball.com/ws/Main.asmx/GetKboGameList",
+    "calendar": "https://www.koreabaseball.com/MediaNews/Notice/View.aspx?bdSe=12183"
+  },
+  "limitations": [
+    "Small postseason sample; predictive associations, not causal rest effects",
+    "Retrospective exploratory comparison, not a preregistered prospective forecast",
+    "Held-out evaluation uses a frozen pre-2023 fit; deployment refits through 2025",
+    "Bootstrap intervals condition on selected features and regularization",
+    "No individual starters, bullpen pitch counts or injury adjustments",
+    "Rest and recent-game fatigue were estimated as candidates but excluded by earlier-season validation",
+    "Strength is held fixed at the pre-postseason regular-season snapshot",
+    "Constant log-odds WP correction remains an approximation"
+  ]
+}

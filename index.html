@@ -12,7 +12,7 @@
   <section class="hero"><p class="eyebrow">EVERY PLAY CHANGES OCTOBER</p><h1>한 플레이가 바꾼<br><em>우승의 가능성.</em></h1><p>와일드카드부터 한국시리즈 2차전까지.<br>승부의 흐름과 그 확률을 계산하는 가정을 함께 읽습니다.</p><div class="stats"><div><b id="game-count">11</b>경기</div><div><b id="play-count">872</b>플레이 기록</div><div><b>05</b>팀</div></div></section>
   <section class="model-picker" aria-label="cWPA 모형 선택">
     <div class="section-head"><h2>어떤 가정으로 볼까요?</h2><a href="method.html#status">추정 상태와 계수 공개 ↗</a></div>
-    <div class="model-buttons"><button data-model="kbo-adjusted" aria-pressed="true"><b>KBO-adjusted cWPA</b><small>전력·홈 효과 · 실험 모형</small></button><button data-model="baseline" aria-pressed="false"><b>기본 cWPA</b><small>동등 전력 · 홈 53.3%</small></button></div>
+    <div class="model-buttons"><button data-model="kbo-adjusted" aria-pressed="true"><b>KBO-adjusted cWPA</b><small>전력·홈·체력 부담</small></button><button data-model="fatigue-off" aria-pressed="false"><b>체력 항 끄기</b><small>같은 계수로 체력 효과만 비교</small></button><button data-model="baseline" aria-pressed="false"><b>기본 cWPA</b><small>동등 전력 · 홈 53.3%</small></button></div>
     <p id="model-status" role="status">과거 KBO 기록에서 추정한 보정 모형을 불러오고 있습니다.</p>
   </section>
   <aside class="notice"><strong>PDF 추출 검토판</strong> · KS 2차전까지, 삼성 1승 / KT 1승. KS 3차전 이후는 미수록입니다. 숫자 연결 검증은 완료했으며 상황 문구의 OCR 오독은 남아 있습니다. 선수 순위는 타석 종료분만 합산합니다.</aside>
@@ -22,6 +22,11 @@
     <p class="model-caption"></p><div id="legend"></div>
     <div id="chartWrap"><svg id="chart" viewBox="0 0 1000 330" role="img" aria-label="플레이별 팀 우승 확률"></svg></div>
     <label class="scrub">시점 선택 <input id="scrubber" type="range" min="0" value="0" aria-label="그래프 시점 선택"></label><div id="tooltip" aria-live="polite"></div>
+  </section>
+  <section class="panel">
+    <div class="section-head"><div><small>WORKLOAD & RECOVERY</small><h2>체력 부담이 바꾼 경기 전 확률</h2></div><a href="method.html#fatigue">계산 방법 ↗</a></div>
+    <p class="muted">각 열의 순서는 홈 / 원정입니다. 잔존 부담은 이전 경기의 영향이 쉬는 동안 줄어드는 가중 경기 수로, 클수록 부담이 큽니다. 아래 표는 선택 모형과 무관하게 체력 항의 효과를 비교합니다. 선발·불펜 투구 수와 연장 이닝은 구분하지 않습니다.</p>
+    <div class="table-wrap"><table><thead><tr><th>경기</th><th>홈 / 원정</th><th>직전 경기 뒤 휴식</th><th>잔존 부담</th><th>체력 항 제외<small>홈 승률</small></th><th>체력 항 포함<small>홈 승률</small></th><th>체력 효과 (%p)<small>홈 기준</small></th></tr></thead><tbody id="fatigue-games"></tbody></table></div>
   </section>
   <section class="panel">
     <div class="section-head"><div><small>THE MOMENTS THAT MATTER</small><h2>승부를 가른 순간</h2></div><label>순위 기준 <select id="mode"><option value="li">레버리지 인덱스 (LI)</option><option value="cwpa">결정적 플레이 · |cWPA|</option></select></label></div>
@@ -36,16 +41,16 @@
   </section>
   <section class="panel">
     <div class="section-head"><div><small>GAME & SERIES CONTRIBUTION</small><h2>경기·시리즈별 변화</h2></div><div class="tools"><label>팀 <select id="summary-team"><option>삼성</option><option>KT</option><option>KIA</option><option>LG</option><option>두산</option></select></label><label>단위 <select id="summary-unit"><option value="game">경기별</option><option value="series">시리즈별</option></select></label></div></div>
-    <p class="muted">선택 팀의 구간 시작부터 끝까지 우승 확률 변화입니다. 다른 팀의 경기로 생긴 변화와 모든 주루 이벤트도 포함하므로 타석 종료분 선수 합계와 다릅니다.</p>
-    <div class="table-wrap"><table><thead><tr><th>구간</th><th>팀</th><th>시작 확률</th><th>종료 확률</th><th class="selected-heading">선택 변화 (%p)</th><th>기본 변화 (%p)<small>비교값</small></th><th>차이 (%p)<small>선택 − 기본</small></th></tr></thead><tbody id="summaries"></tbody></table></div>
+    <p class="muted">선택 팀의 구간 시작부터 끝까지 변화입니다. 시작은 실제 경기일을 갱신하기 전 예측이며, 일정 갱신분은 전체 변화에 포함하되 별도 표시합니다. 이를 빼면 경기 플레이의 변화입니다. 일정 갱신은 선수 기여에 넣지 않습니다. 다른 팀 경기와 모든 주루 이벤트도 포함하므로 타석 종료분 선수 합계와 다릅니다.</p>
+    <div class="table-wrap"><table><thead><tr><th>구간</th><th>팀</th><th>시작 확률</th><th>종료 확률</th><th class="selected-heading">선택 변화 (%p)</th><th>그중 일정 갱신 (%p)</th><th>기본 변화 (%p)<small>비교값</small></th><th>차이 (%p)<small>선택 − 기본</small></th></tr></thead><tbody id="summaries"></tbody></table></div>
   </section>
   <details class="panel"><summary>자료 상태 · 계산 가정 · 다운로드</summary>
-    <p>KBO-adjusted는 과거 정규시즌 10,668경기 중 조건을 충족한 8,130경기에서 전력·홈 효과의 추정 기준을 얻고, 포스트시즌 231경기 중 229경기에 정규화 회귀를 적용했습니다. 시간 순서 검증으로 전력·홈 효과를 선택했으며 휴식·최근 7일 경기 수는 후보로 추정한 뒤 제외했습니다. 2023–2025년 44경기의 별도 평가에서 기본 모형보다 평균 오차가 작았지만 표본이 작아 우월성이 입증됐다는 뜻은 아닙니다.</p>
+    <p>KBO-adjusted는 과거 정규시즌 10,668경기 중 조건을 충족한 8,130경기와 포스트시즌 231경기 중 229경기로 전력·홈·누적 부담의 계수를 추정했습니다. 체력 반영을 요구하는 실험 모형으로, 6개 체력 정의 등 48개 설정을 시간 순서로 비교했습니다. 선택 구간에서는 체력 없는 이전 모형보다 오차가 조금 컸고, 이후 44경기에서는 조금 작았습니다. 확실한 성능 개선이나 생리학적 인과 효과를 입증한 결과는 아닙니다.</p>
     <p>수록 범위: WC 1경기, SPO 3경기, PO 5경기, KS 2경기(11월 3·4일), 총 872개 플레이. 사용자 제공 Statiz 인쇄 PDF에서 추출했습니다. 원본 PDF의 계정·인쇄 정보와 광고는 게시하지 않습니다. 이후 실제 결과를 추측해 채우지 않습니다.</p>
     <p>기본 모형은 중립 50%, 홈 53.3%를 가정하고 모든 이후 라운드를 포함한 동적 계획법으로 우승 확률을 구합니다. WC는 상위 시드 1승 / 하위 시드 2승, SPO·PO는 3선승, KS는 4선승이며 홈 배분은 HH / HHAAH / HHAAH / HHAAAHH입니다. 미래 무승부 확률은 0으로 놓으며 실제 무승부 경기는 지원하지 않습니다.</p>
     <p>Statiz 홈팀 WPe에 오즈 보정을 적용합니다. 원문 WPA를 새 가중치에 그대로 곱하지 않습니다. 원문 WPe 0.1%p·WPA 0.001 표시값의 반올림 오차가 남습니다. 중립 사전확률 가정과 일정한 오즈 보정은 상태별 승률을 새로 학습한 모형이 아닙니다.</p>
     <p>상황 문구와 이전 683개 LEV의 전수 육안 검수는 미완료입니다. KS LEV 189개는 원본과 대조했고 이전 시리즈의 상위 LI·선수명·수치 이상값을 우선 검수했습니다. 점수·아웃·주자는 명확한 문자만 읽어 표시하며 모호한 항목은 ‘확인 필요’로 남깁니다.</p>
-    <p><a href="method.html#estimation">추정 과정·계수·검증 결과</a> · <a href="data.json" download>플레이 데이터</a> · <a href="model-fit.json">전체 추정 보고서</a> · <a href="historical/training-features.json">학습 변수·출처</a> · <a href="https://github.com/yoochan-han-math/cwpa_KBO">코드·검증</a></p>
+    <p><a href="method.html#estimation">추정 과정·계수·검증 결과</a> · <a href="data.json" download>플레이 데이터</a> · <a href="model-fit.json">전체 추정 보고서</a> · <a href="fatigue-training-features.json">학습 변수·출처</a> · <a href="https://github.com/yoochan-han-math/cwpa_KBO">코드·검증</a></p>
   </details>
   <footer>가을의 확률 · 비공식 분석 프로젝트 / 2026<br>실제 기록: STATIZ 인쇄 PDF · 모델 추정 상태와 자료의 한계를 함께 확인하세요.</footer>
 </main>
