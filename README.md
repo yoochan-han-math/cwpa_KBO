@@ -1,6 +1,6 @@
 # 가을의 확률 — 2026 KBO postseason
 
-Static, Korean-language cWPA dashboard built from nine user-supplied Statiz print PDFs. **Review edition, not an official statistic.** No sample game data is shipped. The original PDFs (which contain account/print metadata and advertisements) are not published.
+Static, Korean-language cWPA dashboard built from eleven user-supplied Statiz print PDFs. **Review edition, not an official statistic.** No sample game data is shipped. The original PDFs (which contain account/print metadata and advertisements) are not published.
 
 ## Features
 
@@ -9,15 +9,15 @@ Static, Korean-language cWPA dashboard built from nine user-supplied Statiz prin
 - LI (source `LEV`) leaderboard alongside batter, pitcher, outcome and batting-side WPA. Plate-appearance-ending events are the default; all plays and baserunning events are separately selectable.
 - Pivotal plays ranked by absolute cWPA. Signed offensive cWPA is shown in championship percentage points.
 - Player rankings currently sum **plate-appearance-ending contributions only**, separated into batting and pitching. They are not complete official all-event player cWPA. Runner events, wild pitches, pickoffs and other non-PA events are excluded, avoiding attribution to the batter merely because their name appears on the row.
-- Search, progressive table display, source game links and PDF page references. KS is explicitly empty.
+- Search, progressive table display, source game links and PDF page references. KS games 1–2 are included; later KS games are not yet included.
 
 ## Data and verification
 
-User-provided files: wc1.pdf (79 rows), spo1.pdf (70), spo2.pdf (75), spo3.pdf (87), po1.pdf (69), po2.pdf (75), po3.pdf (83), po4.pdf (73), po5.pdf (72). Total: 683 numeric play rows, excluding substitutions. Sources and per-row PDF page locations are in data.json. Source acquisition: November 1–2, 2026, Asia/Seoul. The anonymous Statiz request returned a login response, so data was read from user-provided PDFs rather than bypassing authentication.
+User-provided files: wc1.pdf (79 rows), spo1.pdf (70), spo2.pdf (75), spo3.pdf (87), po1.pdf (69), po2.pdf (75), po3.pdf (83), po4.pdf (73), po5.pdf (72). ks1.pdf (84), ks2.pdf (105). Total: 872 numeric play rows, excluding substitutions. Sources and per-row PDF page locations are in data.json. Source acquisition: November 1–5, 2026, Asia/Seoul. The anonymous Statiz request returned a login response, so data was read from user-provided PDFs rather than bypassing authentication.
 
-Windows Korean OCR was used on locally rendered pages. Probability transitions and absolute displayed WPA agree within 0.0015 on all 683 rows. Display rounding means that WPe differences and WPA are not identical. WPA signs are determined from home WPe changes and batting half-inning; zero-change rows retain the source magnitude. The graph uses each WPe anchor rather than accumulating rounded WPA.
+Windows Korean OCR was used on locally rendered pages. Probability transitions and absolute displayed WPA agree within 0.0015 on all 872 rows. Display rounding means that WPe differences and WPA are not identical. WPA signs are determined from home WPe changes and batting half-inning; zero-change rows retain the source magnitude. The graph uses each WPe anchor rather than accumulating rounded WPA.
 
-Distinct OCR player-name variants, missing names, numerical anomalies and top 15 LI rows were visually checked against PDF crops. **All 683 LEV values and situation strings have not been independently visually verified.** Situation text deliberately remains labeled OCR review material. Source descriptions can themselves be inconsistent: WC double-steal rows and a late walk/runner sequence are preserved, not blindly deduplicated. Game date metadata should be checked against source headers when revising. These limitations are visible in the interface.
+Distinct OCR player-name variants, missing names, numerical anomalies and top 15 LI rows were visually checked against PDF crops. **The previous 683 LEV values and all situation strings have not been independently visually verified. All 189 new KS LEV values were independently transcribed from PDF row images and checked against extraction; see ks-audit.json. KS player-name variants and WPA anomalies were also visually verified.** Situation text deliberately remains labeled OCR review material. Source descriptions can themselves be inconsistent: WC double-steal rows and a late walk/runner sequence are preserved, not blindly deduplicated. Game date metadata should be checked against source headers when revising. These limitations are visible in the interface.
 
 ## Probability model
 
@@ -41,5 +41,8 @@ python -m http.server 4173 --directory dist
 
 Hosting: ChatGPT Sites at https://kbo-cwpa-2026.happycuki0701.chatgpt.site . GitHub stores the source and runs validation only. The hosting manifest is `.openai/hosting.json`; publish the built `dist` with the Sites workflow. GitHub Pages is not used.
 
-Five tests cover odds boundaries, neutral bracket shares, conservation at every reachable state, all source numerical transitions and historical probability invariance when future games are omitted.
+Tests cover odds boundaries, neutral bracket shares, conservation at every reachable state, all source numerical transitions and historical probability invariance when future games are omitted.
 
+## KS update — November 5, 2026
+
+KS1 (November 3, Suwon): Samsung 7–8 KT, 84 play rows. KS2 (November 4, Suwon): Samsung 3–2 KT in 12 innings, 105 play rows. The series is tied 1–1. Existing WC/SPO/PO data is unchanged. The model gives Samsung 51.24% and KT 48.76% after game 2 because the remaining home schedule differs. No later KS results are assumed.
