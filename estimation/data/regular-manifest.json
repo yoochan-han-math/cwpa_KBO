@@ -1,0 +1,1522 @@
+[
+  {
+    "file": "regular-2010-03.json",
+    "sha256": "FEA3C5BDFC8C3D2A99DA507D45C3F9796E33B6CF853D20F83A07A75E1FA543DD",
+    "season": 2010,
+    "month": "03",
+    "rows": 13,
+    "endpoint": "https://www.koreabaseball.com/ws/Schedule.asmx/GetScheduleList",
+    "series": "0",
+    "retrievedAt": "2026-11-05T11:32:04.2957724Z"
+  },
+  {
+    "file": "regular-2010-04.json",
+    "sha256": "445DF1BA34E52FCBE7E20FBE9148063277833F383222FBA908361AF9887F3A54",
+    "season": 2010,
+    "month": "04",
+    "rows": 92,
+    "endpoint": "https://www.koreabaseball.com/ws/Schedule.asmx/GetScheduleList",
+    "series": "0",
+    "retrievedAt": "2026-11-05T11:32:04.7293970Z"
+  },
+  {
+    "file": "regular-2010-05.json",
+    "sha256": "814C85A07489CA553739E089F9FF8C4A498A8BD01090165FBAD12EE94C279899",
+    "season": 2010,
+    "month": "05",
+    "rows": 95,
+    "endpoint": "https://www.koreabaseball.com/ws/Schedule.asmx/GetScheduleList",
+    "series": "0",
+    "retrievedAt": "2026-11-05T11:32:05.1612267Z"
+  },
+  {
+    "file": "regular-2010-06.json",
+    "sha256": "3AF5643913CCE0B917D4010D31B2BEA83566A97CF049846572FA96C3C65FEA0F",
+    "season": 2010,
+    "month": "06",
+    "rows": 100,
+    "endpoint": "https://www.koreabaseball.com/ws/Schedule.asmx/GetScheduleList",
+    "series": "0",
+    "retrievedAt": "2026-11-05T11:32:05.7832523Z"
+  },
+  {
+    "file": "regular-2010-07.json",
+    "sha256": "B620C8E7099303D1DBA7A7F355A48A256535E76818946D7F7447875421D4044D",
+    "season": 2010,
+    "month": "07",
+    "rows": 81,
+    "endpoint": "https://www.koreabaseball.com/ws/Schedule.asmx/GetScheduleList",
+    "series": "0",
+    "retrievedAt": "2026-11-05T11:32:06.1685518Z"
+  },
+  {
+    "file": "regular-2010-08.json",
+    "sha256": "65F8C813DDC519E553730B25DC5FFEB9DE162CB4BC7D4EC1ABF57CC00DF0956A",
+    "season": 2010,
+    "month": "08",
+    "rows": 88,
+    "endpoint": "https://www.koreabaseball.com/ws/Schedule.asmx/GetScheduleList",
+    "series": "0",
+    "retrievedAt": "2026-11-05T11:32:06.5443306Z"
+  },
+  {
+    "file": "regular-2010-09.json",
+    "sha256": "59FD77DC998D76F3F5904A996933AA09C8E0FF8D595378B2E07BBF913B119DC3",
+    "season": 2010,
+    "month": "09",
+    "rows": 63,
+    "endpoint": "https://www.koreabaseball.com/ws/Schedule.asmx/GetScheduleList",
+    "series": "0",
+    "retrievedAt": "2026-11-05T11:32:06.8768960Z"
+  },
+  {
+    "file": "regular-2010-10.json",
+    "sha256": "292E880049E3C6FBD394DB24C2D27283E71DCB098E9A7E9B7FB1A40A4E24F90D",
+    "season": 2010,
+    "month": "10",
+    "rows": 0,
+    "endpoint": "https://www.koreabaseball.com/ws/Schedule.asmx/GetScheduleList",
+    "series": "0",
+    "retrievedAt": "2026-11-05T11:32:07.1145962Z"
+  },
+  {
+    "file": "regular-2010-11.json",
+    "sha256": "292E880049E3C6FBD394DB24C2D27283E71DCB098E9A7E9B7FB1A40A4E24F90D",
+    "season": 2010,
+    "month": "11",
+    "rows": 0,
+    "endpoint": "https://www.koreabaseball.com/ws/Schedule.asmx/GetScheduleList",
+    "series": "0",
+    "retrievedAt": "2026-11-05T11:32:07.5418302Z"
+  },
+  {
+    "file": "regular-2011-03.json",
+    "sha256": "292E880049E3C6FBD394DB24C2D27283E71DCB098E9A7E9B7FB1A40A4E24F90D",
+    "season": 2011,
+    "month": "03",
+    "rows": 0,
+    "endpoint": "https://www.koreabaseball.com/ws/Schedule.asmx/GetScheduleList",
+    "series": "0",
+    "retrievedAt": "2026-11-05T11:32:07.7557268Z"
+  },
+  {
+    "file": "regular-2011-04.json",
+    "sha256": "CEAC124FBCA1F9593048B98653D422DEBBFED693EACA412230B12FD5A5B5B9F8",
+    "season": 2011,
+    "month": "04",
+    "rows": 90,
+    "endpoint": "https://www.koreabaseball.com/ws/Schedule.asmx/GetScheduleList",
+    "series": "0",
+    "retrievedAt": "2026-11-05T11:32:08.1020363Z"
+  },
+  {
+    "file": "regular-2011-05.json",
+    "sha256": "F4D790BF37E93981F57B4CF73707600FE4C7CA2BBC4D03064B366E06E27F2BB7",
+    "season": 2011,
+    "month": "05",
+    "rows": 97,
+    "endpoint": "https://www.koreabaseball.com/ws/Schedule.asmx/GetScheduleList",
+    "series": "0",
+    "retrievedAt": "2026-11-05T11:32:08.4989873Z"
+  },
+  {
+    "file": "regular-2011-06.json",
+    "sha256": "0D2CAE5E3528F6731657E52445A894924355BE0AC281CB60758E6799ABADC077",
+    "season": 2011,
+    "month": "06",
+    "rows": 84,
+    "endpoint": "https://www.koreabaseball.com/ws/Schedule.asmx/GetScheduleList",
+    "series": "0",
+    "retrievedAt": "2026-11-05T11:32:08.8489940Z"
+  },
+  {
+    "file": "regular-2011-07.json",
+    "sha256": "E2F4643ABDE65191EB8BAD2D3CF19899CC5A222F15D6CBC280A29A376C20CE1E",
+    "season": 2011,
+    "month": "07",
+    "rows": 68,
+    "endpoint": "https://www.koreabaseball.com/ws/Schedule.asmx/GetScheduleList",
+    "series": "0",
+    "retrievedAt": "2026-11-05T11:32:09.2973806Z"
+  },
+  {
+    "file": "regular-2011-08.json",
+    "sha256": "92BAAE74B06EA9D2AD192811B1F824549C4083E370DCA775946628E67BEF21CD",
+    "season": 2011,
+    "month": "08",
+    "rows": 91,
+    "endpoint": "https://www.koreabaseball.com/ws/Schedule.asmx/GetScheduleList",
+    "series": "0",
+    "retrievedAt": "2026-11-05T11:32:09.6440607Z"
+  },
+  {
+    "file": "regular-2011-09.json",
+    "sha256": "12EA14F0213E75F27195B4D82278A8CB54690AE377A847E8404679D5918CC779",
+    "season": 2011,
+    "month": "09",
+    "rows": 84,
+    "endpoint": "https://www.koreabaseball.com/ws/Schedule.asmx/GetScheduleList",
+    "series": "0",
+    "retrievedAt": "2026-11-05T11:32:10.0213739Z"
+  },
+  {
+    "file": "regular-2011-10.json",
+    "sha256": "759E09BC97E01391C881DB8D4C79E533F41EC4A7830FC303FB5DA0A925BC3A85",
+    "season": 2011,
+    "month": "10",
+    "rows": 18,
+    "endpoint": "https://www.koreabaseball.com/ws/Schedule.asmx/GetScheduleList",
+    "series": "0",
+    "retrievedAt": "2026-11-05T11:32:10.2902092Z"
+  },
+  {
+    "file": "regular-2011-11.json",
+    "sha256": "292E880049E3C6FBD394DB24C2D27283E71DCB098E9A7E9B7FB1A40A4E24F90D",
+    "season": 2011,
+    "month": "11",
+    "rows": 0,
+    "endpoint": "https://www.koreabaseball.com/ws/Schedule.asmx/GetScheduleList",
+    "series": "0",
+    "retrievedAt": "2026-11-05T11:32:10.4908222Z"
+  },
+  {
+    "file": "regular-2012-03.json",
+    "sha256": "292E880049E3C6FBD394DB24C2D27283E71DCB098E9A7E9B7FB1A40A4E24F90D",
+    "season": 2012,
+    "month": "03",
+    "rows": 0,
+    "endpoint": "https://www.koreabaseball.com/ws/Schedule.asmx/GetScheduleList",
+    "series": "0",
+    "retrievedAt": "2026-11-05T11:32:10.6930828Z"
+  },
+  {
+    "file": "regular-2012-04.json",
+    "sha256": "94E9FBF4FB7962A58A19F0742CF992D1A9D31E610F160D59416FADB66E9A9D9F",
+    "season": 2012,
+    "month": "04",
+    "rows": 65,
+    "endpoint": "https://www.koreabaseball.com/ws/Schedule.asmx/GetScheduleList",
+    "series": "0",
+    "retrievedAt": "2026-11-05T11:32:11.0150640Z"
+  },
+  {
+    "file": "regular-2012-05.json",
+    "sha256": "86AF81A0862F714A8463233E68C2F75116757F369445B5CE09BCDE753470824C",
+    "season": 2012,
+    "month": "05",
+    "rows": 105,
+    "endpoint": "https://www.koreabaseball.com/ws/Schedule.asmx/GetScheduleList",
+    "series": "0",
+    "retrievedAt": "2026-11-05T11:32:11.3836561Z"
+  },
+  {
+    "file": "regular-2012-06.json",
+    "sha256": "833EADDFED370F1F5F729CE98935AAA46420D5BCFBED1FE964E1570C1921BEC5",
+    "season": 2012,
+    "month": "06",
+    "rows": 98,
+    "endpoint": "https://www.koreabaseball.com/ws/Schedule.asmx/GetScheduleList",
+    "series": "0",
+    "retrievedAt": "2026-11-05T11:32:11.7576857Z"
+  },
+  {
+    "file": "regular-2012-07.json",
+    "sha256": "BDCE7B26B557257EA33889796242021099C0328154FBBD24B66B657274665F03",
+    "season": 2012,
+    "month": "07",
+    "rows": 72,
+    "endpoint": "https://www.koreabaseball.com/ws/Schedule.asmx/GetScheduleList",
+    "series": "0",
+    "retrievedAt": "2026-11-05T11:32:12.1432889Z"
+  },
+  {
+    "file": "regular-2012-08.json",
+    "sha256": "AE8841D3F60AB57DEFC57DF378CCC53C94DE09B7DAAFE1003689B94CADC31555",
+    "season": 2012,
+    "month": "08",
+    "rows": 86,
+    "endpoint": "https://www.koreabaseball.com/ws/Schedule.asmx/GetScheduleList",
+    "series": "0",
+    "retrievedAt": "2026-11-05T11:32:12.5043356Z"
+  },
+  {
+    "file": "regular-2012-09.json",
+    "sha256": "B12858ADC86286128671B2F867762AC88FA09DDA527E77E54E7250D95D20B70E",
+    "season": 2012,
+    "month": "09",
+    "rows": 87,
+    "endpoint": "https://www.koreabaseball.com/ws/Schedule.asmx/GetScheduleList",
+    "series": "0",
+    "retrievedAt": "2026-11-05T11:32:12.8742313Z"
+  },
+  {
+    "file": "regular-2012-10.json",
+    "sha256": "A9653DAFEB45B3D6796C9180408BA2500C50D1BF967FCCCA68FCC14BE58F5267",
+    "season": 2012,
+    "month": "10",
+    "rows": 19,
+    "endpoint": "https://www.koreabaseball.com/ws/Schedule.asmx/GetScheduleList",
+    "series": "0",
+    "retrievedAt": "2026-11-05T11:32:13.1526269Z"
+  },
+  {
+    "file": "regular-2012-11.json",
+    "sha256": "292E880049E3C6FBD394DB24C2D27283E71DCB098E9A7E9B7FB1A40A4E24F90D",
+    "season": 2012,
+    "month": "11",
+    "rows": 0,
+    "endpoint": "https://www.koreabaseball.com/ws/Schedule.asmx/GetScheduleList",
+    "series": "0",
+    "retrievedAt": "2026-11-05T11:32:13.3795953Z"
+  },
+  {
+    "file": "regular-2013-03.json",
+    "sha256": "3FB7A6EF48FD99F5DB6C75DF16224488DDFA0DB51EC66E84DFBCEBD51A94B0F4",
+    "season": 2013,
+    "month": "03",
+    "rows": 8,
+    "endpoint": "https://www.koreabaseball.com/ws/Schedule.asmx/GetScheduleList",
+    "series": "0",
+    "retrievedAt": "2026-11-05T11:32:13.5996522Z"
+  },
+  {
+    "file": "regular-2013-04.json",
+    "sha256": "967A025BAEF71A922DD041B40B32EC4261E6C0A8B4C68501620803D96D18356B",
+    "season": 2013,
+    "month": "04",
+    "rows": 88,
+    "endpoint": "https://www.koreabaseball.com/ws/Schedule.asmx/GetScheduleList",
+    "series": "0",
+    "retrievedAt": "2026-11-05T11:32:13.9268999Z"
+  },
+  {
+    "file": "regular-2013-05.json",
+    "sha256": "6E1A540D74DA4592C89AC3942801F4A8BC7FE336239CD2834FF49E93BBF19388",
+    "season": 2013,
+    "month": "05",
+    "rows": 103,
+    "endpoint": "https://www.koreabaseball.com/ws/Schedule.asmx/GetScheduleList",
+    "series": "0",
+    "retrievedAt": "2026-11-05T11:32:14.2680076Z"
+  },
+  {
+    "file": "regular-2013-06.json",
+    "sha256": "A44B8BCA4C1E894E9FE115F33839AF1A23A098AFA30C395680DE7CCD542255FF",
+    "season": 2013,
+    "month": "06",
+    "rows": 93,
+    "endpoint": "https://www.koreabaseball.com/ws/Schedule.asmx/GetScheduleList",
+    "series": "0",
+    "retrievedAt": "2026-11-05T11:32:14.6426384Z"
+  },
+  {
+    "file": "regular-2013-07.json",
+    "sha256": "5F76F894B8BB13DB0A9F3C16DA7D3590BA3C66634C0D55F68B6F6B738086B778",
+    "season": 2013,
+    "month": "07",
+    "rows": 73,
+    "endpoint": "https://www.koreabaseball.com/ws/Schedule.asmx/GetScheduleList",
+    "series": "0",
+    "retrievedAt": "2026-11-05T11:32:14.9767613Z"
+  },
+  {
+    "file": "regular-2013-08.json",
+    "sha256": "BE6EA75ACD8397AA2C34C8CBC0D0B6C235F58A5807A783DE057E5DD43EFAD3A5",
+    "season": 2013,
+    "month": "08",
+    "rows": 100,
+    "endpoint": "https://www.koreabaseball.com/ws/Schedule.asmx/GetScheduleList",
+    "series": "0",
+    "retrievedAt": "2026-11-05T11:32:15.3409121Z"
+  },
+  {
+    "file": "regular-2013-09.json",
+    "sha256": "7ECD2F3C5A69DC35040F31596744E291C696595D93547FAC02B2706C497DD01F",
+    "season": 2013,
+    "month": "09",
+    "rows": 95,
+    "endpoint": "https://www.koreabaseball.com/ws/Schedule.asmx/GetScheduleList",
+    "series": "0",
+    "retrievedAt": "2026-11-05T11:32:15.6923457Z"
+  },
+  {
+    "file": "regular-2013-10.json",
+    "sha256": "E5EAA761178D35788F1E04A4A0EEEBD009EC8527D618D6CF984F86FF19F58FC2",
+    "season": 2013,
+    "month": "10",
+    "rows": 16,
+    "endpoint": "https://www.koreabaseball.com/ws/Schedule.asmx/GetScheduleList",
+    "series": "0",
+    "retrievedAt": "2026-11-05T11:32:15.9492078Z"
+  },
+  {
+    "file": "regular-2013-11.json",
+    "sha256": "292E880049E3C6FBD394DB24C2D27283E71DCB098E9A7E9B7FB1A40A4E24F90D",
+    "season": 2013,
+    "month": "11",
+    "rows": 0,
+    "endpoint": "https://www.koreabaseball.com/ws/Schedule.asmx/GetScheduleList",
+    "series": "0",
+    "retrievedAt": "2026-11-05T11:32:16.1686510Z"
+  },
+  {
+    "file": "regular-2014-03.json",
+    "sha256": "9CC5E386327E059B3E9931232A32A96F93DFDC6117A99396D5E88EBD9E16E1DA",
+    "season": 2014,
+    "month": "03",
+    "rows": 8,
+    "endpoint": "https://www.koreabaseball.com/ws/Schedule.asmx/GetScheduleList",
+    "series": "0",
+    "retrievedAt": "2026-11-05T11:32:16.4089403Z"
+  },
+  {
+    "file": "regular-2014-04.json",
+    "sha256": "84A0AFB6E53BA9877DE0FFD0B8D38A7619725A42BADB8EA5919B8BAAA544697E",
+    "season": 2014,
+    "month": "04",
+    "rows": 98,
+    "endpoint": "https://www.koreabaseball.com/ws/Schedule.asmx/GetScheduleList",
+    "series": "0",
+    "retrievedAt": "2026-11-05T11:32:16.7800104Z"
+  },
+  {
+    "file": "regular-2014-05.json",
+    "sha256": "43CE7B798F6650379C993ADD08048EDA0411FF1E9165D3BD075B50A359E071EA",
+    "season": 2014,
+    "month": "05",
+    "rows": 108,
+    "endpoint": "https://www.koreabaseball.com/ws/Schedule.asmx/GetScheduleList",
+    "series": "0",
+    "retrievedAt": "2026-11-05T11:32:17.1815008Z"
+  },
+  {
+    "file": "regular-2014-06.json",
+    "sha256": "053E9BFDB71D797B5DB664C631F928C27471E80BDE7E5E10CDBD9A4084980548",
+    "season": 2014,
+    "month": "06",
+    "rows": 93,
+    "endpoint": "https://www.koreabaseball.com/ws/Schedule.asmx/GetScheduleList",
+    "series": "0",
+    "retrievedAt": "2026-11-05T11:32:17.5520973Z"
+  },
+  {
+    "file": "regular-2014-07.json",
+    "sha256": "9187F7768A5694A1E5D57E13100FE57CD1115D804FD9B8A665ED94DBC98A4403",
+    "season": 2014,
+    "month": "07",
+    "rows": 86,
+    "endpoint": "https://www.koreabaseball.com/ws/Schedule.asmx/GetScheduleList",
+    "series": "0",
+    "retrievedAt": "2026-11-05T11:32:17.9339803Z"
+  },
+  {
+    "file": "regular-2014-08.json",
+    "sha256": "09330836FFE64591FF0FD42D9EDFCA83E947B768C30F3CDBA3CB084138C9714C",
+    "season": 2014,
+    "month": "08",
+    "rows": 90,
+    "endpoint": "https://www.koreabaseball.com/ws/Schedule.asmx/GetScheduleList",
+    "series": "0",
+    "retrievedAt": "2026-11-05T11:32:18.3605552Z"
+  },
+  {
+    "file": "regular-2014-09.json",
+    "sha256": "19842075B92EFAA3C075260E4E63F942EE1971785BE4FCA64DCF1944C0217072",
+    "season": 2014,
+    "month": "09",
+    "rows": 42,
+    "endpoint": "https://www.koreabaseball.com/ws/Schedule.asmx/GetScheduleList",
+    "series": "0",
+    "retrievedAt": "2026-11-05T11:32:18.6748405Z"
+  },
+  {
+    "file": "regular-2014-10.json",
+    "sha256": "67F52EABE608A8A09D142AE6B64466DD1817C89E6A8E78C4962072D016E5DE85",
+    "season": 2014,
+    "month": "10",
+    "rows": 51,
+    "endpoint": "https://www.koreabaseball.com/ws/Schedule.asmx/GetScheduleList",
+    "series": "0",
+    "retrievedAt": "2026-11-05T11:32:18.9713065Z"
+  },
+  {
+    "file": "regular-2014-11.json",
+    "sha256": "292E880049E3C6FBD394DB24C2D27283E71DCB098E9A7E9B7FB1A40A4E24F90D",
+    "season": 2014,
+    "month": "11",
+    "rows": 0,
+    "endpoint": "https://www.koreabaseball.com/ws/Schedule.asmx/GetScheduleList",
+    "series": "0",
+    "retrievedAt": "2026-11-05T11:32:19.2016194Z"
+  },
+  {
+    "file": "regular-2015-03.json",
+    "sha256": "1A9291BB2886CF6132D6143B3E6868E21086A5663EDB30D73D8713745A63EB1C",
+    "season": 2015,
+    "month": "03",
+    "rows": 12,
+    "endpoint": "https://www.koreabaseball.com/ws/Schedule.asmx/GetScheduleList",
+    "series": "0",
+    "retrievedAt": "2026-11-05T11:32:19.4354708Z"
+  },
+  {
+    "file": "regular-2015-04.json",
+    "sha256": "D5D52E50665ECF078D22B66EFEF0EF2A100D832BAB8915A9043770FCC0F46C81",
+    "season": 2015,
+    "month": "04",
+    "rows": 112,
+    "endpoint": "https://www.koreabaseball.com/ws/Schedule.asmx/GetScheduleList",
+    "series": "0",
+    "retrievedAt": "2026-11-05T11:32:20.0555759Z"
+  },
+  {
+    "file": "regular-2015-05.json",
+    "sha256": "71E0AAD3D834837D13ED9B452FE931CD329FE0F12C0DF060A513B1B2C9417DA4",
+    "season": 2015,
+    "month": "05",
+    "rows": 129,
+    "endpoint": "https://www.koreabaseball.com/ws/Schedule.asmx/GetScheduleList",
+    "series": "0",
+    "retrievedAt": "2026-11-05T11:32:20.5230551Z"
+  },
+  {
+    "file": "regular-2015-06.json",
+    "sha256": "2646363C83FAF89C558F95A054BA5FF66C99D9DCA785DDB970350A80A84DA167",
+    "season": 2015,
+    "month": "06",
+    "rows": 109,
+    "endpoint": "https://www.koreabaseball.com/ws/Schedule.asmx/GetScheduleList",
+    "series": "0",
+    "retrievedAt": "2026-11-05T11:32:20.9846739Z"
+  },
+  {
+    "file": "regular-2015-07.json",
+    "sha256": "B0BAB498B0C4D8E91A36EC4A2C2B1660DD8F739DF358C9429BBC11D478EC5BC3",
+    "season": 2015,
+    "month": "07",
+    "rows": 101,
+    "endpoint": "https://www.koreabaseball.com/ws/Schedule.asmx/GetScheduleList",
+    "series": "0",
+    "retrievedAt": "2026-11-05T11:32:21.4592197Z"
+  },
+  {
+    "file": "regular-2015-08.json",
+    "sha256": "D914A145BC8357D825F35EC409BBA5914321D0BA46EFD8DD979487A9A909FC19",
+    "season": 2015,
+    "month": "08",
+    "rows": 122,
+    "endpoint": "https://www.koreabaseball.com/ws/Schedule.asmx/GetScheduleList",
+    "series": "0",
+    "retrievedAt": "2026-11-05T11:32:21.9344565Z"
+  },
+  {
+    "file": "regular-2015-09.json",
+    "sha256": "BD65107F5CFD446C32877986622B8C1DC7570555DB5B5C58B0BD543EABEC608F",
+    "season": 2015,
+    "month": "09",
+    "rows": 117,
+    "endpoint": "https://www.koreabaseball.com/ws/Schedule.asmx/GetScheduleList",
+    "series": "0",
+    "retrievedAt": "2026-11-05T11:32:22.3843661Z"
+  },
+  {
+    "file": "regular-2015-10.json",
+    "sha256": "BD9C19DD88693EC8E680B92921B4212B6BA7E9B7B95A910ECCA1D7E96296AC87",
+    "season": 2015,
+    "month": "10",
+    "rows": 18,
+    "endpoint": "https://www.koreabaseball.com/ws/Schedule.asmx/GetScheduleList",
+    "series": "0",
+    "retrievedAt": "2026-11-05T11:32:22.6718258Z"
+  },
+  {
+    "file": "regular-2015-11.json",
+    "sha256": "292E880049E3C6FBD394DB24C2D27283E71DCB098E9A7E9B7FB1A40A4E24F90D",
+    "season": 2015,
+    "month": "11",
+    "rows": 0,
+    "endpoint": "https://www.koreabaseball.com/ws/Schedule.asmx/GetScheduleList",
+    "series": "0",
+    "retrievedAt": "2026-11-05T11:32:22.8914179Z"
+  },
+  {
+    "file": "regular-2016-03.json",
+    "sha256": "292E880049E3C6FBD394DB24C2D27283E71DCB098E9A7E9B7FB1A40A4E24F90D",
+    "season": 2016,
+    "month": "03",
+    "rows": 0,
+    "endpoint": "https://www.koreabaseball.com/ws/Schedule.asmx/GetScheduleList",
+    "series": "0",
+    "retrievedAt": "2026-11-05T11:32:23.1161892Z"
+  },
+  {
+    "file": "regular-2016-04.json",
+    "sha256": "215045346FC3A678D7B94CD6295E467438BD3067B57241B54A07AE7E11D257F2",
+    "season": 2016,
+    "month": "04",
+    "rows": 118,
+    "endpoint": "https://www.koreabaseball.com/ws/Schedule.asmx/GetScheduleList",
+    "series": "0",
+    "retrievedAt": "2026-11-05T11:32:23.4962713Z"
+  },
+  {
+    "file": "regular-2016-05.json",
+    "sha256": "0E08C85651251F7882CC72AAFAED8C4050CF1957E0F35D3DBBCF57828F439075",
+    "season": 2016,
+    "month": "05",
+    "rows": 122,
+    "endpoint": "https://www.koreabaseball.com/ws/Schedule.asmx/GetScheduleList",
+    "series": "0",
+    "retrievedAt": "2026-11-05T11:32:23.9537598Z"
+  },
+  {
+    "file": "regular-2016-06.json",
+    "sha256": "3DA1299E099D0D3D77921D37F8AB543B48A3549254A78F50D670E66756DBE72D",
+    "season": 2016,
+    "month": "06",
+    "rows": 124,
+    "endpoint": "https://www.koreabaseball.com/ws/Schedule.asmx/GetScheduleList",
+    "series": "0",
+    "retrievedAt": "2026-11-05T11:32:24.3956240Z"
+  },
+  {
+    "file": "regular-2016-07.json",
+    "sha256": "9E21AD3B9D330504A1B8EF2338B67FB2857B8E5C55CDA584D563F1B906D6DEA7",
+    "season": 2016,
+    "month": "07",
+    "rows": 104,
+    "endpoint": "https://www.koreabaseball.com/ws/Schedule.asmx/GetScheduleList",
+    "series": "0",
+    "retrievedAt": "2026-11-05T11:32:24.8108321Z"
+  },
+  {
+    "file": "regular-2016-08.json",
+    "sha256": "CCAC7A03A57C255D007C53F4673C2CF1DB532E41F70615DC0C61ECB819CF493B",
+    "season": 2016,
+    "month": "08",
+    "rows": 119,
+    "endpoint": "https://www.koreabaseball.com/ws/Schedule.asmx/GetScheduleList",
+    "series": "0",
+    "retrievedAt": "2026-11-05T11:32:25.4847675Z"
+  },
+  {
+    "file": "regular-2016-09.json",
+    "sha256": "27DCC462D170C681982D7E6251E34F7683A6597888CFD8EC8AEA8F3AC28ECE1E",
+    "season": 2016,
+    "month": "09",
+    "rows": 109,
+    "endpoint": "https://www.koreabaseball.com/ws/Schedule.asmx/GetScheduleList",
+    "series": "0",
+    "retrievedAt": "2026-11-05T11:32:25.8967333Z"
+  },
+  {
+    "file": "regular-2016-10.json",
+    "sha256": "DC5B731F1CDB136B3E1465E92BF99875B536CF3635DAF28DB3E5FBD472D5E62E",
+    "season": 2016,
+    "month": "10",
+    "rows": 24,
+    "endpoint": "https://www.koreabaseball.com/ws/Schedule.asmx/GetScheduleList",
+    "series": "0",
+    "retrievedAt": "2026-11-05T11:32:26.1928752Z"
+  },
+  {
+    "file": "regular-2016-11.json",
+    "sha256": "292E880049E3C6FBD394DB24C2D27283E71DCB098E9A7E9B7FB1A40A4E24F90D",
+    "season": 2016,
+    "month": "11",
+    "rows": 0,
+    "endpoint": "https://www.koreabaseball.com/ws/Schedule.asmx/GetScheduleList",
+    "series": "0",
+    "retrievedAt": "2026-11-05T11:32:26.3990912Z"
+  },
+  {
+    "file": "regular-2017-03.json",
+    "sha256": "EE7DEB8DFBCEC9A26A38CEDA2C7DDC8EE71496159758134EB0329E1C36B9884B",
+    "season": 2017,
+    "month": "03",
+    "rows": 5,
+    "endpoint": "https://www.koreabaseball.com/ws/Schedule.asmx/GetScheduleList",
+    "series": "0",
+    "retrievedAt": "2026-11-05T11:32:26.6588964Z"
+  },
+  {
+    "file": "regular-2017-04.json",
+    "sha256": "5334A3A9D7A5230A493B971117C1A7C23C35D29A47BFCBC5DC4FCCE502DC937F",
+    "season": 2017,
+    "month": "04",
+    "rows": 125,
+    "endpoint": "https://www.koreabaseball.com/ws/Schedule.asmx/GetScheduleList",
+    "series": "0",
+    "retrievedAt": "2026-11-05T11:32:27.0810847Z"
+  },
+  {
+    "file": "regular-2017-05.json",
+    "sha256": "FE9580013DB8A30E9C4E703A8E94F82C6C50F386FFEC5609DC4C4F974F86C6A3",
+    "season": 2017,
+    "month": "05",
+    "rows": 124,
+    "endpoint": "https://www.koreabaseball.com/ws/Schedule.asmx/GetScheduleList",
+    "series": "0",
+    "retrievedAt": "2026-11-05T11:32:27.5391751Z"
+  },
+  {
+    "file": "regular-2017-06.json",
+    "sha256": "E6644168100489029E223E180DC169E050662666C94E027DB933CD7EF62302D4",
+    "season": 2017,
+    "month": "06",
+    "rows": 125,
+    "endpoint": "https://www.koreabaseball.com/ws/Schedule.asmx/GetScheduleList",
+    "series": "0",
+    "retrievedAt": "2026-11-05T11:32:27.9736273Z"
+  },
+  {
+    "file": "regular-2017-07.json",
+    "sha256": "F2D210B12F4E0CD6F6C405C2F5DCCE55281F40A38720CB35ECC5028A1218BEE3",
+    "season": 2017,
+    "month": "07",
+    "rows": 104,
+    "endpoint": "https://www.koreabaseball.com/ws/Schedule.asmx/GetScheduleList",
+    "series": "0",
+    "retrievedAt": "2026-11-05T11:32:28.3935143Z"
+  },
+  {
+    "file": "regular-2017-08.json",
+    "sha256": "BE2FA282CAF66A9695E427DDBD74A83D894CA5216CD3497C5AC2F3A914B4CAA3",
+    "season": 2017,
+    "month": "08",
+    "rows": 124,
+    "endpoint": "https://www.koreabaseball.com/ws/Schedule.asmx/GetScheduleList",
+    "series": "0",
+    "retrievedAt": "2026-11-05T11:32:28.8489170Z"
+  },
+  {
+    "file": "regular-2017-09.json",
+    "sha256": "B5F634A459A0D97B56FB0546A0B77286D078B54248DAD07891EF17630102E960",
+    "season": 2017,
+    "month": "09",
+    "rows": 104,
+    "endpoint": "https://www.koreabaseball.com/ws/Schedule.asmx/GetScheduleList",
+    "series": "0",
+    "retrievedAt": "2026-11-05T11:32:29.2409171Z"
+  },
+  {
+    "file": "regular-2017-10.json",
+    "sha256": "4B2AB68ACEA26C2693DEEDDEF2532BC5C737219170A3D0BBC1A1893CC380F78C",
+    "season": 2017,
+    "month": "10",
+    "rows": 9,
+    "endpoint": "https://www.koreabaseball.com/ws/Schedule.asmx/GetScheduleList",
+    "series": "0",
+    "retrievedAt": "2026-11-05T11:32:29.4987961Z"
+  },
+  {
+    "file": "regular-2017-11.json",
+    "sha256": "292E880049E3C6FBD394DB24C2D27283E71DCB098E9A7E9B7FB1A40A4E24F90D",
+    "season": 2017,
+    "month": "11",
+    "rows": 0,
+    "endpoint": "https://www.koreabaseball.com/ws/Schedule.asmx/GetScheduleList",
+    "series": "0",
+    "retrievedAt": "2026-11-05T11:32:29.7072204Z"
+  },
+  {
+    "file": "regular-2018-03.json",
+    "sha256": "D4DBEEC0160E1EF17D5CCEDE323EAA5B7048DF88B94B9CDD0BCAFB38DD4BE04B",
+    "season": 2018,
+    "month": "03",
+    "rows": 35,
+    "endpoint": "https://www.koreabaseball.com/ws/Schedule.asmx/GetScheduleList",
+    "series": "0",
+    "retrievedAt": "2026-11-05T11:32:29.9483102Z"
+  },
+  {
+    "file": "regular-2018-04.json",
+    "sha256": "0C1B935CEB9AC81F21BCAD23CE6631C44B6F7C25FC5501357B4371716A477D1E",
+    "season": 2018,
+    "month": "04",
+    "rows": 116,
+    "endpoint": "https://www.koreabaseball.com/ws/Schedule.asmx/GetScheduleList",
+    "series": "0",
+    "retrievedAt": "2026-11-05T11:32:30.3516415Z"
+  },
+  {
+    "file": "regular-2018-05.json",
+    "sha256": "CFFC42B9E8FBD4EB4C2D949811E8686D0F4BACAEBBEAB5BF32B654487519BB03",
+    "season": 2018,
+    "month": "05",
+    "rows": 123,
+    "endpoint": "https://www.koreabaseball.com/ws/Schedule.asmx/GetScheduleList",
+    "series": "0",
+    "retrievedAt": "2026-11-05T11:32:30.7951214Z"
+  },
+  {
+    "file": "regular-2018-06.json",
+    "sha256": "FFA8409342C77AD7F1F83CF07294696BD291442735ED7FB0EC70FE85095B1197",
+    "season": 2018,
+    "month": "06",
+    "rows": 123,
+    "endpoint": "https://www.koreabaseball.com/ws/Schedule.asmx/GetScheduleList",
+    "series": "0",
+    "retrievedAt": "2026-11-05T11:32:31.2122251Z"
+  },
+  {
+    "file": "regular-2018-07.json",
+    "sha256": "300FF4A5EFA0E343F03E549393651ECCD140F5F12ED0DE51C8DC1EEE1DACB85F",
+    "season": 2018,
+    "month": "07",
+    "rows": 109,
+    "endpoint": "https://www.koreabaseball.com/ws/Schedule.asmx/GetScheduleList",
+    "series": "0",
+    "retrievedAt": "2026-11-05T11:32:31.6294619Z"
+  },
+  {
+    "file": "regular-2018-08.json",
+    "sha256": "C2FDCD8CB3295D1DFD3A92A5205C694CB79F22418BB410ED3976B896536B99EB",
+    "season": 2018,
+    "month": "08",
+    "rows": 63,
+    "endpoint": "https://www.koreabaseball.com/ws/Schedule.asmx/GetScheduleList",
+    "series": "0",
+    "retrievedAt": "2026-11-05T11:32:31.9742501Z"
+  },
+  {
+    "file": "regular-2018-09.json",
+    "sha256": "42EF39093C48878A72ACBEE5FE179E6207E70F0B3FBF1F7F6F4DFC435F24C985",
+    "season": 2018,
+    "month": "09",
+    "rows": 117,
+    "endpoint": "https://www.koreabaseball.com/ws/Schedule.asmx/GetScheduleList",
+    "series": "0",
+    "retrievedAt": "2026-11-05T11:32:32.3695200Z"
+  },
+  {
+    "file": "regular-2018-10.json",
+    "sha256": "4AC78D7CF6B67B778B2EF176E640183590FA84AA29E378AFF5E39E8320A8AA01",
+    "season": 2018,
+    "month": "10",
+    "rows": 34,
+    "endpoint": "https://www.koreabaseball.com/ws/Schedule.asmx/GetScheduleList",
+    "series": "0",
+    "retrievedAt": "2026-11-05T11:32:32.6641285Z"
+  },
+  {
+    "file": "regular-2018-11.json",
+    "sha256": "292E880049E3C6FBD394DB24C2D27283E71DCB098E9A7E9B7FB1A40A4E24F90D",
+    "season": 2018,
+    "month": "11",
+    "rows": 0,
+    "endpoint": "https://www.koreabaseball.com/ws/Schedule.asmx/GetScheduleList",
+    "series": "0",
+    "retrievedAt": "2026-11-05T11:32:32.8792118Z"
+  },
+  {
+    "file": "regular-2019-03.json",
+    "sha256": "74D3106273836416A7A3312B0DA26A9C39093E462DEEE29248E6719B96EF63F2",
+    "season": 2019,
+    "month": "03",
+    "rows": 40,
+    "endpoint": "https://www.koreabaseball.com/ws/Schedule.asmx/GetScheduleList",
+    "series": "0",
+    "retrievedAt": "2026-11-05T11:32:33.1518056Z"
+  },
+  {
+    "file": "regular-2019-04.json",
+    "sha256": "3DF6FE4635B2F9A5386D6A2A8BF530C676CF3B6BCCFA2F666851BAD3377234AC",
+    "season": 2019,
+    "month": "04",
+    "rows": 113,
+    "endpoint": "https://www.koreabaseball.com/ws/Schedule.asmx/GetScheduleList",
+    "series": "0",
+    "retrievedAt": "2026-11-05T11:32:33.5346942Z"
+  },
+  {
+    "file": "regular-2019-05.json",
+    "sha256": "0E82D8804EBBCCC2912EA5579BCFF48AC0E39508B258249FA7F873C846AF8FF0",
+    "season": 2019,
+    "month": "05",
+    "rows": 132,
+    "endpoint": "https://www.koreabaseball.com/ws/Schedule.asmx/GetScheduleList",
+    "series": "0",
+    "retrievedAt": "2026-11-05T11:32:33.9923216Z"
+  },
+  {
+    "file": "regular-2019-06.json",
+    "sha256": "4D4CA1C70472CA4B5BA562D07147344C4AAFCEA61EC7E775830DE10DB86DECA9",
+    "season": 2019,
+    "month": "06",
+    "rows": 123,
+    "endpoint": "https://www.koreabaseball.com/ws/Schedule.asmx/GetScheduleList",
+    "series": "0",
+    "retrievedAt": "2026-11-05T11:32:34.6597149Z"
+  },
+  {
+    "file": "regular-2019-07.json",
+    "sha256": "1445A0BEFD0591077FB765A7965E43996C78E8E6DC947FF266032BC50C9EAF31",
+    "season": 2019,
+    "month": "07",
+    "rows": 91,
+    "endpoint": "https://www.koreabaseball.com/ws/Schedule.asmx/GetScheduleList",
+    "series": "0",
+    "retrievedAt": "2026-11-05T11:32:35.0685408Z"
+  },
+  {
+    "file": "regular-2019-08.json",
+    "sha256": "657B1BFA2CEE62F12A8E52DA20326CAC325E0DAE4BC4887E502ABBBFE50BD65A",
+    "season": 2019,
+    "month": "08",
+    "rows": 122,
+    "endpoint": "https://www.koreabaseball.com/ws/Schedule.asmx/GetScheduleList",
+    "series": "0",
+    "retrievedAt": "2026-11-05T11:32:35.5181983Z"
+  },
+  {
+    "file": "regular-2019-09.json",
+    "sha256": "5B1FEDFB449645BA7D52E9405DD96698C125B2A6C50B56483B0A062DC8C715A8",
+    "season": 2019,
+    "month": "09",
+    "rows": 97,
+    "endpoint": "https://www.koreabaseball.com/ws/Schedule.asmx/GetScheduleList",
+    "series": "0",
+    "retrievedAt": "2026-11-05T11:32:35.9400192Z"
+  },
+  {
+    "file": "regular-2019-10.json",
+    "sha256": "373E9F7EEAEC60F19785AD489780A6BA53247F44D786D138A0DC759122B7E739",
+    "season": 2019,
+    "month": "10",
+    "rows": 2,
+    "endpoint": "https://www.koreabaseball.com/ws/Schedule.asmx/GetScheduleList",
+    "series": "0",
+    "retrievedAt": "2026-11-05T11:32:36.1998812Z"
+  },
+  {
+    "file": "regular-2019-11.json",
+    "sha256": "292E880049E3C6FBD394DB24C2D27283E71DCB098E9A7E9B7FB1A40A4E24F90D",
+    "season": 2019,
+    "month": "11",
+    "rows": 0,
+    "endpoint": "https://www.koreabaseball.com/ws/Schedule.asmx/GetScheduleList",
+    "series": "0",
+    "retrievedAt": "2026-11-05T11:32:36.4319108Z"
+  },
+  {
+    "file": "regular-2020-03.json",
+    "sha256": "292E880049E3C6FBD394DB24C2D27283E71DCB098E9A7E9B7FB1A40A4E24F90D",
+    "season": 2020,
+    "month": "03",
+    "rows": 0,
+    "endpoint": "https://www.koreabaseball.com/ws/Schedule.asmx/GetScheduleList",
+    "series": "0",
+    "retrievedAt": "2026-11-05T11:32:36.6619233Z"
+  },
+  {
+    "file": "regular-2020-04.json",
+    "sha256": "292E880049E3C6FBD394DB24C2D27283E71DCB098E9A7E9B7FB1A40A4E24F90D",
+    "season": 2020,
+    "month": "04",
+    "rows": 0,
+    "endpoint": "https://www.koreabaseball.com/ws/Schedule.asmx/GetScheduleList",
+    "series": "0",
+    "retrievedAt": "2026-11-05T11:32:36.8691824Z"
+  },
+  {
+    "file": "regular-2020-05.json",
+    "sha256": "2D91B8C7A14F623F996327E95690963D25B96DB8D77BD970593EA742AF1C0235",
+    "season": 2020,
+    "month": "05",
+    "rows": 117,
+    "endpoint": "https://www.koreabaseball.com/ws/Schedule.asmx/GetScheduleList",
+    "series": "0",
+    "retrievedAt": "2026-11-05T11:32:37.2623462Z"
+  },
+  {
+    "file": "regular-2020-06.json",
+    "sha256": "37510F7FFDD2CB7E531679CF5746E9C801AD2AD0F033C23C1DD73627B70F761F",
+    "season": 2020,
+    "month": "06",
+    "rows": 121,
+    "endpoint": "https://www.koreabaseball.com/ws/Schedule.asmx/GetScheduleList",
+    "series": "0",
+    "retrievedAt": "2026-11-05T11:32:37.7102023Z"
+  },
+  {
+    "file": "regular-2020-07.json",
+    "sha256": "F0C216BECC5BE3421CA48FE51428EA87988DE608F454476C43042EA3400565D6",
+    "season": 2020,
+    "month": "07",
+    "rows": 116,
+    "endpoint": "https://www.koreabaseball.com/ws/Schedule.asmx/GetScheduleList",
+    "series": "0",
+    "retrievedAt": "2026-11-05T11:32:38.2036011Z"
+  },
+  {
+    "file": "regular-2020-08.json",
+    "sha256": "FDD2352C63BFF95EB04CD88D934A281F6C8CDB393E1300F86432D261E7738CE9",
+    "season": 2020,
+    "month": "08",
+    "rows": 119,
+    "endpoint": "https://www.koreabaseball.com/ws/Schedule.asmx/GetScheduleList",
+    "series": "0",
+    "retrievedAt": "2026-11-05T11:32:38.6549634Z"
+  },
+  {
+    "file": "regular-2020-09.json",
+    "sha256": "54B7A064306961525FA194D802E35D1729275A0B2C038337AEA3B59E17D41445",
+    "season": 2020,
+    "month": "09",
+    "rows": 128,
+    "endpoint": "https://www.koreabaseball.com/ws/Schedule.asmx/GetScheduleList",
+    "series": "0",
+    "retrievedAt": "2026-11-05T11:32:39.1107865Z"
+  },
+  {
+    "file": "regular-2020-10.json",
+    "sha256": "5E017420511A0BCB14A3F5C92D8B335C8CFBCAD259CE2F411AFAE24C4B3D9043",
+    "season": 2020,
+    "month": "10",
+    "rows": 119,
+    "endpoint": "https://www.koreabaseball.com/ws/Schedule.asmx/GetScheduleList",
+    "series": "0",
+    "retrievedAt": "2026-11-05T11:32:39.5255558Z"
+  },
+  {
+    "file": "regular-2020-11.json",
+    "sha256": "292E880049E3C6FBD394DB24C2D27283E71DCB098E9A7E9B7FB1A40A4E24F90D",
+    "season": 2020,
+    "month": "11",
+    "rows": 0,
+    "endpoint": "https://www.koreabaseball.com/ws/Schedule.asmx/GetScheduleList",
+    "series": "0",
+    "retrievedAt": "2026-11-05T11:32:39.7981804Z"
+  },
+  {
+    "file": "regular-2021-03.json",
+    "sha256": "292E880049E3C6FBD394DB24C2D27283E71DCB098E9A7E9B7FB1A40A4E24F90D",
+    "season": 2021,
+    "month": "03",
+    "rows": 0,
+    "endpoint": "https://www.koreabaseball.com/ws/Schedule.asmx/GetScheduleList",
+    "series": "0",
+    "retrievedAt": "2026-11-05T11:32:40.0546489Z"
+  },
+  {
+    "file": "regular-2021-04.json",
+    "sha256": "46ED3045EA7DB84555687723A2991D458B9D87F73AD2D2519330CE4B746D3CA8",
+    "season": 2021,
+    "month": "04",
+    "rows": 116,
+    "endpoint": "https://www.koreabaseball.com/ws/Schedule.asmx/GetScheduleList",
+    "series": "0",
+    "retrievedAt": "2026-11-05T11:32:40.4741726Z"
+  },
+  {
+    "file": "regular-2021-05.json",
+    "sha256": "85B8FCBE059A51A5F4434A41AC00222CFAEDC5291D31A7CBA4088FC5294EF6C6",
+    "season": 2021,
+    "month": "05",
+    "rows": 113,
+    "endpoint": "https://www.koreabaseball.com/ws/Schedule.asmx/GetScheduleList",
+    "series": "0",
+    "retrievedAt": "2026-11-05T11:32:40.9330242Z"
+  },
+  {
+    "file": "regular-2021-06.json",
+    "sha256": "7E268BF1A4AAFDFD3E0ABE7F227F44914523528A3EDCEF5854D616F260C2FBAC",
+    "season": 2021,
+    "month": "06",
+    "rows": 123,
+    "endpoint": "https://www.koreabaseball.com/ws/Schedule.asmx/GetScheduleList",
+    "series": "0",
+    "retrievedAt": "2026-11-05T11:32:41.4120105Z"
+  },
+  {
+    "file": "regular-2021-07.json",
+    "sha256": "95418E52742973DCF833D69EB4DDEF081903E750387F663273E0C20D1B85628D",
+    "season": 2021,
+    "month": "07",
+    "rows": 33,
+    "endpoint": "https://www.koreabaseball.com/ws/Schedule.asmx/GetScheduleList",
+    "series": "0",
+    "retrievedAt": "2026-11-05T11:32:41.8022300Z"
+  },
+  {
+    "file": "regular-2021-08.json",
+    "sha256": "C1710BA69CD7BE9A6A145F2481136F1B7F82D91128116ECC9F681032B3AF85FB",
+    "season": 2021,
+    "month": "08",
+    "rows": 81,
+    "endpoint": "https://www.koreabaseball.com/ws/Schedule.asmx/GetScheduleList",
+    "series": "0",
+    "retrievedAt": "2026-11-05T11:32:42.1660440Z"
+  },
+  {
+    "file": "regular-2021-09.json",
+    "sha256": "8C79A12E8BCED8477E22F3D1142162981F4440353C89DFC39F9C0F4F43CA2884",
+    "season": 2021,
+    "month": "09",
+    "rows": 132,
+    "endpoint": "https://www.koreabaseball.com/ws/Schedule.asmx/GetScheduleList",
+    "series": "0",
+    "retrievedAt": "2026-11-05T11:32:42.5950468Z"
+  },
+  {
+    "file": "regular-2021-10.json",
+    "sha256": "2520E79FDF23A5BAE3A28DE7F9633C192517F235FE56B55B6C754D55215B2B34",
+    "season": 2021,
+    "month": "10",
+    "rows": 122,
+    "endpoint": "https://www.koreabaseball.com/ws/Schedule.asmx/GetScheduleList",
+    "series": "0",
+    "retrievedAt": "2026-11-05T11:32:43.0114693Z"
+  },
+  {
+    "file": "regular-2021-11.json",
+    "sha256": "292E880049E3C6FBD394DB24C2D27283E71DCB098E9A7E9B7FB1A40A4E24F90D",
+    "season": 2021,
+    "month": "11",
+    "rows": 0,
+    "endpoint": "https://www.koreabaseball.com/ws/Schedule.asmx/GetScheduleList",
+    "series": "0",
+    "retrievedAt": "2026-11-05T11:32:43.2720932Z"
+  },
+  {
+    "file": "regular-2022-03.json",
+    "sha256": "292E880049E3C6FBD394DB24C2D27283E71DCB098E9A7E9B7FB1A40A4E24F90D",
+    "season": 2022,
+    "month": "03",
+    "rows": 0,
+    "endpoint": "https://www.koreabaseball.com/ws/Schedule.asmx/GetScheduleList",
+    "series": "0",
+    "retrievedAt": "2026-11-05T11:32:43.4995462Z"
+  },
+  {
+    "file": "regular-2022-04.json",
+    "sha256": "18CD43ADCB5662615C5B9972E3763DE7FF5EB777726CD23A8BB51FFC7BB8635A",
+    "season": 2022,
+    "month": "04",
+    "rows": 123,
+    "endpoint": "https://www.koreabaseball.com/ws/Schedule.asmx/GetScheduleList",
+    "series": "0",
+    "retrievedAt": "2026-11-05T11:32:43.8953761Z"
+  },
+  {
+    "file": "regular-2022-05.json",
+    "sha256": "8EE0890ACBC8C3D2F53B93C0331E0BFA8CB76AD7C52418EEE34F95528CEA92B2",
+    "season": 2022,
+    "month": "05",
+    "rows": 129,
+    "endpoint": "https://www.koreabaseball.com/ws/Schedule.asmx/GetScheduleList",
+    "series": "0",
+    "retrievedAt": "2026-11-05T11:32:44.3537477Z"
+  },
+  {
+    "file": "regular-2022-06.json",
+    "sha256": "00E770DFADAE64A835BE32D5D875DCCFCD901C7CD0F097027A6F59A28C1F1E90",
+    "season": 2022,
+    "month": "06",
+    "rows": 117,
+    "endpoint": "https://www.koreabaseball.com/ws/Schedule.asmx/GetScheduleList",
+    "series": "0",
+    "retrievedAt": "2026-11-05T11:32:44.8046523Z"
+  },
+  {
+    "file": "regular-2022-07.json",
+    "sha256": "E6C30F4147BD391790EE04906189815268AE68AFF23BEDE0D550DC79489AD029",
+    "season": 2022,
+    "month": "07",
+    "rows": 95,
+    "endpoint": "https://www.koreabaseball.com/ws/Schedule.asmx/GetScheduleList",
+    "series": "0",
+    "retrievedAt": "2026-11-05T11:32:45.2664307Z"
+  },
+  {
+    "file": "regular-2022-08.json",
+    "sha256": "57D7341B4E5ECE1F0966E4A1E9CB660D7EEEF7A0CB602FEB70907E8A6227D2CA",
+    "season": 2022,
+    "month": "08",
+    "rows": 109,
+    "endpoint": "https://www.koreabaseball.com/ws/Schedule.asmx/GetScheduleList",
+    "series": "0",
+    "retrievedAt": "2026-11-05T11:32:45.6719512Z"
+  },
+  {
+    "file": "regular-2022-09.json",
+    "sha256": "FC7C01703F72AF9B8829BCDF2A8F2F6CBED45D969C3C2D5A6C4FFE887BF72637",
+    "season": 2022,
+    "month": "09",
+    "rows": 119,
+    "endpoint": "https://www.koreabaseball.com/ws/Schedule.asmx/GetScheduleList",
+    "series": "0",
+    "retrievedAt": "2026-11-05T11:32:46.3224670Z"
+  },
+  {
+    "file": "regular-2022-10.json",
+    "sha256": "5B9AE77170ADB5A1CB611F88943AE5FF08A6B65925A1689B949299DA329423E8",
+    "season": 2022,
+    "month": "10",
+    "rows": 28,
+    "endpoint": "https://www.koreabaseball.com/ws/Schedule.asmx/GetScheduleList",
+    "series": "0",
+    "retrievedAt": "2026-11-05T11:32:46.6594320Z"
+  },
+  {
+    "file": "regular-2022-11.json",
+    "sha256": "292E880049E3C6FBD394DB24C2D27283E71DCB098E9A7E9B7FB1A40A4E24F90D",
+    "season": 2022,
+    "month": "11",
+    "rows": 0,
+    "endpoint": "https://www.koreabaseball.com/ws/Schedule.asmx/GetScheduleList",
+    "series": "0",
+    "retrievedAt": "2026-11-05T11:32:46.8878390Z"
+  },
+  {
+    "file": "regular-2023-03.json",
+    "sha256": "292E880049E3C6FBD394DB24C2D27283E71DCB098E9A7E9B7FB1A40A4E24F90D",
+    "season": 2023,
+    "month": "03",
+    "rows": 0,
+    "endpoint": "https://www.koreabaseball.com/ws/Schedule.asmx/GetScheduleList",
+    "series": "0",
+    "retrievedAt": "2026-11-05T11:32:47.1032361Z"
+  },
+  {
+    "file": "regular-2023-04.json",
+    "sha256": "886900ECC718DAF9D3DDD0E523BB65C58ACE9528B2A7B437B49873011EAB25D4",
+    "season": 2023,
+    "month": "04",
+    "rows": 120,
+    "endpoint": "https://www.koreabaseball.com/ws/Schedule.asmx/GetScheduleList",
+    "series": "0",
+    "retrievedAt": "2026-11-05T11:32:47.4911610Z"
+  },
+  {
+    "file": "regular-2023-05.json",
+    "sha256": "AB6B15733747A1EFF65D714C9827F8D18A91190EBA06A91374860F72B032072C",
+    "season": 2023,
+    "month": "05",
+    "rows": 113,
+    "endpoint": "https://www.koreabaseball.com/ws/Schedule.asmx/GetScheduleList",
+    "series": "0",
+    "retrievedAt": "2026-11-05T11:32:47.8950424Z"
+  },
+  {
+    "file": "regular-2023-06.json",
+    "sha256": "E975DF9508C2F151900B8BBCF7D08584EC7FD1E6B9D6807A39AC3DF1CC247BA8",
+    "season": 2023,
+    "month": "06",
+    "rows": 121,
+    "endpoint": "https://www.koreabaseball.com/ws/Schedule.asmx/GetScheduleList",
+    "series": "0",
+    "retrievedAt": "2026-11-05T11:32:48.3439705Z"
+  },
+  {
+    "file": "regular-2023-07.json",
+    "sha256": "0E36311CA9A5FD2302E111D95F9AD2C3F3F06860E00C1AE25734FD14F225C526",
+    "season": 2023,
+    "month": "07",
+    "rows": 83,
+    "endpoint": "https://www.koreabaseball.com/ws/Schedule.asmx/GetScheduleList",
+    "series": "0",
+    "retrievedAt": "2026-11-05T11:32:48.7377875Z"
+  },
+  {
+    "file": "regular-2023-08.json",
+    "sha256": "E28F30D01D08E3EF02FF11E38AF1773D939A0DCE957223B8C47FCE5C029904D1",
+    "season": 2023,
+    "month": "08",
+    "rows": 113,
+    "endpoint": "https://www.koreabaseball.com/ws/Schedule.asmx/GetScheduleList",
+    "series": "0",
+    "retrievedAt": "2026-11-05T11:32:49.1760856Z"
+  },
+  {
+    "file": "regular-2023-09.json",
+    "sha256": "3D05E07B2D28B086BC997F20163DF76802492D84F89FFD8E5A8BF7C790B4B68C",
+    "season": 2023,
+    "month": "09",
+    "rows": 110,
+    "endpoint": "https://www.koreabaseball.com/ws/Schedule.asmx/GetScheduleList",
+    "series": "0",
+    "retrievedAt": "2026-11-05T11:32:49.6262323Z"
+  },
+  {
+    "file": "regular-2023-10.json",
+    "sha256": "1E8F93767B1BC54EB468A05A3C8E631A5A1DD4BA6891AE5B31923F6764F0623E",
+    "season": 2023,
+    "month": "10",
+    "rows": 60,
+    "endpoint": "https://www.koreabaseball.com/ws/Schedule.asmx/GetScheduleList",
+    "series": "0",
+    "retrievedAt": "2026-11-05T11:32:49.9910214Z"
+  },
+  {
+    "file": "regular-2023-11.json",
+    "sha256": "292E880049E3C6FBD394DB24C2D27283E71DCB098E9A7E9B7FB1A40A4E24F90D",
+    "season": 2023,
+    "month": "11",
+    "rows": 0,
+    "endpoint": "https://www.koreabaseball.com/ws/Schedule.asmx/GetScheduleList",
+    "series": "0",
+    "retrievedAt": "2026-11-05T11:32:50.4697467Z"
+  },
+  {
+    "file": "regular-2024-03.json",
+    "sha256": "8C764FF904B0459EA809F931EA595214F2F83996DF3CC492ACB229316E0A00C8",
+    "season": 2024,
+    "month": "03",
+    "rows": 37,
+    "endpoint": "https://www.koreabaseball.com/ws/Schedule.asmx/GetScheduleList",
+    "series": "0",
+    "retrievedAt": "2026-11-05T11:32:50.7466992Z"
+  },
+  {
+    "file": "regular-2024-04.json",
+    "sha256": "0A988F77AE1241830610EB0CCB8587E35CE77EAD9797F8A9DBA321C5E234F6C0",
+    "season": 2024,
+    "month": "04",
+    "rows": 121,
+    "endpoint": "https://www.koreabaseball.com/ws/Schedule.asmx/GetScheduleList",
+    "series": "0",
+    "retrievedAt": "2026-11-05T11:32:51.1464049Z"
+  },
+  {
+    "file": "regular-2024-05.json",
+    "sha256": "68701E94BDB741525EFD65687B9EF535CA4ED36A17590B0A9FD8FA2E85622D43",
+    "season": 2024,
+    "month": "05",
+    "rows": 122,
+    "endpoint": "https://www.koreabaseball.com/ws/Schedule.asmx/GetScheduleList",
+    "series": "0",
+    "retrievedAt": "2026-11-05T11:32:51.6063078Z"
+  },
+  {
+    "file": "regular-2024-06.json",
+    "sha256": "1D72BE8D99CB53A462EBE23BE2674BAF2E8970AD562548AD11A905FFE7461B3F",
+    "season": 2024,
+    "month": "06",
+    "rows": 125,
+    "endpoint": "https://www.koreabaseball.com/ws/Schedule.asmx/GetScheduleList",
+    "series": "0",
+    "retrievedAt": "2026-11-05T11:32:52.0832436Z"
+  },
+  {
+    "file": "regular-2024-07.json",
+    "sha256": "59CDCF537D43144F2B14E7D24FCF6CB83153DD00A9B48AEF3B3F46922ECA38FF",
+    "season": 2024,
+    "month": "07",
+    "rows": 97,
+    "endpoint": "https://www.koreabaseball.com/ws/Schedule.asmx/GetScheduleList",
+    "series": "0",
+    "retrievedAt": "2026-11-05T11:32:52.5117402Z"
+  },
+  {
+    "file": "regular-2024-08.json",
+    "sha256": "1EB6A897C84612E6AC7CC4B166E2EA1A95081D10D3D00C201C0D8A8EA99519E6",
+    "season": 2024,
+    "month": "08",
+    "rows": 119,
+    "endpoint": "https://www.koreabaseball.com/ws/Schedule.asmx/GetScheduleList",
+    "series": "0",
+    "retrievedAt": "2026-11-05T11:32:52.9597241Z"
+  },
+  {
+    "file": "regular-2024-09.json",
+    "sha256": "3CBD463ECDC46283EADAC448FCF3D17B13EE09939F275712C4585311395D6102",
+    "season": 2024,
+    "month": "09",
+    "rows": 98,
+    "endpoint": "https://www.koreabaseball.com/ws/Schedule.asmx/GetScheduleList",
+    "series": "0",
+    "retrievedAt": "2026-11-05T11:32:53.3918839Z"
+  },
+  {
+    "file": "regular-2024-10.json",
+    "sha256": "2D4578071E4CF6A9316969078BFEF411AB66DA92E6533738FE072AB3C395E3F4",
+    "season": 2024,
+    "month": "10",
+    "rows": 1,
+    "endpoint": "https://www.koreabaseball.com/ws/Schedule.asmx/GetScheduleList",
+    "series": "0",
+    "retrievedAt": "2026-11-05T11:32:53.6332178Z"
+  },
+  {
+    "file": "regular-2024-11.json",
+    "sha256": "292E880049E3C6FBD394DB24C2D27283E71DCB098E9A7E9B7FB1A40A4E24F90D",
+    "season": 2024,
+    "month": "11",
+    "rows": 0,
+    "endpoint": "https://www.koreabaseball.com/ws/Schedule.asmx/GetScheduleList",
+    "series": "0",
+    "retrievedAt": "2026-11-05T11:32:53.8480069Z"
+  },
+  {
+    "file": "regular-2025-03.json",
+    "sha256": "A4D43AD5F105D2A46E226175F29FB293387284C9FAEC69D636EFC3BC0BAB65DC",
+    "season": 2025,
+    "month": "03",
+    "rows": 39,
+    "endpoint": "https://www.koreabaseball.com/ws/Schedule.asmx/GetScheduleList",
+    "series": "0",
+    "retrievedAt": "2026-11-05T11:32:54.1399698Z"
+  },
+  {
+    "file": "regular-2025-04.json",
+    "sha256": "5618431A004C45B8E9BB153AA52BF8A1E7D6B3D5D50D82B5A34EB3C5B6E29AD1",
+    "season": 2025,
+    "month": "04",
+    "rows": 114,
+    "endpoint": "https://www.koreabaseball.com/ws/Schedule.asmx/GetScheduleList",
+    "series": "0",
+    "retrievedAt": "2026-11-05T11:32:54.5598892Z"
+  },
+  {
+    "file": "regular-2025-05.json",
+    "sha256": "67D8AC29CCF1CA2FDCD711FBA39C44345E54551D6AF71EF39E81E5AE2C35AD76",
+    "season": 2025,
+    "month": "05",
+    "rows": 131,
+    "endpoint": "https://www.koreabaseball.com/ws/Schedule.asmx/GetScheduleList",
+    "series": "0",
+    "retrievedAt": "2026-11-05T11:32:54.9844202Z"
+  },
+  {
+    "file": "regular-2025-06.json",
+    "sha256": "821F622779C1A82C08F67FF0BF091BF73F864FD9A4CE817B515D8B0907A812A1",
+    "season": 2025,
+    "month": "06",
+    "rows": 111,
+    "endpoint": "https://www.koreabaseball.com/ws/Schedule.asmx/GetScheduleList",
+    "series": "0",
+    "retrievedAt": "2026-11-05T11:32:55.4123330Z"
+  },
+  {
+    "file": "regular-2025-07.json",
+    "sha256": "6DA7BEB73D9859826BBE7FF2F36A84EF396B086ADAF2D15049765FF512ED0D1C",
+    "season": 2025,
+    "month": "07",
+    "rows": 100,
+    "endpoint": "https://www.koreabaseball.com/ws/Schedule.asmx/GetScheduleList",
+    "series": "0",
+    "retrievedAt": "2026-11-05T11:32:55.7911735Z"
+  },
+  {
+    "file": "regular-2025-08.json",
+    "sha256": "D6747EE4D17E017B6A403BF4EA66E952252857808DC6FB4BCC5988C6F505041C",
+    "season": 2025,
+    "month": "08",
+    "rows": 127,
+    "endpoint": "https://www.koreabaseball.com/ws/Schedule.asmx/GetScheduleList",
+    "series": "0",
+    "retrievedAt": "2026-11-05T11:32:56.2364247Z"
+  },
+  {
+    "file": "regular-2025-09.json",
+    "sha256": "AFEED8201D48CDFDE2FB320A60AA93D8626D87012E5F151FFE18F9DFEB55CE17",
+    "season": 2025,
+    "month": "09",
+    "rows": 91,
+    "endpoint": "https://www.koreabaseball.com/ws/Schedule.asmx/GetScheduleList",
+    "series": "0",
+    "retrievedAt": "2026-11-05T11:32:56.6236328Z"
+  },
+  {
+    "file": "regular-2025-10.json",
+    "sha256": "E1A7BFB3ADDF37F3D51A7185A7A45B2DF8601B87F3B09E4A6627798AFB0371D7",
+    "season": 2025,
+    "month": "10",
+    "rows": 7,
+    "endpoint": "https://www.koreabaseball.com/ws/Schedule.asmx/GetScheduleList",
+    "series": "0",
+    "retrievedAt": "2026-11-05T11:32:56.8811322Z"
+  },
+  {
+    "file": "regular-2025-11.json",
+    "sha256": "292E880049E3C6FBD394DB24C2D27283E71DCB098E9A7E9B7FB1A40A4E24F90D",
+    "season": 2025,
+    "month": "11",
+    "rows": 0,
+    "endpoint": "https://www.koreabaseball.com/ws/Schedule.asmx/GetScheduleList",
+    "series": "0",
+    "retrievedAt": "2026-11-05T11:32:57.0841068Z"
+  },
+  {
+    "file": "regular-2026-03.json",
+    "sha256": "F130DE91E5E24D0DC7AAC64B4BBCF526F618031C7C4193E4A0D8F1E75487A8F6",
+    "season": 2026,
+    "month": "03",
+    "rows": 15,
+    "endpoint": "https://www.koreabaseball.com/ws/Schedule.asmx/GetScheduleList",
+    "series": "0",
+    "retrievedAt": "2026-11-05T11:32:57.3083978Z"
+  },
+  {
+    "file": "regular-2026-04.json",
+    "sha256": "5D6C8F416B4D1B0E1678D9A207069B3AF96F2D573877D1B618AB9AC677AC861F",
+    "season": 2026,
+    "month": "04",
+    "rows": 122,
+    "endpoint": "https://www.koreabaseball.com/ws/Schedule.asmx/GetScheduleList",
+    "series": "0",
+    "retrievedAt": "2026-11-05T11:32:57.6878371Z"
+  },
+  {
+    "file": "regular-2026-05.json",
+    "sha256": "116E70AE7CA5E0228139B1433BDC6B761A648268197CBC407E685E81763662CC",
+    "season": 2026,
+    "month": "05",
+    "rows": 128,
+    "endpoint": "https://www.koreabaseball.com/ws/Schedule.asmx/GetScheduleList",
+    "series": "0",
+    "retrievedAt": "2026-11-05T11:32:58.1246300Z"
+  },
+  {
+    "file": "regular-2026-06.json",
+    "sha256": "9D9ACDAFF3FF63923886C8EB952BCD73406CACB74B9A2EC0B0DD06D9867DD986",
+    "season": 2026,
+    "month": "06",
+    "rows": 123,
+    "endpoint": "https://www.koreabaseball.com/ws/Schedule.asmx/GetScheduleList",
+    "series": "0",
+    "retrievedAt": "2026-11-05T11:32:58.5391316Z"
+  },
+  {
+    "file": "regular-2026-07.json",
+    "sha256": "98A973D9DB4A6F44966048DFD6EEDA61FA742CF2FAD21B1BD5E1C668FFE3D35D",
+    "season": 2026,
+    "month": "07",
+    "rows": 102,
+    "endpoint": "https://www.koreabaseball.com/ws/Schedule.asmx/GetScheduleList",
+    "series": "0",
+    "retrievedAt": "2026-11-05T11:32:58.9349978Z"
+  },
+  {
+    "file": "regular-2026-08.json",
+    "sha256": "0BF10904E71B6F5DEBDC4E062AFE94571CEEC8B9B665F3CD2FDAAF75431B37D1",
+    "season": 2026,
+    "month": "08",
+    "rows": 86,
+    "endpoint": "https://www.koreabaseball.com/ws/Schedule.asmx/GetScheduleList",
+    "series": "0",
+    "retrievedAt": "2026-11-05T11:32:59.3272345Z"
+  },
+  {
+    "file": "regular-2026-09.json",
+    "sha256": "FAA8449745D7E155A9A04908DB93A96689C4A530D26A691F7145114BAA6DE571",
+    "season": 2026,
+    "month": "09",
+    "rows": 104,
+    "endpoint": "https://www.koreabaseball.com/ws/Schedule.asmx/GetScheduleList",
+    "series": "0",
+    "retrievedAt": "2026-11-05T11:32:59.7187449Z"
+  },
+  {
+    "file": "regular-2026-10.json",
+    "sha256": "7D5743971166E15424C3A9F4523A4CA7E970F322C542E7298E58ADE4F250B990",
+    "season": 2026,
+    "month": "10",
+    "rows": 40,
+    "endpoint": "https://www.koreabaseball.com/ws/Schedule.asmx/GetScheduleList",
+    "series": "0",
+    "retrievedAt": "2026-11-05T11:33:00.0184017Z"
+  }
+]

@@ -1,65 +1,59 @@
-# 가을의 확률 — 2026 KBO postseason · 두 모형 비교
+# 가을의 확률 — 2026 KBO cWPA
 
-Static, Korean-language cWPA dashboard built from eleven user-supplied Statiz print PDFs. **Review edition, not an official statistic.** No sample game data is shipped. The original PDFs (which contain account/print metadata and advertisements) are not published.
+Public dashboard: https://kbo-cwpa-2026.happycuki0701.chatgpt.site
 
-## Features
+Two working championship-probability models, real Statiz play records, and an auditable historical KBO estimation pipeline. **Unofficial, retrospective experimental model; PDF extraction remains a review edition.**
 
-- Default selection: **KBO-adjusted cWPA — unestimated**. No adjusted championship probabilities, rankings or differences are fabricated. Baseline comparison columns are explicitly labeled; LI/WPA remain source statistics. Switching models preserves the selected point, stage, role and search.
-- Separate long-form Korean methodology article (`method.html`), with locally bundled KaTeX, the 16 neutral seven-game weights, DP derivation, actual KS example, sources and limitations.
-- Per-game/per-series team championship probability changes, including non-PA events and changes caused by other teams' games.
-- Overall / WC / SPO / PO / KS filters shared across probability chart, LI leaderboard, pivotal plays and player rankings.
-- Pointer/touch and keyboard range selection on the championship-probability chart, including five teams, game/inning, event and OCR situation text.
-- LI (source `LEV`) leaderboard alongside batter, pitcher, outcome and batting-side WPA. Plate-appearance-ending events are the default; all plays and baserunning events are separately selectable.
-- Pivotal plays ranked by absolute cWPA. Signed offensive cWPA is shown in championship percentage points.
-- Player rankings currently sum **plate-appearance-ending contributions only**, separated into batting and pitching. They are not complete official all-event player cWPA. Runner events, wild pitches, pickoffs and other non-PA events are excluded, avoiding attribution to the batter merely because their name appears on the row.
-- Search, progressive table display, source game links and PDF page references. KS games 1–2 are included; later KS games are not yet included.
+## Models
 
-## Data and verification
+**KBO-adjusted cWPA (default)** uses estimated relative regular-season strength and home advantage. `p(home win) = logistic(0.6860342482 × [log(W_home/L_home) − log(W_away/L_away)] + 0.1092265949 × homeField)`. Full-precision coefficients are generated in `fitted-model.mjs`. Equal-strength home probability is 52.73%; neutral homeField=0. The 2026 strength snapshot uses regular-season games before October14, held fixed throughout the postseason. No 2026 postseason outcomes train coefficients or update strength.
 
-User-provided files: wc1.pdf (79 rows), spo1.pdf (70), spo2.pdf (75), spo3.pdf (87), po1.pdf (69), po2.pdf (75), po3.pdf (83), po4.pdf (73), po5.pdf (72). ks1.pdf (84), ks2.pdf (105). Total: 872 numeric play rows, excluding substitutions. Sources and per-row PDF page locations are in data.json. Source acquisition: November 1–5, 2026, Asia/Seoul. The anonymous Statiz request returned a login response, so data was read from user-provided PDFs rather than bypassing authentication.
+**Baseline** is unchanged: equal neutral strength, home .533 / away .467, no rest or fatigue. Reference https://junkstorage.tistory.com/67 . Tests match every original published probability/cWPA to `legacy-baseline.mjs` and a frozen digest.
 
-Windows Korean OCR was used on locally rendered pages. Probability transitions and absolute displayed WPA agree within 0.0015 on all 872 rows. Display rounding means that WPe differences and WPA are not identical. WPA signs are determined from home WPe changes and batting half-inning; zero-change rows retain the source magnitude. The graph uses each WPe anchor rather than accumulating rounded WPA.
+Rest and recent-seven-day game load **were estimated and evaluated**, but adding them did not improve the earlier-season validation score under the tested definitions. They are excluded from production. This does not establish that rest/fatigue have no effect. Individual starter availability, bullpen pitches and injury variables were not collected and are excluded. No coefficient sliders or hand-tuned probability boosts.
 
-Distinct OCR player-name variants, missing names, numerical anomalies and top 15 LI rows were visually checked against PDF crops. **The previous 683 LEV values and all situation strings have not been independently visually verified. All 189 new KS LEV values were independently transcribed from PDF row images and checked against extraction; see ks-audit.json. KS player-name variants and WPA anomalies were also visually verified.** Situation text deliberately remains labeled OCR review material. Source descriptions can themselves be inconsistent: WC double-steal rows and a late walk/runner sequence are preserved, not blindly deduplicated. Game date metadata should be checked against source headers when revising. These limitations are visible in the interface.
+## Historical data and estimation
 
-## Baseline probability model
+- Official KBO public schedule: 2010–2025 regular season **10,668 games**, plus **720 pre-postseason 2026 games** for current strength only. Total normalized regular records11,388.
+- Official postseason schedule and GameCenter: **231 games** across2010–2025, all matched to detailed records.14 old schedule label/team/status problems documented. The stale2011KS1 status is explicitly corroborated by contemporary original reporting.
+- Common PS regression sample **229 games**, excluding2024 suspendedKS1 and same-day resumedKS2 to avoid ambiguous rest in candidate comparisons. All outcomes remain in history.
+- Regular-season empirical prior: **8,130 decisive games** where both teams had at least30 prior decided games. Features use information through the previous calendar date, including doubleheaders.
+- Candidate selection:3 feature families ×2 prior centers ×5 ridge strengths; expanding2014–2022 evaluation,126 predictions. Best:strength+home, regular-season center, λ1.
+- Frozen pre2023 model evaluated on2023–2025 **44 games**: logloss0.684127 versus baseline0.692326; Brier0.245515 versus0.249589. Descriptive small improvement, not proven superiority. All44 predicted game probabilities fall40–60%, so extreme probabilities and championship-level calibration are unverified.
+- Production refits the selected setting through2025.500 season-cluster bootstrap replicates refit both the regular prior and PS model. Intervals condition on selected features/λ and are not championship probability intervals.
 
-Reference: https://junkstorage.tistory.com/67 . Equal neutral strength, neutral game p=0.5, home p=0.533. Convert neutral home WPe p using `p*0.533 / (p*0.533 + (1-p)*0.467)`.
+This was an exploratory retrospective development: the regular-season-center variant was added after inspecting an earlier zero-centered model. Selection scores exclude2023–2025, but the evaluation period was already observed during development. It is **not** an independently preregistered or prospective forecast.
 
-Recursively compute each team's championship probability conditional on winning or losing the current game, then mix using the adjusted game probability. The change in the batting team's championship probability is the offensive play cWPA. Future observed outcomes are never used for earlier states. Elimination and the pre-KS waiting team are included.
+See `model-fit.json` (all candidates, frozen/final coefficients, metrics, intervals, input hashes), `estimation/data/training-features.json` (per-game variables and source links), and [estimation/README.md](estimation/README.md) (collection and reproduction). No fictional game data is deployed.
 
-Seeds: KT, Samsung, KIA, LG, Doosan. WC higher seed needs one win and lower seed two; SPO/PO best of five; KS best of seven. Higher-seed home schedules: HH, HHAAH, HHAAH, HHAAAHH. Official 2026 rules: https://www.koreabaseball.com/MediaNews/Notice/View.aspx?bdSe=12183 . The actual WC draw advances the fourth seed, but this model assigns **zero probability to future draws** and does not support observed drawn games. Team strength, rest, pitching matchups and future rainouts are not modeled. This is not exact reproduction from unrounded Statiz inputs.
+## Dashboard
 
-LEV is source game leverage at the listed event, not championship leverage and not necessarily plate-appearance-start pLI. WPA is a probability fraction; cWPA is displayed in percentage points. Pitching PA contribution is the negative of offensive PA contribution and includes fielding outcomes.
+- Overall/WC/SPO/PO/KS filters apply to the chart, player rankings, pivotal plays, LI and contribution summaries.
+- Model switching preserves selected play, series, role and search. Rankings use the selected model; adjacent columns show baseline and difference in championship percentage points.
+- Chart tooltip shows game/inning, batter/pitcher/result, raw/parsed situation, all five championship probabilities and baseline comparison. Keyboard range selection and table-to-chart links work on mobile.
+- LI is original LEV, the event's game leverage, not championship leverage or necessarily PA-start pLI. Original batting-side WPA remains unchanged across models.
+- Per-game/per-series summaries show team championship probability changes, including non-PA events and effects of other teams' games.
+- Long Korean methodology page with locally rendered KaTeX:neutral seven-game16-state weights, DP derivation, actual baseline/adjusted example, exact estimation process, limitations and bibliography.
 
-## Adjusted model: unestimated, not a validated forecast
+## Play data and attribution
 
-`models.mjs` publishes `status: unestimated`, `coefficients: null`, `sampleSize: 0`. It refuses to calculate the adjusted model and never silently substitutes baseline output. The dashboard defaults to this clearly disclosed state; the baseline graph is one click away. Numeric comparison columns are baseline only. Adjusted values and differences remain unavailable.
+User-supplied Statiz print PDFs: WC79 rows; SPO70/75/87; PO69/75/83/73/72; KS84/105. Total **11 games,872 plays** throughKS2(November4). KS3 onward are not included. Original PDFs contain print/account metadata and are not published. Login responses were not bypassed.
 
-The proposed game model is logistic(strength difference + home effect + rest effect + fatigue effect). There are **no fitted coefficients or reported empirical performance**. KBO official rankings/results and a real 2025 seeding paper were inspected, but no auditable historical game-level feature table has been assembled. The paper's seed effect was not substituted for a rest coefficient. Strength, rest, fatigue and re-estimated home effects are all disabled. The 11 supplied 2026 games are display data, not training data.
+All WPe transitions agree with source WPA magnitudes within0.0015 rounding tolerance. WPe is printed at0.1%p, WPA at0.001. The graph uses each WPe anchor, not cumulative rounded WPA. KS189 LEV values were independently visually transcribed (`ks-audit.json`); previous683 LEV values were checked for anomalies/top records, not fully audited. Player-name anomalies were checked. **Situation text still contains OCR errors**; only clear score/out/runner tokens are parsed, otherwise “확인 필요” is displayed. Uncertain scores are not invented.
 
-See [estimation/README.md](estimation/README.md) for source URLs, feature definitions and collection requirements. `estimation/fit.mjs` is a separate offline ridge logistic regression utility: validates timestamps/source IDs, excludes 2026 results, chooses regularization by expanding-season validation, leaves the final season untouched for audit, and reports log loss/Brier against the .533 baseline. Training-only scaling prevents validation leakage. At least four seasons are needed to run the split; that minimum is not a claim of statistical sufficiency. Generated files remain `candidate-not-approved` and cannot automatically enable the site model. Test fixtures are synthetic numerical inputs only and are never shipped as baseball records.
+Player rankings sum **PA-ending events only**. Running, wild pitch, pickoff and other non-PA events are excluded rather than falsely attributed to the current batter. Missing pitcher names are excluded from pitching sums. Pitching contribution is negative batting contribution and includes fielding outcomes; adding the two tables double-counts events. These are not complete official all-event player totals or pure talent measures.
 
-Still required: historical data assembly, actual estimation, calibration/uncertainty evaluation, path-aware future schedules and rest/pitcher usage, and validation of within-game WP correction. The DP accepts game-dependent probabilities; its present state is only round/opponent/series score. Fatigue needs richer path state before use. A caller-provided probability function can depend on arbitrary external data, so provenance must be audited rather than inferred from its interface.
+## Mathematics
 
-## Calculation and units
+At every bracket state, each team's championship probability obeys `V(s)=p_g V(s_W)+(1-p_g)V(s_L)`; terminal champion vectors are one-hot. Each hypothetical opponent/home pairing gets its own p_g in the adjusted model. Future actual outcomes never enter earlier state calculations.
 
-For each team T, `V_T(s) = p_g V_T(s_W) + (1-p_g) V_T(s_L)` with terminal champion one-hot vectors. Within a game, shift each home WP by `logit(target prior) - logit(source prior)`, preserving 0/1 endpoints. Baseline uses source prior .5 and target .533, matching the original published implementation exactly. This assumes the source prior and constant log-odds shift; it is not a validated refit of Statiz's state model.
+Within-game WP is shifted by `logit(target game prior)−logit(source prior)`, assuming source prior .5 and preserving0/1 endpoints. `delta cWPA=(q_after−q_before)×(V(s_W)−V(s_L))`, displayed ×100 as%p. The constant log-odds shift approximates a different prior; it is not a newly learned Statiz state model.
 
-`delta cWPA = (q_after-q_before) * (V_T(s_W)-V_T(s_L))`. Display values multiply by 100 for percentage points. Future observed outcomes do not enter earlier DP states. If future pitcher availability changes within a play, the conditional future values also change and need full state recomputation; that feature is not implemented.
+WC:high seed needs1 win, low2. SPO/PO:3 wins. KS:4 wins. High-seed home schedules HH/HHAAH/HHAAH/HHAAAHH. [KBO2026 rules](https://www.koreabaseball.com/MediaNews/Notice/View.aspx?bdSe=12183). Future draw probability is0 and observed draws are unsupported. The actual WC draw-advancement rule differs from this probability assumption. Strength is fixed and rest/fatigue are excluded, so the DP need not guess future dates or pitcher use.
 
-## Update actual game data
+## Reproduce and test
 
-1. Obtain authorized Statiz logs or user-supplied print PDFs. Record game ID/date/home/away/stage/number and source URL. Keep original PDFs local.
-2. Append chronological `data.json` rows with inning, batter/pitcher, result, raw before/after situation, source WPe/LEV/WPA and PDF page. Do not fill missing plays with invented events. Preserve original descriptions and clearly mark non-PA events.
-3. Visually check names and numerical anomalies; independently audit LEV as for `ks-audit.json`. Check WP endpoints, chronological continuity, rounding tolerance and final score against source. Current importer is manual/OCR; there is no newly automated full PDF ingestion service.
-4. Run tests and update coverage/audit documentation. The current 11-game count and regression fixtures intentionally require review when adding new games. Model-status dates concern estimation review, not the last game date.
-
-Raw ambiguous OCR score/runner text is displayed as “확인 필요”; the parser recognizes clear tokens only. Scores and runner situations have not all been manually repaired. This limitation remains visible in the chart tooltip and data note.
-
-## Run and deploy
-
-Requires Node 22+ and the pinned pnpm version in package.json. KaTeX is a build-time dependency; generated math, CSS and fonts are served locally, with no CDN scripts:
+Node22+, pinned pnpm version in package.json:
 
 ```sh
 pnpm install --frozen-lockfile
@@ -68,12 +62,22 @@ pnpm build
 python -m http.server 4173 --directory dist
 ```
 
-Production hosting: ChatGPT Sites at https://kbo-cwpa-2026.happycuki0701.chatgpt.site . Keep `.openai/hosting.json` and its existing project identity; publish the built `dist` with the Sites workflow. No private PDFs, training source files or local credentials are included in dist.
+Python3.11+ for historical estimation:
 
-Optional GitHub Pages deployment: in repository Settings → Pages choose **GitHub Actions**, then manually run **Publish GitHub Pages (optional)**. It installs pinned dependencies, runs tests/build and deploys dist with the official Pages actions. All asset/navigation URLs are relative, supporting `/cwpa_KBO/`. The workflow is manual-only; this revision does not switch off the existing Sites URL or automatically enable Pages. A configured workflow is not evidence that Pages is live.
+```sh
+python -m pip install -r estimation/requirements.txt
+python -m unittest discover -s estimation -p "test_*.py"
+python estimation/fit_historical.py --output estimation/reproduced
+```
 
-19 tests cover all reachable-state conservation, series clinching and terminal champions, all 16 neutral combinatorial weights, per-play formula and every-team telescoping, variable-game-prior DP versus independent enumeration, every original baseline output plus a frozen digest, source transitions/KS audit, future-result invariance, adjusted fail-closed behavior, ambiguous OCR, ridge likelihood optimality, training timestamp rejection and held-out result isolation. They verify numerical/software consistency, not empirical accuracy of an unestimated adjusted model.
+The final command reproduces the fit in a separate ignored directory. Compare `model-fit.json`; coefficients and seeded bootstrap output are deterministic with the pinned numerical environment. Do not overwrite approved production parameters without reviewing data, candidate scores, held-out metrics and model feature compatibility. `fit.mjs` is the older generic regression prototype; production uses `fit_historical.py`.
 
-## KS update — November 5, 2026
+Tests verify probability conservation/terminal advancement, neutral combinatorial reduction, original baseline identity, both models' delta/telescope consistency and no future-result leakage, source counts/hashes/exclusions, actual fitted parameters, temporal regular-game features, held-out separation and empirical-prior optimization. They do not prove real-world forecasting accuracy.
 
-KS1 (November 3, Suwon): Samsung 7–8 KT, 84 play rows. KS2 (November 4, Suwon): Samsung 3–2 KT in 12 innings, 105 play rows. The series is tied 1–1. Existing WC/SPO/PO data is unchanged. The model gives Samsung 51.24% and KT 48.76% after game 2 because the remaining home schedule differs. No later KS results are assumed.
+## Update data and publish
+
+Append only authorized real chronological plays to `data.json` with source URL/PDF page, inning, batter/pitcher, result, WP/LEV/WPA and raw situation. Audit names/numerical anomalies and validate final result. Current fixed11-game and baseline regression tests intentionally require review on coverage changes. Historical collection is documented separately; do not train on the displayed2026PS outcomes.
+
+Production is the existing **ChatGPT Sites** project in `.openai/hosting.json`; keep its identity and publish built `dist` via the Sites workflow. KaTeX CSS/fonts and rendered math are bundled locally; no CDN runtime dependency. Sources, PDFs, raw archives and credentials are not in dist; only normalized public facts and reports are included.
+
+Optional GitHub Pages:Settings→Pages→GitHub Actions, then manually run **Publish GitHub Pages (optional)**. The workflow tests/builds and deploys relative-path assets from dist. It is not triggered by pushes and has not replaced the live Sites address.

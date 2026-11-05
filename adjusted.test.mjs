@@ -68,9 +68,12 @@ test('odds shift maps arbitrary priors and fixes terminal endpoints', () => {
   close(adjust(.42,.61,.42),.61); assert.equal(adjust(0,.61,.42),0); assert.equal(adjust(1,.61,.42),1);
   assert.throws(()=>adjust(.5,1)); assert.throws(()=>adjust(.5,.533,0));
 });
-test('unestimated adjusted model fails closed; no silent baseline fallback', () => {
-  assert.equal(modelStatus.available,false); assert.equal(modelStatus.coefficients,null); assert.equal(modelStatus.sampleSize,0);
-  assert.throws(()=>calculateModel(games,'kbo-adjusted'),/미추정/);
+test('actual fitted model is available and differs from baseline without fabricated plays', () => {
+  assert.equal(modelStatus.available,true); assert.equal(modelStatus.sampleSize,229);
+  const a=calculateModel(games,'kbo-adjusted'),b=calculateModel(games,'baseline');
+  assert.notDeepEqual(a.points[0].cp,b.points[0].cp);
+  assert.deepEqual(a.plays.map(r=>r.id),b.plays.map(r=>r.id));
+  assert.throws(()=>calculateModel(games,'unknown'));
 });
 test('ambiguous OCR is not converted into invented scores/runners', () => {
   assert.deepEqual(parseSituation('2사 1,2루 1그'),{outs:'2아웃',runners:'1,2루',score:'확인 필요',raw:'2사 1,2루 1그'});

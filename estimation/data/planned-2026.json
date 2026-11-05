@@ -1,0 +1,116 @@
+{
+  "noticeUrl": "https://www.koreabaseball.com/MediaNews/Notice/View.aspx?bdSe=12183",
+  "publishedDate": "2026-10-07",
+  "attachmentUrl": "https://www.koreabaseball.com/Common/FileDownload.ashx?file=notice%2Ffiles%2F2026%2F10%2F2026+KBO+%ED%8F%AC%EC%8A%A4%ED%8A%B8%EC%8B%9C%EC%A6%8C+%EA%B2%BD%EA%B8%B0%EC%9D%BC%EC%A0%95.doc",
+  "attachmentSha256": "7446ad1b26dbc08c05156571435414fa55415450ef28aa93eb451cda2e9b4179",
+  "attachmentBytes": 108032,
+  "extraction": "CFB FAT streams + Word CLX piece table; text only, macros not executed",
+  "games": [
+    {
+      "stage": "WC",
+      "number": 1,
+      "date": "2026-10-14"
+    },
+    {
+      "stage": "WC",
+      "number": 2,
+      "date": "2026-10-15"
+    },
+    {
+      "stage": "SPO",
+      "number": 1,
+      "date": "2026-10-17"
+    },
+    {
+      "stage": "SPO",
+      "number": 2,
+      "date": "2026-10-18"
+    },
+    {
+      "stage": "SPO",
+      "number": 3,
+      "date": "2026-10-20"
+    },
+    {
+      "stage": "SPO",
+      "number": 4,
+      "date": "2026-10-21"
+    },
+    {
+      "stage": "SPO",
+      "number": 5,
+      "date": "2026-10-23"
+    },
+    {
+      "stage": "PO",
+      "number": 1,
+      "date": "2026-10-25"
+    },
+    {
+      "stage": "PO",
+      "number": 2,
+      "date": "2026-10-26"
+    },
+    {
+      "stage": "PO",
+      "number": 3,
+      "date": "2026-10-28"
+    },
+    {
+      "stage": "PO",
+      "number": 4,
+      "date": "2026-10-29"
+    },
+    {
+      "stage": "PO",
+      "number": 5,
+      "date": "2026-10-31"
+    },
+    {
+      "stage": "KS",
+      "number": 1,
+      "date": "2026-11-02"
+    },
+    {
+      "stage": "KS",
+      "number": 2,
+      "date": "2026-11-03"
+    },
+    {
+      "stage": "KS",
+      "number": 3,
+      "date": "2026-11-05"
+    },
+    {
+      "stage": "KS",
+      "number": 4,
+      "date": "2026-11-06"
+    },
+    {
+      "stage": "KS",
+      "number": 5,
+      "date": "2026-11-07"
+    },
+    {
+      "stage": "KS",
+      "number": 6,
+      "date": "2026-11-09"
+    },
+    {
+      "stage": "KS",
+      "number": 7,
+      "date": "2026-11-10"
+    }
+  ],
+  "plannedRoundStarts": {
+    "WC": "2026-10-14",
+    "SPO": "2026-10-17",
+    "PO": "2026-10-25",
+    "KS": "2026-11-02"
+  },
+  "rulesVerifiedInNotice": [
+    "Minimum one travel day between series",
+    "Rainouts shift to following day; existing later dates retained where unaffected"
+  ],
+  "earlyFinishAdvancement": "No automatic early-start provision found in this notice or attachment. Do not infer it from actual outcomes."
+}

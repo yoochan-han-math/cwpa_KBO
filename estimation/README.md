@@ -1,31 +1,77 @@
-# 추정 자료와 사용 조건
+# Historical estimation — KBO-adjusted v1
 
-현재 학습 자료 0경기, 추정 계수 null, 검증 성능 미산출. 2026 PDF 11경기는 표시용 자료이며 학습 자료가 아니다. 계수 후보 파일만으로 models.mjs의 공개 상태가 바뀌지 않는다.
+Actual fit and results: `../model-fit.json`. Production coefficients: `../fitted-model.mjs`. Primary offline fitter: `fit_historical.py`, NumPy2.3.5. The browser uses only exported parameters and `models.mjs`; it never estimates from current2026PS results.
 
-확인한 자료:
-- KBO 공식 일자별 팀 순위: https://www.koreabaseball.com/Record/TeamRank/TeamRankDaily.aspx — 승패·홈/원정 집계 확인. 경기 직전 전력, 휴식, 불펜 투구 수를 결합한 과거 표본은 아직 확보하지 못했다. 현재 페이지의 최신 순위를 과거 시점에 적용하지 않는다.
-- KBO 공식 기록: https://www.koreabaseball.com/Schedule/ScoreBoard.aspx — 과거 경기별 결과·일정 수집 후보. 자동 수집 및 역사적 정합성 검증 미완료.
-- 김준혁 (2025), 응용경제 27(3), 5–36: https://www.kci.go.kr/kciportal/landing/article.kci?arti_id=ART003246399 — 서지와 초록 확인. 원자료·전체 계수표를 검증하지 않았다. 상위 시드 효과를 휴식 효과의 계수로 전용하지 않는다.
+## Source files
 
-## 입력 계약
+- `data/regular.csv`:11,388 official regular-season games2010–2026,2026 strictly beforeOctober14. Each row's source is KBO GameCenter `/Schedule/GameCenter/Main.aspx?gameDate=YYYYMMDD&gameId=<id>&section=REVIEW`; monthly collection request/hash is in `regular-manifest.json`.
+- `data/postseason.json`:231 detailed-audited actual PS games2010–2025, with links, neutral-site venue, suspended completion date, exclusion and stale-status flags.
+- `data/training-features.json`:229 fitting rows with exact features, cutoff, calendar rest and game load.
+- `data/POSTSEASON-SOURCES.md`:source anomalies, independent2011KS1 corroboration and neutral-site policies.
+- `data/postseason-manifest.json`:231 daily/48monthly responses and normalized hashes. Original raw responses remain local; normalized game facts are published.
+- `data/planned-2026.json`:official prePS calendar metadata. The chosen production model excludes rest/fatigue, so it does not use future date forecasts.
 
-`fit.mjs`는 `{features: [...], cutoff: ISO8601, records: [...]}` JSON을 읽는다. 각 행의 필수 필드:
+Official endpoints (ordinary public form requests, no login/key):
 
-| 필드 | 정의 |
+```
+POST https://www.koreabaseball.com/ws/Schedule.asmx/GetScheduleList
+leId=1&srIdList=0&seasonId=YYYY&gameMonth=MM&teamId=
+```
+
+For postseason, `srIdList=3,4,5,7`. Details:
+
+```
+POST https://www.koreabaseball.com/ws/Main.asmx/GetKboGameList
+leId=1&srId=0,1,3,4,5,6,7,9&date=YYYYMMDD
+```
+
+Content-Type `application/x-www-form-urlencoded; charset=UTF-8`, standard KBO page Referer and X-Requested-With header. PowerShell collectors preserve raw responses and avoid re-fetching cached files. No auth bypass. These endpoints can change; an empty/error response must not be treated as zero games.
+
+## Recollect / normalize
+
+From repository root on Windows:
+
+```powershell
+./estimation/collect-regular.ps1
+./estimation/collect-postseason.ps1
+./estimation/audit-postseason.ps1
+python estimation/prepare_sources.py
+```
+
+Raw output defaults to ignored `estimation/collection/`; optional `-OutputDirectory` changes it consistently. Review coverage and source discrepancies before replacing the committed snapshots. `prepare_sources.py` intentionally checks the current11,388/231 coverage. No fabricated rows fill missing IDs. The2011KS1 stale-status override is explicitly bounded to the independently verified score/stage.
+
+Calendar activity additionally includes two official tiebreaks:2021-10-31 KT1–0삼성 and2024-10-01 SSG3–4KT. Their API SR_ID is6 despite a generic API category label; the dated tiebreak context is verified. They affect rest history only, not regular W/L. [2024 KBO preview](https://www.koreabaseball.com/MediaNews/News/Preview/View.aspx?bdSe=58164).2024KS1 completion dateOctober23 and same-dayKS2 are excluded from common candidate fitting but retained as activity before later games.
+
+## Variables
+
+| Name | Definition |
 |---|---|
-| id, source | 중복 없는 경기 식별자, 실제 원본 HTTPS URL |
-| season | 경기 시즌, 2025 이하 |
-| startAt, completedAt | 실제 시작·종료 시각(시간대 포함) |
-| featureAt | 모든 설명변수가 알려진 마지막 시각. 시작보다 엄격히 이전 |
-| homeWin | 홈 승리 1, 원정 승리 0. 무승부는 별도 연구 전까지 제외 |
-| features | 선택한 모든 변수의 유한 실수. 누락을 0으로 채우지 않음 |
+| strength | log(home regular W/L)−log(away W/L), measured before PS begins |
+| home |1 for actual home advantage,0 at specified neutral sites |
+| rest | log(1+home calendar idle days)−log(1+away idle days) |
+| games7 | number of previous7-calendar-day games:home−away |
 
-권장 변수 정의: `strengthDiff` = 경기 전 정규시즌 정보로 산출한 홈−원정 전력, `home`=1, `restDiff`=각 팀 직전 경기 종료 후 휴식일의 홈−원정 차이, `games7Diff`=직전 7일 경기 수 차이. 불펜 투구 수와 선발 휴식은 출처·선발 발표 시점까지 검증된 경우에만 추가한다. 실제 경기 결과로 정한 사후 선발 정보를 사용하지 않는다. Elo를 쓸 경우 갱신 상수도 이전 시즌 자료로 검증한다.
+Regular prior strength uses the same log W/L form **as of the previous calendar date**, once both teams have30 decided games. Drawn games are not binary response observations, but count as activity. No same-day doubleheader results enter the second game's strength feature.30 is a disclosed sample restriction, not a learned effect. The transport from noisy in-season records to full-season PS strength is a limitation; the empirical-prior family is compared with zero-centered shrinkage.
 
-## 추정과 검증
+Home definitions:2020PO/KS,2021KS neutral Gocheok; historical neutral Jamsil KS games when neither participant isLG/두산. Shared Jamsil LG–두산 retains designated-home advantage, a modeling choice. COVID spectator restrictions and other era effects are not separately modeled.
 
-`node estimation/fit.mjs historical.json candidate.json`
+## Estimation, selection and evaluation
 
-자료의 중복·미래 관측·2026 결과 사용을 거부한다. 최소 4시즌이 필요하다는 것은 기능상 분할 조건이며 충분한 표본이라는 판정은 아니다. 마지막 시즌을 최종 검증용으로 완전히 남긴다. 앞선 시즌에서 expanding-window 검증으로 ridge 강도를 선택한다. 후보값은 정규화 강도이며 효과의 임의 계수가 아니다. 설명변수의 스케일은 각 학습 구간 안에서만 계산한다. 로그손실·Brier 점수와 기본 .533 모형을 최종 검증 구간에서 비교한다. 계수는 원래 변수 단위로 출력한다.
+1. Fit unpenalized regular-game logistic regression on strength+home to obtain an empirical center. Fold y uses regular seasons strictly before y.
+2. Fit PS ridge logistic regression. RMS scaling comes from the current training fold; penalty center is either0 or empirical regular coefficients (rest/fatigue center0). Final coefficients are unscaled for interpretation.
+3. Compare3 feature sets ×2 centers ×5 λ values [.0001,.001,.01,.1,1] by pooled logloss on expanding2014–2022 PS predictions,126 rows. All sets use the same229 eligible games, so no unfair sample advantage for excluding suspended rest cases.
+4. Selected strength+home, empirical center, λ1. Rest/fatigue coefficients were actually fitted, but candidate validation loss was slightly worse. Candidate details and family-best coefficients remain in report.
+5. Fit through2022 only and freeze for44 games in2023–2025. Report game logloss/Brier, per-year scores, calibration bin counts. Do not claim championship calibration or statistically established superiority.
+6. Refit selected setting through2025 for2026 deployment.500 season-cluster bootstrap replicates, seed20261105, refit both regular andPS estimates, with selected specification fixed.
 
-공개 전 추가 과제: 자료별 관측시각 대조, 충분한 시즌 확보, 확률 보정 곡선·불확실성 구간, 시드와 전력의 공선성 점검, 외부 시즌 평가, 가상 대진 경로별 휴식·일정·투수 소모 상태 확장, 경기 중 WP 보정의 검증. 현재 fitter는 연구용 기반이며 완성된 KBO 예측모형이 아니다. DP의 현재 키는 라운드·상대·승패뿐이므로 피로가 서로 다른 경로를 동일 상태로 합치면 안 된다. 경로 상태 확장 전에는 휴식·피로 provider를 연결하지 않는다.
+Exploratory disclosure:the empirical-center variant was added after inspecting an earlier zero-centered analysis. The selection objective excludes2023–2025, but those outcomes were viewed during development. This is not preregistered prospective performance. No future2026 outcome enters fitting.2026regular records are solely a known prePS strength snapshot.
+
+## Reproduction
+
+```sh
+python -m pip install -r estimation/requirements.txt
+python estimation/fit_historical.py --output estimation/reproduced
+python -m unittest discover -s estimation -p "test_*.py"
+```
+
+The report includes SHA256 of both normalized input files. Raw source hashes authenticate collection snapshots, but official providers may later correct history. Recollection is not guaranteed byte-identical; diagnose differences rather than adjusting values to preserve the fit. Production support intentionally accepts only strength/home. Adding rest/fatigue requires a path-aware DP with future calendar/activity states, not simply adding coefficients to current state keys.
