@@ -27,7 +27,7 @@ test('path state carries a longer prior series into the final',()=>{
   assert.ok(e.prior(full)>e.prior(sweep)); // KT is home, benefiting from opponent's extra burden.
 });
 test('consecutive games retain unequal fatigue even with equal immediate rest',()=>{
-  const data=calculateModel(games,'kbo-adjusted'),a=data.summaries.at(-2).fatigue,b=data.summaries.at(-1).fatigue;
+  const data=calculateModel(games,'kbo-adjusted'),a=data.summaries.find(g=>g.id==='ks1').fatigue,b=data.summaries.find(g=>g.id==='ks2').fatigue;
   assert.equal(b.homeRestDays,0);assert.equal(b.awayRestDays,0);
   close(b.difference,a.difference*Math.exp(-1/7));assert.ok(b.homeEffectPP>0);
 });

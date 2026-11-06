@@ -9,13 +9,13 @@
 <header><a class="brand" href="./">◈ 가을의 확률</a><span>2026 POSTSEASON / KBO</span><a href="https://github.com/yoochan-han-math/cwpa_KBO">GitHub ↗</a></header>
 <main>
   <nav class="site-nav" aria-label="사이트 메뉴"><a href="./" aria-current="page">대시보드</a><a href="method.html">KBO-adjusted cWPA란? ↗</a></nav>
-  <section class="hero"><p class="eyebrow">EVERY PLAY CHANGES OCTOBER</p><h1>한 플레이가 바꾼<br><em>우승의 가능성.</em></h1><p>와일드카드부터 한국시리즈 2차전까지.<br>승부의 흐름과 그 확률을 계산하는 가정을 함께 읽습니다.</p><div class="stats"><div><b id="game-count">11</b>경기</div><div><b id="play-count">872</b>플레이 기록</div><div><b>05</b>팀</div></div></section>
+  <section class="hero"><p class="eyebrow">EVERY PLAY CHANGES OCTOBER</p><h1>한 플레이가 바꾼<br><em>우승의 가능성.</em></h1><p>와일드카드부터 한국시리즈 3차전까지.<br>승부의 흐름과 그 확률을 계산하는 가정을 함께 읽습니다.</p><div class="stats"><div><b id="game-count">12</b>경기</div><div><b id="play-count">942</b>플레이 기록</div><div><b>05</b>팀</div></div></section>
   <section class="model-picker" aria-label="cWPA 모형 선택">
     <div class="section-head"><h2>어떤 가정으로 볼까요?</h2><a href="method.html#status">추정 상태와 계수 공개 ↗</a></div>
     <div class="model-buttons"><button data-model="kbo-adjusted" aria-pressed="true"><b>KBO-adjusted cWPA</b><small>전력·홈·체력 부담</small></button><button data-model="fatigue-off" aria-pressed="false"><b>체력 항 끄기</b><small>같은 계수로 체력 효과만 비교</small></button><button data-model="baseline" aria-pressed="false"><b>기본 cWPA</b><small>동등 전력 · 홈 53.3%</small></button></div>
     <p id="model-status" role="status">과거 KBO 기록에서 추정한 보정 모형을 불러오고 있습니다.</p>
   </section>
-  <aside class="notice"><strong>PDF 추출 검토판</strong> · KS 2차전까지, 삼성 1승 / KT 1승. KS 3차전 이후는 미수록입니다. 숫자 연결 검증은 완료했으며 상황 문구의 OCR 오독은 남아 있습니다. 선수 순위는 타석 종료분만 합산합니다.</aside>
+  <aside class="notice"><strong>PDF 추출 검토판</strong> · KS 3차전까지, 삼성 2승 / KT 1승. KS 4차전 이후는 미수록입니다. 숫자 연결 검증은 완료했으며 상황 문구의 OCR 오독은 남아 있습니다. 선수 순위는 타석 종료분만 합산합니다.</aside>
   <nav id="filters" aria-label="시리즈 선택"><button data-stage="ALL" aria-pressed="true">전체</button><button data-stage="WC" aria-pressed="false">WC</button><button data-stage="SPO" aria-pressed="false">SPO</button><button data-stage="PO" aria-pressed="false">PO</button><button data-stage="KS" aria-pressed="false">KS</button></nav>
   <section class="panel">
     <div class="section-head"><div><small>CHAMPIONSHIP PROBABILITY</small><h2>우승 확률의 흐름</h2></div><span id="coverage"></span></div>
@@ -46,10 +46,10 @@
   </section>
   <details class="panel"><summary>자료 상태 · 계산 가정 · 다운로드</summary>
     <p>KBO-adjusted는 과거 정규시즌 10,668경기 중 조건을 충족한 8,130경기와 포스트시즌 231경기 중 229경기로 전력·홈·누적 부담의 계수를 추정했습니다. 체력 반영을 요구하는 실험 모형으로, 6개 체력 정의 등 48개 설정을 시간 순서로 비교했습니다. 선택 구간에서는 체력 없는 이전 모형보다 오차가 조금 컸고, 이후 44경기에서는 조금 작았습니다. 확실한 성능 개선이나 생리학적 인과 효과를 입증한 결과는 아닙니다.</p>
-    <p>수록 범위: WC 1경기, SPO 3경기, PO 5경기, KS 2경기(11월 3·4일), 총 872개 플레이. 사용자 제공 Statiz 인쇄 PDF에서 추출했습니다. 원본 PDF의 계정·인쇄 정보와 광고는 게시하지 않습니다. 이후 실제 결과를 추측해 채우지 않습니다.</p>
+    <p>수록 범위: WC 1경기, SPO 3경기, PO 5경기, KS 3경기(11월 3·4·6일), 총 942개 플레이. 사용자 제공 Statiz 인쇄 PDF에서 추출했습니다. 원본 PDF의 계정·인쇄 정보와 광고는 게시하지 않습니다. 이후 실제 결과를 추측해 채우지 않습니다.</p>
     <p>기본 모형은 중립 50%, 홈 53.3%를 가정하고 모든 이후 라운드를 포함한 동적 계획법으로 우승 확률을 구합니다. WC는 상위 시드 1승 / 하위 시드 2승, SPO·PO는 3선승, KS는 4선승이며 홈 배분은 HH / HHAAH / HHAAH / HHAAAHH입니다. 미래 무승부 확률은 0으로 놓으며 실제 무승부 경기는 지원하지 않습니다.</p>
     <p>Statiz 홈팀 WPe에 오즈 보정을 적용합니다. 원문 WPA를 새 가중치에 그대로 곱하지 않습니다. 원문 WPe 0.1%p·WPA 0.001 표시값의 반올림 오차가 남습니다. 중립 사전확률 가정과 일정한 오즈 보정은 상태별 승률을 새로 학습한 모형이 아닙니다.</p>
-    <p>상황 문구와 이전 683개 LEV의 전수 육안 검수는 미완료입니다. KS LEV 189개는 원본과 대조했고 이전 시리즈의 상위 LI·선수명·수치 이상값을 우선 검수했습니다. 점수·아웃·주자는 명확한 문자만 읽어 표시하며 모호한 항목은 ‘확인 필요’로 남깁니다.</p>
+    <p>상황 문구와 이전 683개 LEV의 전수 육안 검수는 미완료입니다. KS LEV 259개는 원본과 대조했고 이전 시리즈의 상위 LI·선수명·수치 이상값을 우선 검수했습니다. 점수·아웃·주자는 명확한 문자만 읽어 표시하며 모호한 항목은 ‘확인 필요’로 남깁니다.</p>
     <p><a href="method.html#estimation">추정 과정·계수·검증 결과</a> · <a href="data.json" download>플레이 데이터</a> · <a href="model-fit.json">전체 추정 보고서</a> · <a href="fatigue-training-features.json">학습 변수·출처</a> · <a href="https://github.com/yoochan-han-math/cwpa_KBO">코드·검증</a></p>
   </details>
   <footer>가을의 확률 · 비공식 분석 프로젝트 / 2026<br>실제 기록: STATIZ 인쇄 PDF · 모델 추정 상태와 자료의 한계를 함께 확인하세요.</footer>

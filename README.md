@@ -50,9 +50,9 @@ See `model-fit.json` (all48 candidates, frozen/final coefficients, intervals, co
 
 ## Play data and attribution
 
-User-supplied Statiz print PDFs: WC79 rows; SPO70/75/87; PO69/75/83/73/72; KS84/105. Total **11 games,872 plays** throughKS2(November4). KS3 onward are not included. Original PDFs contain print/account metadata and are not published. Login responses were not bypassed.
+User-supplied Statiz print PDFs: WC79 rows; SPO70/75/87; PO69/75/83/73/72; KS84/105/70. Total **12 games,942 plays** throughKS3(November6). KS4 onward are not included. Original PDFs contain print/account metadata and are not published. Login responses were not bypassed.
 
-All WPe transitions agree with source WPA magnitudes within0.0015 rounding tolerance. WPe is printed at0.1%p, WPA at0.001. The graph uses each WPe anchor, not cumulative rounded WPA. KS189 LEV values were independently visually transcribed (`ks-audit.json`); previous683 LEV values were checked for anomalies/top records, not fully audited. Player-name anomalies were checked. **Situation text still contains OCR errors**; only clear score/out/runner tokens are parsed, otherwise “확인 필요” is displayed. Uncertain scores are not invented.
+All WPe transitions agree with source WPA magnitudes within0.0015 rounding tolerance. WPe is printed at0.1%p, WPA at0.001. The graph uses each WPe anchor, not cumulative rounded WPA. KS259 LEV values were independently visually transcribed (`ks-audit.json`, `ks3-audit.json`); previous683 LEV values were checked for anomalies/top records, not fully audited. Player-name anomalies were checked. **Situation text still contains OCR errors**; only clear score/out/runner tokens are parsed, otherwise “확인 필요” is displayed. Uncertain scores are not invented.
 
 Player rankings sum **PA-ending events only**. Running, wild pitch, pickoff and other non-PA events are excluded rather than falsely attributed to the current batter. Missing pitcher names are excluded from pitching sums. Pitching contribution is negative batting contribution and includes fielding outcomes; adding the two tables double-counts events. These are not complete official all-event player totals or pure talent measures.
 
