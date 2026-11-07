@@ -50,9 +50,9 @@ See `model-fit.json` (all48 candidates, frozen/final coefficients, intervals, co
 
 ## Play data and attribution
 
-User-supplied Statiz print PDFs: WC79 rows; SPO70/75/87; PO69/75/83/73/72; KS84/105/70. Total **12 games,942 plays** throughKS3(November6). KS4 onward are not included. Original PDFs contain print/account metadata and are not published. Login responses were not bypassed.
+User-supplied Statiz print PDFs: WC79 rows; SPO70/75/87; PO69/75/83/73/72; KS84/105/70. KS4 (November7) adds **86 web-sourced events** (84 PA endings and 2 wild pitches), bringing coverage to **13 games,1,028 plays**. Samsung won10–5 and leads the series3–1; KS5 onward are not included. Original PDFs contain print/account metadata and are not published. KS4 was read from the rendered game table after user-authorized sign-in. `sources/ks4.tsv` contains only the 86 event rows; its transfer checksum matches the browser extraction. The25 substitution-only rows have no probability values and are excluded. `ks4-audit.json` records provenance and verification; no account data or credentials are retained.
 
-All WPe transitions agree with source WPA magnitudes within0.0015 rounding tolerance. WPe is printed at0.1%p, WPA at0.001. The graph uses each WPe anchor, not cumulative rounded WPA. KS259 LEV values were independently visually transcribed (`ks-audit.json`, `ks3-audit.json`); previous683 LEV values were checked for anomalies/top records, not fully audited. Player-name anomalies were checked. **Situation text still contains OCR errors**; only clear score/out/runner tokens are parsed, otherwise “확인 필요” is displayed. Uncertain scores are not invented.
+All WPe transitions agree with source WPA magnitudes within0.0015 rounding tolerance. WPe is printed at0.1%p, WPA at0.001. The graph uses each WPe anchor, not cumulative rounded WPA. KS259 LEV values were independently visually transcribed (`ks-audit.json`, `ks3-audit.json`); previous683 LEV values were checked for anomalies/top records, not fully audited. Player-name anomalies were checked. **Older PDF situation text still contains OCR errors**; only clear score/out/runner tokens are parsed, otherwise “확인 필요” is displayed. Uncertain scores are not invented.
 
 Player rankings sum **PA-ending events only**. Running, wild pitch, pickoff and other non-PA events are excluded rather than falsely attributed to the current batter. Missing pitcher names are excluded from pitching sums. Pitching contribution is negative batting contribution and includes fielding outcomes; adding the two tables double-counts events. These are not complete official all-event player totals or pure talent measures.
 
@@ -89,8 +89,10 @@ Tests verify probability conservation/terminal advancement, neutral combinatoria
 
 ## Update data and publish
 
-Append only authorized real chronological plays to `data.json` with source URL/PDF page, inning, batter/pitcher, result, WP/LEV/WPA and raw situation. Audit names/numerical anomalies and validate final result. Current fixed11-game and baseline regression tests intentionally require review on coverage changes. Historical collection is documented separately; do not train on the displayed2026PS outcomes.
+Append only authorized real chronological plays to `data.json` with source URL and PDF page or web provenance, inning, batter/pitcher, result, WP/LEV/WPA and raw situation. Audit names/numerical anomalies and validate final result. Coverage assertions and per-game audit tests must be reviewed on updates; frozen baseline and earlier-game regression boundaries remain unchanged. Historical collection is documented separately; do not train on the displayed2026PS outcomes.
 
 Production is the existing **ChatGPT Sites** project in `.openai/hosting.json`; keep its identity and publish built `dist` via the Sites workflow. KaTeX CSS/fonts and rendered math are bundled locally; no CDN runtime dependency. Sources, PDFs, raw archives and credentials are not in dist; only normalized public facts and reports are included.
 
 Optional GitHub Pages:Settings→Pages→GitHub Actions, then manually run **Publish GitHub Pages (optional)**. The workflow tests/builds and deploys relative-path assets from dist. It is not triggered by pushes and has not replaced the live Sites address.
+
+KS4 can be reproduced with `node scripts/import-ks4.mjs` from the checked-in table-only TSV; the importer verifies its browser checksum before writing and preserves the preceding12 games.

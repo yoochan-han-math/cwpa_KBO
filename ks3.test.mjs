@@ -4,7 +4,8 @@ import {readFileSync} from 'node:fs';
 import {calculateModel} from './models.mjs';
 import {engine} from './model.mjs';
 import {parseSituation} from './situation.mjs';
-const games=JSON.parse(readFileSync(new URL('./data.json',import.meta.url)));
+// Keep the published KS3 snapshot as a regression boundary.
+const games=JSON.parse(readFileSync(new URL('./data.json',import.meta.url))).slice(0,12);
 const audit=JSON.parse(readFileSync(new URL('./ks3-audit.json',import.meta.url)));
 const g=games.find(g=>g.id==='ks3');
 test('KS3 source completeness, independently transcribed LEV and numeric checks',()=>{

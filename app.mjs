@@ -18,7 +18,7 @@ try {
   const baselinePlays = new Map(baseline.plays.map(r=>[r.id,r]));
   const baselinePoints = new Map(baseline.points.map(r=>[r.id,r]));
   $('game-count').textContent = String(games.length).padStart(2, '0');
-  $('play-count').textContent = baseline.plays.length;
+  $('play-count').textContent = baseline.plays.length.toLocaleString('ko-KR');
   $('legend').innerHTML = teams.map((t, i) => `<span><i class="dot" style="background:${colors[i]}"></i>${t}</span>`).join('');
 
   function point(i) {
@@ -30,7 +30,7 @@ try {
     $('tooltip').innerHTML = `<strong>${esc(r.stage)} ${r.number}차전 · ${esc(r.inning)} · ${esc(r.result)}</strong>
       <div>타자 ${esc(r.batter || '—')} · 투수 ${esc(r.pitcher || '—')}</div>
       <div>플레이 후 점수 (원정 ${esc(r.away)} : 홈 ${esc(r.home)}) ${start ? '0 : 0' : esc(situation.score)} · 아웃 ${start ? '0아웃' : esc(situation.outs)} · 주자 ${start ? '없음' : esc(situation.runners)}</div>
-      ${r.before ? `<div class="muted">원문 상황: ${esc(r.before)} → ${esc(r.after)} (OCR 검토 중)</div>` : ''}
+      ${r.before ? `<div class="muted">원문 상황: ${esc(r.before)} → ${esc(r.after)}${r.sourceType === 'web' ? ' (웹 경기로그)' : ' (OCR 검토 중)'}</div>` : ''}
       <div class="muted">${label()} · 경기 전 홈 승률 ${percent(r.prior)}</div>
       ${r.fatigue?`<div class="fatigue-note">${esc(r.fatigue.date)} · 잔존 부담: ${esc(r.home)} ${r.fatigue.homeLoad.toFixed(2)} / ${esc(r.away)} ${r.fatigue.awayLoad.toFixed(2)}<br>직전 경기 뒤 휴식: ${esc(r.home)} ${r.fatigue.homeRestDays}일 / ${esc(r.away)} ${r.fatigue.awayRestDays}일<br>체력 항 ${r.fatigue.enabled?'반영':'제외'} · 홈 승률 효과 ${signed(r.fatigue.homeEffectPP,2)}%p (같은 전력·홈 계수에서 비교)</div>`:''}
       ${start&&r.calendarChange?.some(x=>Math.abs(x)>1e-8)?`<div class="muted">실제 경기일 확인에 따른 일정 갱신: ${teams.map((t,j)=>Math.abs(r.calendarChange[j])>1e-8?`${t} ${signed(r.calendarChange[j],3)}%p`:'').filter(Boolean).join(' / ')}. 선수 기여에 포함하지 않습니다.</div>`:''}
@@ -61,7 +61,7 @@ try {
     const li = $('mode').value === 'li';
     const rows = filteredPlays().sort((a, b) => li ? b.li - a.li : Math.abs(b.cwpa) - Math.abs(a.cwpa));
     $('play-order').textContent = li ? '원문 LI 내림차순 · 모형과 무관한 순위' : label()+' |cWPA| 내림차순 · 차이는 선택 모형 − 기본 모형';
-    $('plays').innerHTML = rows.slice(0, limit).map((r, i) => `<tr><td>${i+1}</td><td><button class="jump" data-point="${esc(r.id)}" aria-label="${esc(r.stage)} ${r.number}차전 ${esc(r.inning)} 그래프 보기">${esc(r.stage)} ${r.number}차전<small>${esc(r.inning)}</small></button></td><td>${esc(r.batter)}<small>vs ${esc(r.pitcher || '미확인')}</small></td><td>${esc(r.result)}${r.eventOnly ? '<small>주루·기타 / 타자 열은 당시 타석 선수</small>' : ''}</td><td><b>${r.li.toFixed(2)}</b></td><td>${num(r.wpa)}</td><td>${num(r.cwpa)}</td><td>${num(baselinePlays.get(r.id).cwpa)}</td><td>${num(r.cwpa-baselinePlays.get(r.id).cwpa)}</td><td><a href="${esc(r.source)}" target="_blank" rel="noopener">Statiz ↗</a><small>PDF ${r.page}쪽</small></td></tr>`).join('') || '<tr><td colspan="10" class="empty">해당 조건의 기록이 없습니다.</td></tr>';
+    $('plays').innerHTML = rows.slice(0, limit).map((r, i) => `<tr><td>${i+1}</td><td><button class="jump" data-point="${esc(r.id)}" aria-label="${esc(r.stage)} ${r.number}차전 ${esc(r.inning)} 그래프 보기">${esc(r.stage)} ${r.number}차전<small>${esc(r.inning)}</small></button></td><td>${esc(r.batter)}<small>vs ${esc(r.pitcher || '미확인')}</small></td><td>${esc(r.result)}${r.eventOnly ? '<small>주루·기타 / 타자 열은 당시 타석 선수</small>' : ''}</td><td><b>${r.li.toFixed(2)}</b></td><td>${num(r.wpa)}</td><td>${num(r.cwpa)}</td><td>${num(baselinePlays.get(r.id).cwpa)}</td><td>${num(r.cwpa-baselinePlays.get(r.id).cwpa)}</td><td><a href="${esc(r.source)}" target="_blank" rel="noopener">Statiz ↗</a><small>${r.sourceType === 'web' ? '웹 경기로그' : 'PDF ' + r.page + '쪽'}</small></td></tr>`).join('') || '<tr><td colspan="10" class="empty">해당 조건의 기록이 없습니다.</td></tr>';
     $('more').hidden = limit >= rows.length;
   }
   function players() {
